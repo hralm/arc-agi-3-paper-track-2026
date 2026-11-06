@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+# saídas locais de execução e caches
+runs/
+outputs/
+*.log

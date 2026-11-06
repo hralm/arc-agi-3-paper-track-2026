@@ -1,0 +1,10 @@
+Identifying, Not Choosing, Goals — ARC Prize 2026 Paper Track (ARC-AGI-3)
+Copyright 2026 Julio Souza
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+It builds on third-party work, each under its own license:
+- Tufa Labs' Duck harness (Bessis, Cottaar, Pressman, Smit, Tesnar and Viel, 2026), MIT License.
+- The dfranzen ARC-AGI-3 Milestone 2 notebook (Franzen, 2026), Apache License 2.0.
+- The ARC-AGI-3 toolkit and competition materials, by the ARC Prize Foundation, under their own terms.
+Model weights and games are not redistributed in this repository.

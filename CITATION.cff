@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the paper."
+title: "Identifying, Not Choosing, Goals: Win-Condition Identification, No-Effect Certificates and the Limits of Exploration in an ARC-AGI-3 Agent"
+type: software
+authors:
+  - family-names: "Souza"
+    given-names: "Julio"
+repository-code: "https://github.com/hralm/arc-agi-3-paper-track-2026"
+date-released: "2026-11-08"
+keywords:
+  - ARC-AGI-3
+  - ARC Prize 2026
+  - LLM agents
+  - graph search
+  - goal inference
+  - reproducibility
+license: "Apache-2.0"
