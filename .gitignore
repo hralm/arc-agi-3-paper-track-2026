@@ -7,3 +7,6 @@ __pycache__/
 runs/
 outputs/
 *.log
+# third-party material fetched for reproduction (not redistributed)
+ARC-AGI-3-Kaggle-Starter/
+taaf-kaggle-source-share/

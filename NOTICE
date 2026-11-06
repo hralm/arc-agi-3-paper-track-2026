@@ -8,3 +8,5 @@ It builds on third-party work, each under its own license:
 - The dfranzen ARC-AGI-3 Milestone 2 notebook (Franzen, 2026), Apache License 2.0.
 - The ARC-AGI-3 toolkit and competition materials, by the ARC Prize Foundation, under their own terms.
 Model weights and games are not redistributed in this repository.
+The tests run on the TAAF source bundle and the ARC-AGI-3-Agents repository, which are fetched separately and not
+redistributed here (see README, "Reproducing the results").
