@@ -4,6 +4,7 @@
 
 Code and materials for our submission to the **ARC Prize 2026 Paper Track** (ARC-AGI-3).
 
+| | |
 |---|---|
 | Paper (PDF) | *link added at submission* |
 | Kaggle Writeup | *public when the Paper Track closes (9 November 2026)* |
