@@ -1,3 +1,5 @@
+English · [Português (Brasil)](README.pt-BR.md)
+
 # Certifying No Effect and Identifying the Win Condition Under Per-Action Scoring in ARC-AGI-3
 
 Code and materials for our submission to the [ARC Prize 2026 Paper Track](https://arcprize.org/competitions/arc-prize-2026) (ARC-AGI-3).

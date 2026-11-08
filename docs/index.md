@@ -1,6 +1,10 @@
 ---
 layout: default
+title: "How the work was done"
+description: "ARC Prize 2026 Paper Track: the author's account of the six weeks; also in Brazilian Portuguese"
 ---
+
+English · [Português (Brasil)](./index.pt-BR.html)
 
 # Certifying No Effect and Identifying the Win Condition Under Per-Action Scoring in ARC-AGI-3
 
@@ -71,10 +75,6 @@ before being cited, and the final text was revised block by block, fidelity firs
 - **In the one game I diagnosed, the model never mentioned the advisor's notes** in its visible reasoning. Its costly moves
   came from a code loop it wrote itself, which bypassed the pruned action list. That trace does not let me blame the layer
   for the gap, and it does not let me clear it either.
-- **A revision rule applied in bulk created a new tic.** One reviewer, following a style manual, asked to replace every
-  contrastive *while* with *whereas*. Done across the paper, that put *whereas* at fifteen times its frequency in pre-2019
-  papers. After that, I measured a rule against the corpus before accepting it, and the style guide the agents follow now
-  records where the authorities disagree and lets the passage decide.
 
 ## What I learned
 
