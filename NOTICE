@@ -7,6 +7,9 @@ It builds on third-party work, each under its own license:
 - Tufa Labs' Duck harness (Bessis, Cottaar, Pressman, Smit, Tesnar and Viel, 2026), MIT License.
 - The dfranzen ARC-AGI-3 Milestone 2 notebook (Franzen, 2026), Apache License 2.0.
 - The ARC-AGI-3 toolkit and competition materials, by the ARC Prize Foundation, under their own terms.
+The folder notebooks/ redistributes, with our changes, the Duck harness notebook of Tufa Labs (MIT License) and the dfranzen
+Milestone 2 notebook (Apache License 2.0), including its harness patch; bench/results/phase-a/ holds the text output of
+runs of those harnesses on Kaggle (kernel logs, summaries, benchmark records).
 Model weights and games are not redistributed in this repository.
 The tests run on the TAAF source bundle and the ARC-AGI-3-Agents repository, which are fetched separately and not
 redistributed here (see README, "Reproducing the results").

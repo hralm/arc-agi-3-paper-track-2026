@@ -100,7 +100,8 @@ ARC-AGI-3-Kaggle-Starter/.venv/bin/python tests/mutants.py                      
 ### 5. Integrity
 
 Run `sha256sum -c manifests/SHA256SUMS` to check this repository. The digests of the submitted notebooks and modules are in
-[`manifests/frozen-artifacts.tsv`](manifests/frozen-artifacts.tsv).
+[`manifests/frozen-artifacts.tsv`](manifests/frozen-artifacts.tsv); each folder of [`notebooks/`](notebooks/) has its own
+`SHA256SUMS` for the copies kept here.
 
 ### 6. Phase A on Kaggle
 
