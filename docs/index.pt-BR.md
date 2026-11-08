@@ -72,8 +72,8 @@ achado que mostrou o que as regras anteriores não cobriam. A seção seguinte s
   mudanças no *harness* para que ele conversasse melhor com o explorador; sem tempo para refazê-lo, ficaram os ajustes
   pontuais de gatilhos e tetos. A evidência apontava que o conjunto inteiro, modelo, *harness* e explorador, precisaria
   ser reajustado para render o ganho de eficiência. Essa foi a direção que os primeiros colocados tinham tomado, adaptando
-  o modelo e a sua execução, como o tópico pós-competição e os writeups deles deixaram claro depois, e eu notei que
-  parecia ser esse o caminho.
+  o modelo e a sua execução. Eu já tinha notado isso antes do prazo, e o tópico pós-competição e os writeups deles
+  corroboraram a impressão.
 - **A primeira versão acoplada veio com um pré-registro.** Antes da primeira versão da linha Duck, em 27 de outubro,
   escrevi os invariantes, as afirmações e as condições que as falseariam. Dali em diante, um modelo construía cada versão
   e os seus testes, e um modelo diferente, numa sessão nova, atacava o artefato congelado contra o seu manifesto de hashes

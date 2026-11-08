@@ -70,7 +70,8 @@ showed what the earlier rules did not cover. The next section follows that order
   harness so that it would talk better with the explorer; with no time to rebuild it, what remained were the point
   adjustments of triggers and caps. The evidence pointed to the whole set, model, harness, and explorer, needing to be
   readjusted to yield the efficiency gain. That was the direction the leading entries had taken, adapting the model and
-  its serving, as their post-competition thread and writeups later made plain, and I came to see that this was the path.
+  its serving. I had noticed it before the deadline, and their post-competition thread and writeups corroborated the
+  impression.
 - **The first coupled version came with a pre-registration.** Before the first version of the Duck line, on 27 October, I
   wrote the invariants, the claims, and the conditions that would falsify them. From then on one model built each version
   and its tests, and a different model, in a fresh session, attacked the frozen artifact against its hash manifest and
