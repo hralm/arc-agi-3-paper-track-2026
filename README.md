@@ -6,7 +6,7 @@ Code and materials for our submission to the [ARC Prize 2026 Paper Track](https:
 
 | | |
 |---|---|
-| Paper (PDF) | [`paper/`](paper/) (added at submission, 8 November 2026) |
+| Paper (PDF) | [`paper/`](paper/) (English, version of record; Brazilian Portuguese translation alongside) |
 | Kaggle Writeup | public when the Paper Track closes (9 November 2026) |
 | Public notebook (eligible entry, ref. 57852519) | [What Exploration Can Ignore: Duck fork, K playing](https://www.kaggle.com/code/hralmjc/what-exploration-can-ignore-duck-fork-k-playing) |
 | The three modes on the dfranzen base | [control](https://www.kaggle.com/code/hralmjc/what-exploration-can-ignore-dfranzen-control), [K playing](https://www.kaggle.com/code/hralmjc/what-exploration-can-ignore-dfranzen-k-playing), [K advising](https://www.kaggle.com/code/hralmjc/what-exploration-can-ignore-dfranzen-k-advising), [last resort](https://www.kaggle.com/code/hralmjc/what-exploration-can-ignore-dfranzen-last-resort) |
