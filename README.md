@@ -1,7 +1,5 @@
 # Certifying No Effect and Identifying the Win Condition Under Per-Action Scoring in ARC-AGI-3
 
-*Measuring what exploration can ignore: no-effect certificates, a goal identifier that mostly missed, and three modes for an explorer.*
-
 Code and materials for our submission to the [ARC Prize 2026 Paper Track](https://arcprize.org/competitions/arc-prize-2026) (ARC-AGI-3).
 
 | | |
