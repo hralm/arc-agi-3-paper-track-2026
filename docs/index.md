@@ -21,6 +21,18 @@ action you take. So what can an agent do here? It can identify the goal the game
 to know whether that step, *identifying the win condition*, can be done without spending the actions the score counts,
 and whether it reaches the score at all.
 
+The question came from readings outside the benchmark's lineage. The foundation defines goal-setting as identifying
+desirable future states without instructions, and reads intelligence as efficiency across its four components. Ackoff
+and Emery order systems by who chooses the goal, and Maturana and Guiloff place the goal in an observer's description,
+not in the system's own dynamics. Read together, the two made me look at where the goal sits in ARC-AGI-3: in each
+game's hidden rules, which fix the win condition of every level. The score, Relative Human Action Efficiency (RHAE), is
+not one of those rules. It is computed from outside, comparing the agent's actions per level with those of human
+players, and it measures how economically each win condition is reached, not which goal was chosen. That became the
+axis of the research: inside a game, setting a goal is identifying what the rules already determine, and the score does
+not see that step on its own. It soon became evident how hard it would be to score competitively down that path, since
+every action spent on identifying is charged. Even so, every submission and every test was designed to answer the
+hypothesis, not to climb the leaderboard.
+
 To measure it I built a graph explorer (K). It issues revocable no-effect certificates for actions that change nothing,
 flags hidden state when a certificate fails or a safe action kills, and ranks goal hypotheses that only order the
 candidate actions. Then I put it inside the harness of an open-weight language model agent in three ways: playing,
@@ -46,24 +58,47 @@ The coupled agent went through two lines. The Duck line (v1 to v7) sits on Tufa 
 entry. The dfranzen line (v8 to v14.1) sits on the open Milestone 2 notebook. Its last version finished the hidden-set
 rerun after the deadline and is reported as a measurement only.
 
-From 27 October on, before the first coupled version, every version followed one protocol. Invariants and claims were
-written down first. One model built the version and its tests. A different model, in a fresh session, attacked the
-frozen artifact against its hash manifest and returned a verdict with a reproducible proof for each finding. Every defect
-came back with a regression test and a mutant, a deliberate reintroduction of the defect that the new test has to catch.
-By v14.1 that was 92 tests and 85 mutants. I did not submit any version with an open blocking finding.
+The protocol the paper describes was not there on the first day. Its rules came one at a time, each after a finding that
+showed what the earlier rules did not cover. The next section follows that order.
 
-The measurements followed the same rule: decide before the number. The reading rule for phase A was fixed after one pilot
-round and before the rest: an arm shows an effect only if its mean differs from the base's by more than twice the larger
-sample SD of the pair. Whether a round would be read was also decided before its result, in both directions. A control
-round that had to rerun because the notebooks' text changed was read, since the batch was still open. A last-resort round
-with nine exceptions from my layer was excluded and replaced, by the rule written days earlier. Sources were read in full
-before being cited, and the final text was revised block by block, fidelity first, style second.
+## How the method changed with each finding
+
+- **The distance to the leading entries showed that the model-free line would not hold under the competition's
+  conditions.** The explorer closed levels on the public games, but its score sat far below the entries at the top, which
+  ran a language model. I then proposed coupling one of the best public notebooks and replacing, in what was theirs, with
+  our contribution, treating the explorer as a measuring instrument and not as the player. Next I suggested changes to the
+  harness so that it would talk better with the explorer; with no time to rebuild it, what remained were the point
+  adjustments of triggers and caps. The evidence pointed to the whole set, model, harness, and explorer, needing to be
+  readjusted to yield the efficiency gain. That was the direction the leading entries had taken, adapting the model and
+  its serving, as their post-competition thread and writeups later made plain, and I came to see that this was the path.
+- **The first coupled version came with a pre-registration.** Before the first version of the Duck line, on 27 October, I
+  wrote the invariants, the claims, and the conditions that would falsify them. From then on one model built each version
+  and its tests, and a different model, in a fresh session, attacked the frozen artifact against its hash manifest and
+  returned a verdict with a reproducible proof for each finding. Every defect came back with a regression test and a
+  mutant, a deliberate reintroduction of the defect that the new test has to catch. By v14.1 that was 92 tests and 85
+  mutants, and I did not submit any version with an open blocking finding.
+- **An inference I did not want to make put the counters in the log.** In the v4 rounds the trigger that marked a level as
+  hidden state was not printed, and the paper infers it from what is absent. From v11 on, each trigger has its own counter
+  in the run's summary.
+- **The first scored submission, at 0.75, led to the modes that cap the intervention.** K took most of the model's turns,
+  and the score charges every one of them. I kept the number in the paper as evidence compatible with the explorer's action
+  cost, and the next configurations left the turn with the model: advising, where K certifies, prunes, and annotates but
+  never plays, and last resort, where prompt and action list are byte-identical to the unmodified base until the final 600
+  seconds of a game. The cap limits the intervention, and not the loss.
+- **One pilot round fixed the reading rule.** After a first round of the base and of the advisor, and before the rest, it
+  was written that an arm shows an effect only if its mean differs from the base's by more than twice the larger sample SD
+  of the pair, and that whether a round is read is decided before its result, in both directions. A control round that had
+  to rerun because the notebooks' text changed was read, since the batch was still open. A last-resort round with nine
+  exceptions from my layer was excluded and replaced, by the rule written days earlier.
+- **Two batches of the same base, 23 points apart, closed every comparison inside its batch.** The base scored 74.91 in the
+  first batch and 52.30 in the second, five days later, on the same base, games, and caps. Since then no number crosses
+  batches, and in the second batch the control ran on the same day as the arms.
+
+Two rules ran through all of it: a source was read in full before being cited, and the final text was revised block by
+block, fidelity to the sources first, style second.
 
 ## What went wrong
 
-- **The first scored submission landed at 0.75.** K took most of the model's turns, and the score charges every one of
-  them. I kept the number in the paper as evidence compatible with the explorer's action cost, and I built the advising
-  and last-resort modes to cap the intervention in time and in actions. The cap limits the intervention, and not the loss.
 - **The model server took 305 to 1,494 seconds to load,** and in four of eight runs the games were released while it was
   still loading. One control round was lost because the server never came up. It was rerun.
 - **The last submission did not have its rerun budget.** v14.1 went in on 2 November at 22:30 UTC. Its nine-hour rerun
@@ -78,13 +113,11 @@ before being cited, and the final text was revised block by block, fidelity firs
 
 ## What I learned
 
-- **Three public games and three rounds detect only large effects.** On the same day, with the same unmodified notebook,
-  one game scored from 21 to 100. With sample SDs above 15 the bar was about 45 points, and no arm came near it.
-- **Two batches of the same base, five days apart, differed by about 23 points** (74.91 against 52.30). Phase-A levels do
-  not compare across batches, so every comparison in the paper is read inside the batch it was run in.
 - **Deciding before the number is what makes a negative result worth publishing.** What counts as a round, how an effect is
   read, which arm is descriptive: all of it was written before the data arrived, and that is why I can report 0.75 and
   50 of 66 without flinching.
+- **Three public games and three rounds detect only large effects.** On the same day, with the same unmodified notebook,
+  one game scored from 21 to 100. With sample SDs above 15 the bar was about 45 points, and no arm came near it.
 - **Red teams run by other models found one class of defect again and again:** places where what the agent asserts, in its
   prompt or its plan, diverges from what the environment permits. The paper offers that list as a checklist for harness work.
 - **The explorer wins by search, and the identifier mostly misses.** If goal-setting is to be scored as a component of
