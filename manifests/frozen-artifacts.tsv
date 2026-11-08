@@ -1,0 +1,39 @@
+artifact	file	sha256
+v5, Duck line, scored entry (leaderboard ref. 57852519, 0.75)	submitted notebook	c82b91cad4c4588de730e4d7ae521cfc20d0a3fc65b2315ce98e3635b3170166
+v5, Duck line, scored entry (leaderboard ref. 57852519, 0.75)	kernel metadata	33100e97b907bf4a16f81cbe066cfaec8e04228cc71ad8db1b2178632de41cf1
+v5, Duck line, scored entry (leaderboard ref. 57852519, 0.75)	hybrid analyzer (embedded)	ff7e0f9a8c44847c6db15ee94913442733df36168fbb940f2f9668d05eb7ec20
+v5, Duck line, scored entry (leaderboard ref. 57852519, 0.75)	notebook assembler (not released)	431d177972ba30c26e2684a77b8ce14f157f8735e93ce6369895f74cd67fea36
+v5, Duck line, scored entry (leaderboard ref. 57852519, 0.75)	explorer K (embedded)	9f5b04b0273f4856913c19d6aef42e0695aa802061078158c1e1598e31a7fda8
+v14.1, dfranzen line, last resort + cross-game memory (ref. 57923098, 28.41); its explorer is the K file of the Table 4 bench	explorer K (embedded; source of agent/graph_explorer.py)	af96a6f0fa8bfb11414a891f41f29aa9c3a2ab088abc337f758a0d2fef2ffedb
+v14.1, dfranzen line, last resort + cross-game memory (ref. 57923098, 28.41); its explorer is the K file of the Table 4 bench	phase-A checker (not released)	e4c67f8e5ca661c88222397e23cd5676b07a9a44f43a71878f75599ea97aaf35
+v14.1, dfranzen line, last resort + cross-game memory (ref. 57923098, 28.41); its explorer is the K file of the Table 4 bench	submitted notebook	2435200972dc0057e4bb6982072f22eead9546323752668eb6a56fda018658ec
+v14.1, dfranzen line, last resort + cross-game memory (ref. 57923098, 28.41); its explorer is the K file of the Table 4 bench	kernel metadata	7b20554d608119437ecc5bccbb2678b1cf5bb09e98cc0917b532a1b7cee70645
+v14.1, dfranzen line, last resort + cross-game memory (ref. 57923098, 28.41); its explorer is the K file of the Table 4 bench	hybrid analyzer (embedded; source of agent/hybrid_analyzer.py)	efa361fad810d36f0251b8df3bf97154aea1516f35484bb5ef0cf083200dae92
+v14.1, dfranzen line, last resort + cross-game memory (ref. 57923098, 28.41); its explorer is the K file of the Table 4 bench	notebook assembler (not released)	59f9b06dbca2205e09b38471f996a14f737797e8b59f32747a36456b6a9ef2de
+v14.1, dfranzen line, last resort + cross-game memory (ref. 57923098, 28.41); its explorer is the K file of the Table 4 bench	mutants M78-M85 (released in tests/mutants.py)	aaa958a34c3687d4c5df0acfb21c369a992fb3383e78818e41b105677d09df89
+v14.1, dfranzen line, last resort + cross-game memory (ref. 57923098, 28.41); its explorer is the K file of the Table 4 bench	cross-game tests (released, translated, as tests/test_v14_cross_game.py)	a036aae330b28bd2779ff08f633a251be3d4ead8bfa7c17553173fabe08ec193
+phase-A ablation of advising mode, 2 November (no submission)	explorer K (embedded)	704d24862cef5bb235fa9b358987e53d2f761aad997f06684e4bbc137c6dc8ee
+phase-A ablation of advising mode, 2 November (no submission)	notebook, advisor (repeat)	a4d0dca8b3803e1705fe48c79cfaa374c440fae7f286dac84bec31b457f38bf6
+phase-A ablation of advising mode, 2 November (no submission)	kernel metadata, advisor (repeat)	091900c571bbd5aa55dd16f753d44b5248f6c7ffc7905e6186059e01b9d55f1b
+phase-A ablation of advising mode, 2 November (no submission)	notebook, advice text only (no pruning)	51f0a253713473ceb588daeb6a7425e6e9224f053dac984441f5ee87f16b9785
+phase-A ablation of advising mode, 2 November (no submission)	kernel metadata, advice text only (no pruning)	7ca5105ee6a1a620af5888b8f758622c79a7447dd54f893879a44700895a8cb1
+phase-A ablation of advising mode, 2 November (no submission)	hybrid analyzer (embedded)	6635146c2945ebc59c0c1a2168239bd144c8923ceb4cd665332bbccdb809b83b
+phase-A ablation of advising mode, 2 November (no submission)	notebook assembler (not released)	d6fc849a2895011c043d97e52764ff894c48c0d5778302de37502fde0308c466
+public notebook: Duck fork, K playing (code of the eligible entry 57852519)	graph_explorer.py	dbb8db227ab5146de70ebe76c6968078de858bac8de95ddc547df161a58dd11e
+public notebook: Duck fork, K playing (code of the eligible entry 57852519)	hybrid_analyzer.py	432aa978bea2719aa3127c7a7cb5f10bbfab38093efe566d70f00d3ce95d11c0
+public notebook: Duck fork, K playing (code of the eligible entry 57852519)	kernel-metadata.json	ebad0b6f5bfd233abb1aac060408c7d9dbfcc4e9a6bbce6411010ae608ccd49d
+public notebook: Duck fork, K playing (code of the eligible entry 57852519)	measuring-what-exploration-can-ignore-k-duck.ipynb	1626085ae907132137713a799c5fe64e9306ef7b1f09819459276938b2d9e879
+kernel: dfranzen base, K playing (mode 1)	graph_explorer.py	1b0cb90560f0a2923694bcf27003cb6a0f2e287bf611ae0c8d3efdfd18554cfc
+kernel: dfranzen base, K playing (mode 1)	hybrid_analyzer.py	44f0d4d51fad1baf3739f6a583052e27e511f06454060f41a2b487ec78c8efde
+kernel: dfranzen base, K playing (mode 1)	kernel-metadata.json	c3773b047e8ab39f925e72af0d18cde7d8092a3bf36dcf0a2d95b4c853306c66
+kernel: dfranzen base, K playing (mode 1)	what-exploration-can-ignore-dfranzen-k-playing.ipynb	5e8024e2fbd1f6be3f8a79441ca121172d13f27f4221a6ad32b960bb5061d320
+kernel: dfranzen base (control)	what-exploration-can-ignore-dfranzen-control.ipynb	ec8e1b92aa212ec90ec315b3415643ee640e8bc75e11558933e5c58fbe9144e2
+kernel: dfranzen base (control)	kernel-metadata.json	4421bebc69f4eafc2da3e8a20b241f1b94fb74d8aea45e3f887d452b5c0effd3
+kernel: dfranzen base, K advising (mode 2)	graph_explorer.py	1b0cb90560f0a2923694bcf27003cb6a0f2e287bf611ae0c8d3efdfd18554cfc
+kernel: dfranzen base, K advising (mode 2)	hybrid_analyzer.py	d16a369ab20f0c762b326116d1dde0ab5a617721202a3b60a27e17215f3b0a15
+kernel: dfranzen base, K advising (mode 2)	kernel-metadata.json	9f5b81228dede6882b270fbdb5ec72cba98323a2c7e14337cdd114ba012dc530
+kernel: dfranzen base, K advising (mode 2)	what-exploration-can-ignore-dfranzen-k-advising.ipynb	25dd5eeca3a5e69c878358155daa15d8413ce4fd048615f4271090bda56279dd
+kernel: dfranzen base, K last resort (mode 3)	graph_explorer.py	7cce1a6b50564b8c7202017f400ee8e1777537ab1befa19a971d38a9c3bb809f
+kernel: dfranzen base, K last resort (mode 3)	hybrid_analyzer.py	f363f864f4507eafe8d4c193a232dacc05f93bcc80f47d0dfa9f7dd837b0bc32
+kernel: dfranzen base, K last resort (mode 3)	kernel-metadata.json	328b5b3abcfdffdb7aa6d792092481f7fc383d87fea076474e35b5c5a928fa31
+kernel: dfranzen base, K last resort (mode 3)	what-exploration-can-ignore-dfranzen-last-resort.ipynb	9dab682f2684a10d05b41df862cba6e296eb845e460c3ab2cffeebd946ce7bf5

@@ -1,0 +1,2940 @@
+{
+ "max_steps": 1500,
+ "games": [
+  "ar25",
+  "bp35",
+  "cd82",
+  "cn04",
+  "dc22",
+  "ft09",
+  "g50t",
+  "ka59",
+  "lf52",
+  "lp85",
+  "ls20",
+  "m0r0",
+  "r11l",
+  "re86",
+  "s5i5",
+  "sb26",
+  "sc25",
+  "sk48",
+  "sp80",
+  "su15",
+  "tn36",
+  "tr87",
+  "tu93",
+  "vc33",
+  "wa30"
+ ],
+ "h5_off": true,
+ "h5_ablate": [],
+ "h5_families": [],
+ "h5_o1_coupled": false,
+ "h5_random_order": false,
+ "runs": [
+  {
+   "agent": "k",
+   "seed": 0,
+   "total": 0.24569632353409332,
+   "secs": 198.3,
+   "games": {
+    "ar25": {
+     "levels": 1,
+     "win_levels": 8,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1339,
+      "reindex": 1,
+      "reset_game_over": 14,
+      "plan_new": 92,
+      "plan": 141,
+      "mover_moves": 55,
+      "guided": 32,
+      "timer": 68,
+      "morte_oculta": 1,
+      "guided_frontier": 4,
+      "reset_life_budget_exhausted": 7
+     },
+     "score": 0.002681161697091568,
+     "level_actions": [
+      1030,
+      471,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "bp35": {
+     "levels": 0,
+     "win_levels": 9,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1316,
+      "h2_ref_level_0": 1,
+      "reindex": 2,
+      "plan_new": 74,
+      "plan": 122,
+      "plan_diverged": 18,
+      "reset_game_over": 12,
+      "timer": 24,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 51
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "cd82": {
+     "levels": 1,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1448,
+      "reindex": 1,
+      "h2_ref_level_0": 1,
+      "plan_new": 39,
+      "plan": 39,
+      "reset_game_over": 3,
+      "timer": 100,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 11,
+      "h2_ref_level_1": 1
+     },
+     "score": 0.024295432458697766,
+     "level_actions": [
+      770,
+      731,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "cn04": {
+     "levels": 0,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1374,
+      "h2_ref_level_0": 1,
+      "reindex": 14,
+      "reset_game_over": 3,
+      "mover_moves": 6,
+      "timer": 75,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 16,
+      "plan_new": 80,
+      "plan": 108
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "dc22": {
+     "levels": 0,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1343,
+      "mover_moves": 280,
+      "h2_ref_level_0": 1,
+      "guided": 174,
+      "reindex": 1,
+      "guided_frontier": 91,
+      "plan_new": 75,
+      "plan": 144,
+      "reset_game_over": 14,
+      "morte_oculta": 2
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "ft09": {
+     "levels": 1,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1467,
+      "h2_ref_level_0": 1,
+      "guided_h2": 45,
+      "reindex": 1,
+      "reset_game_over": 22,
+      "h2_falsified": 1,
+      "h2_ref_level_1": 1,
+      "plan_new": 12,
+      "plan": 12
+     },
+     "score": 0.09981704706732766,
+     "level_actions": [
+      297,
+      1204,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "g50t": {
+     "levels": 0,
+     "win_levels": 7,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 864,
+      "mover_moves": 772,
+      "reindex": 1,
+      "plan_new": 296,
+      "plan": 620,
+      "guided_frontier": 21,
+      "guided": 54,
+      "plan_diverged": 70,
+      "morte_oculta": 3,
+      "reset_game_over": 3,
+      "exhausted": 7,
+      "guidance_disabled": 1,
+      "reopened": 8,
+      "timer": 130,
+      "reset_life_budget_exhausted": 7,
+      "reset_exhausted": 3
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "ka59": {
+     "levels": 0,
+     "win_levels": 7,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1364,
+      "reindex": 1,
+      "h2_ref_level_0": 1,
+      "mover_moves": 331,
+      "guided": 21,
+      "plan_new": 77,
+      "plan": 123,
+      "guided_frontier": 9,
+      "reset_game_over": 3,
+      "h2_falsified": 1,
+      "timer": 100,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 11
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "lf52": {
+     "levels": 1,
+     "win_levels": 10,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1453,
+      "reindex": 1,
+      "h2_ref_level_0": 1,
+      "guided_h2": 8,
+      "h2_ref_level_1": 1,
+      "plan_new": 39,
+      "plan": 48,
+      "mover_moves": 10,
+      "guided": 8
+     },
+     "score": 0.7754344780583846,
+     "level_actions": [
+      49,
+      1452,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "lp85": {
+     "levels": 1,
+     "win_levels": 8,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1484,
+      "reset_game_over": 10,
+      "plan_new": 7,
+      "plan": 7,
+      "reindex": 1
+     },
+     "score": 0.0135951121573232,
+     "level_actions": [
+      243,
+      1258,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "ls20": {
+     "levels": 1,
+     "win_levels": 7,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 832,
+      "reindex": 2,
+      "plan_new": 166,
+      "plan": 655,
+      "reset_game_over": 13,
+      "mover_moves": 62,
+      "guided": 6,
+      "plan_diverged": 9,
+      "timer": 133,
+      "morte_oculta": 3,
+      "reset_life_budget_exhausted": 1
+     },
+     "score": 0.0029459799790226755,
+     "level_actions": [
+      766,
+      735,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "m0r0": {
+     "levels": 1,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 988,
+      "h2_ref_level_0": 1,
+      "reindex": 1,
+      "guided_frontier": 5,
+      "plan_new": 143,
+      "plan": 504,
+      "mover_moves": 262,
+      "reset_game_over": 7,
+      "timer": 151,
+      "morte_oculta": 5,
+      "reset_life_budget_exhausted": 2,
+      "h2_ref_level_1": 1,
+      "guided": 34
+     },
+     "score": 0.008108759000384625,
+     "level_actions": [
+      727,
+      774,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "r11l": {
+     "levels": 2,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1390,
+      "reindex": 6,
+      "h2_ref_level_0": 1,
+      "guided_h2": 17,
+      "reset_game_over": 79,
+      "h2_ref_level_1": 1,
+      "plan_new": 32,
+      "plan": 32
+     },
+     "score": 0.3396755756121597,
+     "level_actions": [
+      87,
+      543,
+      871,
+      0,
+      0,
+      0
+     ]
+    },
+    "re86": {
+     "levels": 0,
+     "win_levels": 8,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1467,
+      "reindex": 1,
+      "mover_moves": 464,
+      "guided": 146,
+      "reset_game_over": 3,
+      "timer": 100,
+      "morte_oculta": 1,
+      "plan_new": 19,
+      "plan": 20,
+      "reset_life_budget_exhausted": 11
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "s5i5": {
+     "levels": 0,
+     "win_levels": 8,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1268,
+      "reindex": 1,
+      "reset_game_over": 3,
+      "timer": 50,
+      "morte_oculta": 1,
+      "plan_new": 119,
+      "plan": 204,
+      "reset_life_budget_exhausted": 26
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "sb26": {
+     "levels": 0,
+     "win_levels": 8,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1438,
+      "reset_game_over": 6,
+      "h2_ref_level_0": 1,
+      "guided_h2": 89,
+      "reindex": 1,
+      "h2_falsified": 1,
+      "plan_new": 57,
+      "plan": 57
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "sc25": {
+     "levels": 0,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1400,
+      "mover_moves": 539,
+      "h2_ref_level_0": 1,
+      "reindex": 1,
+      "guided": 116,
+      "guided_frontier": 7,
+      "plan_new": 58,
+      "plan": 73,
+      "reset_game_over": 27,
+      "plan_diverged": 12,
+      "exhausted": 1,
+      "guidance_disabled": 1,
+      "reopened": 2,
+      "morte_oculta": 1
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "sk48": {
+     "levels": 0,
+     "win_levels": 8,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1483,
+      "h2_ref_level_0": 1,
+      "reset_game_over": 3,
+      "timer": 196,
+      "morte_oculta": 1,
+      "plan_new": 8,
+      "plan": 11,
+      "reset_life_budget_exhausted": 4,
+      "plan_diverged": 3
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "sp80": {
+     "levels": 1,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1071,
+      "mover_moves": 1132,
+      "reindex": 2,
+      "h2_ref_level_0": 1,
+      "guided": 580,
+      "reset_game_over": 17,
+      "guided_frontier": 167,
+      "plan_new": 121,
+      "plan": 379,
+      "timer": 30,
+      "morte_oculta": 1,
+      "h2_ref_level_1": 1,
+      "reset_life_budget_exhausted": 33,
+      "reset_plan_over_budget": 1
+     },
+     "score": 0.7541500565240673,
+     "level_actions": [
+      98,
+      1403,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "su15": {
+     "levels": 1,
+     "win_levels": 9,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1430,
+      "reindex": 2,
+      "h2_ref_level_0": 1,
+      "guided_h2": 54,
+      "reset_game_over": 28,
+      "plan_new": 32,
+      "plan": 43,
+      "h2_falsified": 1,
+      "h2_ref_level_1": 1
+     },
+     "score": 0.007648395061728395,
+     "level_actions": [
+      375,
+      1126,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "tn36": {
+     "levels": 1,
+     "win_levels": 7,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1477,
+      "reindex": 1,
+      "h2_ref_level_0": 1,
+      "guided_h2": 34,
+      "h2_ref_level_1": 1,
+      "reset_game_over": 3,
+      "timer": 61,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 21
+     },
+     "score": 3.571428571428571,
+     "level_actions": [
+      24,
+      1477,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "tr87": {
+     "levels": 0,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1466,
+      "reindex": 1,
+      "reset_game_over": 3,
+      "timer": 128,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 8,
+      "plan_new": 18,
+      "plan": 24
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "tu93": {
+     "levels": 2,
+     "win_levels": 9,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 859,
+      "reindex": 1,
+      "plan_new": 188,
+      "plan": 375,
+      "reset_game_over": 24,
+      "timer": 50,
+      "morte_oculta": 4,
+      "reset_life_budget_exhausted": 3,
+      "exhausted": 240,
+      "guidance_disabled": 1,
+      "reopened": 16,
+      "reset_exhausted": 122,
+      "reset_avoided": 220
+     },
+     "score": 0.25257069915545566,
+     "level_actions": [
+      351,
+      68,
+      1082,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "vc33": {
+     "levels": 2,
+     "win_levels": 7,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1450,
+      "reindex": 1,
+      "plan_new": 30,
+      "plan": 32,
+      "morte_oculta": 2,
+      "reset_game_over": 5,
+      "h2_ref_level_2": 1,
+      "guided_h2": 10,
+      "timer": 75,
+      "reset_life_budget_exhausted": 14
+     },
+     "score": 0.290056820152119,
+     "level_actions": [
+      63,
+      97,
+      1341,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "wa30": {
+     "levels": 0,
+     "win_levels": 9,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1426,
+      "mover_moves": 79,
+      "reindex": 2,
+      "guided": 34,
+      "reset_game_over": 3,
+      "plan_new": 56,
+      "plan": 68,
+      "timer": 200,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 4,
+      "guided_frontier": 2
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "agent": "k",
+   "seed": 1,
+   "total": 0.43015582057241425,
+   "secs": 209.0,
+   "games": {
+    "ar25": {
+     "levels": 1,
+     "win_levels": 8,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1330,
+      "reindex": 1,
+      "h2_ref_level_0": 1,
+      "reset_game_over": 3,
+      "mover_moves": 80,
+      "guided": 61,
+      "plan_new": 97,
+      "plan": 149,
+      "timer": 64,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 19,
+      "guided_frontier": 3
+     },
+     "score": 0.003171739405430191,
+     "level_actions": [
+      947,
+      554,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "bp35": {
+     "levels": 0,
+     "win_levels": 9,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1287,
+      "h2_ref_level_0": 1,
+      "reindex": 2,
+      "reset_game_over": 8,
+      "plan_new": 75,
+      "plan": 151,
+      "plan_diverged": 19,
+      "timer": 24,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 55
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "cd82": {
+     "levels": 1,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1455,
+      "reindex": 1,
+      "plan_new": 30,
+      "plan": 32,
+      "reset_game_over": 3,
+      "timer": 100,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 11,
+      "h2_ref_level_1": 1
+     },
+     "score": 0.06867127774433127,
+     "level_actions": [
+      458,
+      1043,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "cn04": {
+     "levels": 1,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1434,
+      "h2_ref_level_0": 1,
+      "reindex": 5,
+      "reset_game_over": 3,
+      "timer": 75,
+      "morte_oculta": 1,
+      "plan_new": 41,
+      "plan": 48,
+      "reset_life_budget_exhausted": 16,
+      "mover_moves": 50,
+      "h2_ref_level_1": 1,
+      "guided": 29
+     },
+     "score": 0.02847830687830688,
+     "level_actions": [
+      375,
+      1126,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "dc22": {
+     "levels": 0,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1341,
+      "mover_moves": 291,
+      "h2_ref_level_0": 1,
+      "reindex": 1,
+      "guided": 179,
+      "plan_new": 77,
+      "plan": 145,
+      "guided_frontier": 80,
+      "reset_game_over": 15
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "ft09": {
+     "levels": 1,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1483,
+      "h2_ref_level_0": 1,
+      "guided_h2": 39,
+      "reindex": 1,
+      "reset_game_over": 15,
+      "h2_falsified": 1,
+      "plan_new": 3,
+      "plan": 3,
+      "h2_ref_level_1": 1
+     },
+     "score": 0.008315471260332672,
+     "level_actions": [
+      1029,
+      472,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "g50t": {
+     "levels": 0,
+     "win_levels": 7,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 868,
+      "mover_moves": 748,
+      "guided": 52,
+      "reindex": 1,
+      "plan_new": 291,
+      "plan": 617,
+      "guided_frontier": 20,
+      "plan_diverged": 64,
+      "target_switched": 1,
+      "reset_game_over": 5,
+      "morte_oculta": 4,
+      "exhausted": 7,
+      "guidance_disabled": 1,
+      "reopened": 8,
+      "timer": 130,
+      "reset_life_budget_exhausted": 4,
+      "reset_exhausted": 3
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "ka59": {
+     "levels": 0,
+     "win_levels": 7,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1339,
+      "mover_moves": 260,
+      "reindex": 1,
+      "h2_ref_level_0": 1,
+      "guided": 163,
+      "guided_frontier": 25,
+      "plan_new": 94,
+      "plan": 148,
+      "morte_oculta": 2,
+      "reset_game_over": 3,
+      "timer": 100,
+      "reset_life_budget_exhausted": 11
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "lf52": {
+     "levels": 1,
+     "win_levels": 10,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1432,
+      "reindex": 1,
+      "h2_ref_level_0": 1,
+      "guided_h2": 7,
+      "h2_ref_level_1": 1,
+      "plan_new": 56,
+      "plan": 67,
+      "mover_moves": 12,
+      "guided": 12,
+      "reset_game_over": 2
+     },
+     "score": 0.6384836014465644,
+     "level_actions": [
+      54,
+      1447,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "lp85": {
+     "levels": 1,
+     "win_levels": 8,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1476,
+      "reset_game_over": 12,
+      "plan_new": 12,
+      "plan": 13,
+      "reindex": 1
+     },
+     "score": 0.004423602998621183,
+     "level_actions": [
+      426,
+      1075,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "ls20": {
+     "levels": 1,
+     "win_levels": 7,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 777,
+      "reindex": 2,
+      "plan_new": 155,
+      "plan": 710,
+      "reset_game_over": 14,
+      "mover_moves": 42,
+      "plan_diverged": 5,
+      "guided_frontier": 1,
+      "morte_oculta": 4,
+      "guided": 2
+     },
+     "score": 0.005652454403145194,
+     "level_actions": [
+      553,
+      948,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "m0r0": {
+     "levels": 1,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 861,
+      "h2_ref_level_0": 1,
+      "mover_moves": 233,
+      "reindex": 1,
+      "plan_new": 147,
+      "plan": 631,
+      "reset_game_over": 6,
+      "h2_ref_level_1": 1,
+      "timer": 151,
+      "morte_oculta": 4,
+      "guided": 44,
+      "reset_life_budget_exhausted": 3,
+      "guided_frontier": 8
+     },
+     "score": 0.02275326661064307,
+     "level_actions": [
+      434,
+      1067,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "r11l": {
+     "levels": 1,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1447,
+      "reindex": 2,
+      "h2_ref_level_1": 1,
+      "guided_h2": 11,
+      "reset_game_over": 39,
+      "timer": 60,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 6,
+      "plan_new": 9,
+      "plan": 9
+     },
+     "score": 2.9397473275024293,
+     "level_actions": [
+      28,
+      1473,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "re86": {
+     "levels": 0,
+     "win_levels": 8,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1466,
+      "reindex": 1,
+      "mover_moves": 555,
+      "guided": 250,
+      "reset_game_over": 3,
+      "plan_new": 18,
+      "plan": 21,
+      "timer": 100,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 11,
+      "guided_frontier": 1
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "s5i5": {
+     "levels": 1,
+     "win_levels": 8,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1372,
+      "reindex": 1,
+      "h2_ref_level_0": 1,
+      "guided_h2": 99,
+      "reset_game_over": 3,
+      "plan_new": 75,
+      "plan": 100,
+      "timer": 50,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 26,
+      "h2_ref_level_1": 1,
+      "h2_falsified": 1
+     },
+     "score": 0.0012819117508876278,
+     "level_actions": [
+      931,
+      570,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "sb26": {
+     "levels": 0,
+     "win_levels": 8,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1444,
+      "reset_game_over": 6,
+      "h2_ref_level_0": 1,
+      "guided_h2": 88,
+      "reindex": 1,
+      "h2_falsified": 1,
+      "plan_new": 51,
+      "plan": 51
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "sc25": {
+     "levels": 0,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1420,
+      "mover_moves": 561,
+      "h2_ref_level_0": 1,
+      "reindex": 2,
+      "plan_new": 47,
+      "plan": 53,
+      "guided_frontier": 2,
+      "reset_game_over": 23,
+      "guided": 70,
+      "timer": 57,
+      "morte_oculta": 1,
+      "plan_diverged": 13,
+      "reset_life_budget_exhausted": 4,
+      "exhausted": 1,
+      "guidance_disabled": 1,
+      "reopened": 2
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "sk48": {
+     "levels": 0,
+     "win_levels": 8,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1486,
+      "h2_ref_level_0": 1,
+      "reset_game_over": 3,
+      "plan_new": 8,
+      "plan": 8,
+      "timer": 196,
+      "morte_oculta": 1,
+      "plan_diverged": 2,
+      "reset_life_budget_exhausted": 4
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "sp80": {
+     "levels": 1,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1143,
+      "mover_moves": 1125,
+      "reindex": 2,
+      "guided": 594,
+      "h2_ref_level_0": 1,
+      "reset_game_over": 32,
+      "guided_frontier": 132,
+      "plan_new": 111,
+      "plan": 318,
+      "h2_ref_level_1": 1,
+      "timer": 45,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 8
+     },
+     "score": 2.7846432690723346,
+     "level_actions": [
+      51,
+      1450,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "su15": {
+     "levels": 1,
+     "win_levels": 9,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1407,
+      "reindex": 2,
+      "h2_ref_level_0": 1,
+      "guided_h2": 53,
+      "reset_game_over": 28,
+      "plan_new": 43,
+      "plan": 66,
+      "guided_frontier": 3,
+      "h2_falsified": 1,
+      "h2_ref_level_1": 1
+     },
+     "score": 0.004746996837950867,
+     "level_actions": [
+      476,
+      1025,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "tn36": {
+     "levels": 1,
+     "win_levels": 7,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1477,
+      "reindex": 1,
+      "h2_ref_level_0": 1,
+      "guided_h2": 24,
+      "h2_ref_level_1": 1,
+      "reset_game_over": 3,
+      "timer": 61,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 21
+     },
+     "score": 3.571428571428571,
+     "level_actions": [
+      21,
+      1480,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "tr87": {
+     "levels": 0,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1463,
+      "reindex": 1,
+      "reset_game_over": 3,
+      "plan_new": 22,
+      "plan": 27,
+      "timer": 128,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 8
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "tu93": {
+     "levels": 2,
+     "win_levels": 9,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 783,
+      "reindex": 1,
+      "plan_new": 203,
+      "plan": 676,
+      "reset_game_over": 38,
+      "timer": 50,
+      "morte_oculta": 11,
+      "reset_life_budget_exhausted": 3,
+      "exhausted": 1,
+      "guidance_disabled": 1,
+      "reopened": 2
+     },
+     "score": 0.4100113922501112,
+     "level_actions": [
+      402,
+      53,
+      1046,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "vc33": {
+     "levels": 2,
+     "win_levels": 7,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1420,
+      "reindex": 1,
+      "reset_game_over": 3,
+      "plan_new": 53,
+      "plan": 53,
+      "morte_oculta": 2,
+      "timer": 50,
+      "reset_life_budget_exhausted": 25,
+      "h2_ref_level_2": 1,
+      "guided_h2": 15
+     },
+     "score": 0.2620863247206972,
+     "level_actions": [
+      28,
+      244,
+      1229,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "wa30": {
+     "levels": 0,
+     "win_levels": 9,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1462,
+      "reindex": 1,
+      "mover_moves": 68,
+      "guided": 8,
+      "reset_game_over": 3,
+      "plan_new": 32,
+      "plan": 32,
+      "timer": 200,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 4
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "agent": "k",
+   "seed": 2,
+   "total": 0.5213506125655002,
+   "secs": 183.7,
+   "games": {
+    "ar25": {
+     "levels": 1,
+     "win_levels": 8,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1329,
+      "reindex": 1,
+      "h2_ref_level_0": 1,
+      "mover_moves": 74,
+      "guided": 50,
+      "reset_game_over": 20,
+      "plan_new": 95,
+      "plan": 152,
+      "guided_frontier": 3,
+      "morte_oculta": 1
+     },
+     "score": 0.002247462277091907,
+     "level_actions": [
+      1125,
+      376,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "bp35": {
+     "levels": 0,
+     "win_levels": 9,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1308,
+      "h2_ref_level_0": 1,
+      "reindex": 2,
+      "reset_game_over": 12,
+      "plan_new": 77,
+      "plan": 129,
+      "plan_diverged": 17,
+      "timer": 24,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 52
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "cd82": {
+     "levels": 1,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1445,
+      "reindex": 1,
+      "h2_ref_level_0": 1,
+      "plan_new": 41,
+      "plan": 42,
+      "reset_game_over": 3,
+      "h2_ref_level_1": 1,
+      "timer": 100,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 11
+     },
+     "score": 0.5488782923625173,
+     "level_actions": [
+      162,
+      1339,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "cn04": {
+     "levels": 0,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1385,
+      "h2_ref_level_0": 1,
+      "reindex": 12,
+      "reset_game_over": 3,
+      "timer": 75,
+      "morte_oculta": 1,
+      "plan_new": 72,
+      "plan": 97,
+      "reset_life_budget_exhausted": 16,
+      "mover_moves": 1
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "dc22": {
+     "levels": 0,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1332,
+      "mover_moves": 270,
+      "h2_ref_level_0": 1,
+      "guided": 148,
+      "reindex": 1,
+      "plan_new": 88,
+      "plan": 154,
+      "reset_game_over": 15,
+      "guided_frontier": 65
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "ft09": {
+     "levels": 1,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1473,
+      "h2_ref_level_0": 1,
+      "guided_h2": 61,
+      "reindex": 1,
+      "reset_game_over": 21,
+      "h2_falsified": 1,
+      "h2_ref_level_1": 1,
+      "plan_new": 7,
+      "plan": 7
+     },
+     "score": 0.04072036954451107,
+     "level_actions": [
+      465,
+      1036,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "g50t": {
+     "levels": 0,
+     "win_levels": 7,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 847,
+      "mover_moves": 759,
+      "guided": 66,
+      "reindex": 1,
+      "plan_new": 286,
+      "plan": 638,
+      "guided_frontier": 28,
+      "plan_diverged": 60,
+      "reset_game_over": 5,
+      "exhausted": 7,
+      "guidance_disabled": 1,
+      "reopened": 8,
+      "timer": 130,
+      "morte_oculta": 3,
+      "reset_life_budget_exhausted": 4,
+      "reset_exhausted": 3
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "ka59": {
+     "levels": 0,
+     "win_levels": 7,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1369,
+      "reindex": 1,
+      "h2_ref_level_0": 1,
+      "mover_moves": 309,
+      "guided": 182,
+      "reset_game_over": 3,
+      "plan_new": 74,
+      "plan": 118,
+      "guided_frontier": 11,
+      "timer": 100,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 11
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "lf52": {
+     "levels": 1,
+     "win_levels": 10,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1458,
+      "reindex": 1,
+      "h2_ref_level_0": 1,
+      "guided_h2": 14,
+      "reset_game_over": 2,
+      "h2_ref_level_1": 1,
+      "plan_new": 27,
+      "plan": 41,
+      "mover_moves": 4
+     },
+     "score": 0.07953428945355129,
+     "level_actions": [
+      153,
+      1348,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "lp85": {
+     "levels": 1,
+     "win_levels": 8,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1484,
+      "reindex": 1,
+      "reset_game_over": 9,
+      "plan_new": 8,
+      "plan": 8
+     },
+     "score": 0.3793845830707834,
+     "level_actions": [
+      46,
+      1455,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "ls20": {
+     "levels": 1,
+     "win_levels": 7,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 773,
+      "reindex": 2,
+      "plan_new": 168,
+      "plan": 712,
+      "reset_game_over": 15,
+      "mover_moves": 46,
+      "guided": 4,
+      "plan_diverged": 6,
+      "exhausted": 1,
+      "guidance_disabled": 1,
+      "reopened": 2,
+      "morte_oculta": 4
+     },
+     "score": 0.006619810082572556,
+     "level_actions": [
+      511,
+      990,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "m0r0": {
+     "levels": 1,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1063,
+      "reindex": 1,
+      "mover_moves": 279,
+      "h2_ref_level_0": 1,
+      "plan_new": 148,
+      "plan": 429,
+      "guided_frontier": 4,
+      "reset_game_over": 5,
+      "timer": 151,
+      "morte_oculta": 3,
+      "reset_life_budget_exhausted": 4,
+      "h2_ref_level_1": 1,
+      "guided": 38
+     },
+     "score": 0.00623611554856926,
+     "level_actions": [
+      829,
+      672,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "r11l": {
+     "levels": 1,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1443,
+      "reindex": 1,
+      "h2_ref_level_1": 1,
+      "guided_h2": 10,
+      "reset_game_over": 42,
+      "timer": 60,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 5,
+      "plan_new": 11,
+      "plan": 11
+     },
+     "score": 4.761904761904762,
+     "level_actions": [
+      18,
+      1483,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "re86": {
+     "levels": 0,
+     "win_levels": 8,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1469,
+      "reindex": 1,
+      "mover_moves": 456,
+      "guided": 55,
+      "reset_game_over": 3,
+      "timer": 100,
+      "morte_oculta": 1,
+      "plan_new": 18,
+      "plan": 18,
+      "reset_life_budget_exhausted": 11
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "s5i5": {
+     "levels": 0,
+     "win_levels": 8,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1301,
+      "reindex": 2,
+      "h2_ref_level_0": 1,
+      "guided_h2": 4,
+      "reset_game_over": 3,
+      "timer": 50,
+      "morte_oculta": 1,
+      "plan_new": 99,
+      "plan": 171,
+      "reset_life_budget_exhausted": 26
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "sb26": {
+     "levels": 0,
+     "win_levels": 8,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1447,
+      "reset_game_over": 6,
+      "h2_ref_level_0": 1,
+      "guided_h2": 89,
+      "h2_falsified": 1,
+      "plan_new": 48,
+      "plan": 48
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "sc25": {
+     "levels": 0,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1398,
+      "h2_ref_level_0": 1,
+      "mover_moves": 557,
+      "reindex": 1,
+      "guided_frontier": 5,
+      "plan_new": 57,
+      "plan": 75,
+      "reset_game_over": 27,
+      "guided": 78,
+      "plan_diverged": 11,
+      "exhausted": 1,
+      "guidance_disabled": 1,
+      "reopened": 2,
+      "morte_oculta": 1
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "sk48": {
+     "levels": 1,
+     "win_levels": 8,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1487,
+      "h2_ref_level_0": 1,
+      "reset_game_over": 3,
+      "h2_ref_level_1": 1,
+      "timer": 196,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 4,
+      "plan_new": 7,
+      "plan": 7
+     },
+     "score": 0.1254854509719811,
+     "level_actions": [
+      287,
+      1214,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "sp80": {
+     "levels": 1,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1131,
+      "mover_moves": 1096,
+      "reindex": 2,
+      "h2_ref_level_0": 1,
+      "guided": 582,
+      "reset_game_over": 30,
+      "h2_ref_level_1": 1,
+      "guided_frontier": 127,
+      "plan_new": 111,
+      "plan": 331,
+      "timer": 45,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 9
+     },
+     "score": 3.016600226096269,
+     "level_actions": [
+      49,
+      1452,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "su15": {
+     "levels": 1,
+     "win_levels": 9,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1423,
+      "reindex": 2,
+      "h2_ref_level_0": 1,
+      "guided_h2": 68,
+      "reset_game_over": 28,
+      "guided_frontier": 5,
+      "plan_new": 34,
+      "plan": 50,
+      "h2_falsified": 1,
+      "h2_ref_level_1": 1
+     },
+     "score": 0.00662251202553772,
+     "level_actions": [
+      403,
+      1098,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "tn36": {
+     "levels": 1,
+     "win_levels": 7,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1477,
+      "reindex": 1,
+      "h2_ref_level_0": 1,
+      "guided_h2": 25,
+      "h2_ref_level_1": 1,
+      "reset_game_over": 3,
+      "timer": 61,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 21
+     },
+     "score": 3.571428571428571,
+     "level_actions": [
+      18,
+      1483,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "tr87": {
+     "levels": 0,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1465,
+      "reindex": 1,
+      "reset_game_over": 3,
+      "plan_new": 18,
+      "plan": 25,
+      "timer": 128,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 8
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "tu93": {
+     "levels": 3,
+     "win_levels": 9,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 784,
+      "reindex": 1,
+      "plan_new": 216,
+      "plan": 670,
+      "reset_game_over": 44,
+      "morte_oculta": 12,
+      "timer": 50,
+      "reset_life_budget_exhausted": 3
+     },
+     "score": 0.19814141160367948,
+     "level_actions": [
+      402,
+      79,
+      842,
+      178,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "vc33": {
+     "levels": 2,
+     "win_levels": 7,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1402,
+      "reindex": 1,
+      "h2_ref_level_1": 1,
+      "guided_h2": 15,
+      "reset_game_over": 3,
+      "plan_new": 63,
+      "plan": 71,
+      "timer": 50,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 25,
+      "h2_ref_level_2": 1
+     },
+     "score": 0.2899614577671085,
+     "level_actions": [
+      25,
+      482,
+      994,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "wa30": {
+     "levels": 0,
+     "win_levels": 9,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1481,
+      "reindex": 1,
+      "mover_moves": 70,
+      "reset_game_over": 3,
+      "plan_new": 13,
+      "plan": 13,
+      "guided": 13,
+      "timer": 200,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 4
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "agent": "k",
+   "seed": 3,
+   "total": 0.32586085806359166,
+   "secs": 180.9,
+   "games": {
+    "ar25": {
+     "levels": 0,
+     "win_levels": 8,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1224,
+      "reindex": 1,
+      "h2_ref_level_0": 1,
+      "plan_new": 148,
+      "plan": 255,
+      "reset_game_over": 22,
+      "mover_moves": 51,
+      "guided": 14,
+      "guided_frontier": 3,
+      "morte_oculta": 3
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "bp35": {
+     "levels": 0,
+     "win_levels": 9,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1311,
+      "h2_ref_level_0": 1,
+      "reindex": 2,
+      "reset_game_over": 10,
+      "plan_new": 72,
+      "plan": 127,
+      "plan_diverged": 14,
+      "timer": 24,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 53
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "cd82": {
+     "levels": 1,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1441,
+      "reindex": 1,
+      "h2_ref_level_0": 1,
+      "plan_new": 43,
+      "plan": 46,
+      "reset_game_over": 3,
+      "timer": 100,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 11,
+      "h2_ref_level_1": 1
+     },
+     "score": 0.025270403762575156,
+     "level_actions": [
+      755,
+      746,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "cn04": {
+     "levels": 1,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1433,
+      "h2_ref_level_0": 1,
+      "reindex": 13,
+      "reset_game_over": 3,
+      "plan_new": 40,
+      "plan": 49,
+      "timer": 75,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 16,
+      "mover_moves": 4,
+      "h2_ref_level_1": 1
+     },
+     "score": 0.00302817535331713,
+     "level_actions": [
+      1150,
+      351,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "dc22": {
+     "levels": 0,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1352,
+      "mover_moves": 268,
+      "h2_ref_level_0": 1,
+      "reindex": 1,
+      "guided": 160,
+      "plan_new": 76,
+      "plan": 134,
+      "reset_game_over": 15,
+      "guided_frontier": 77
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "ft09": {
+     "levels": 1,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1469,
+      "h2_ref_level_0": 1,
+      "guided_h2": 93,
+      "reindex": 1,
+      "reset_game_over": 21,
+      "h2_falsified": 1,
+      "h2_ref_level_1": 1,
+      "plan_new": 11,
+      "plan": 11
+     },
+     "score": 0.03452509324482661,
+     "level_actions": [
+      505,
+      996,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "g50t": {
+     "levels": 0,
+     "win_levels": 7,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 844,
+      "mover_moves": 743,
+      "reindex": 1,
+      "guided": 47,
+      "guided_frontier": 24,
+      "plan_new": 313,
+      "plan": 638,
+      "plan_diverged": 57,
+      "reset_game_over": 4,
+      "target_switched": 1,
+      "morte_oculta": 3,
+      "exhausted": 9,
+      "guidance_disabled": 1,
+      "reopened": 10,
+      "timer": 130,
+      "reset_life_budget_exhausted": 6,
+      "reset_exhausted": 4
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "ka59": {
+     "levels": 0,
+     "win_levels": 7,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1349,
+      "reindex": 1,
+      "h2_ref_level_0": 1,
+      "mover_moves": 248,
+      "guided": 150,
+      "guided_frontier": 13,
+      "plan_new": 89,
+      "plan": 138,
+      "reset_game_over": 3,
+      "timer": 100,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 11
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "lf52": {
+     "levels": 1,
+     "win_levels": 10,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1458,
+      "reindex": 1,
+      "h2_ref_level_0": 1,
+      "guided_h2": 3,
+      "h2_ref_level_1": 1,
+      "plan_new": 30,
+      "plan": 42,
+      "mover_moves": 4,
+      "guided": 2,
+      "reset_game_over": 1
+     },
+     "score": 0.17549422017326624,
+     "level_actions": [
+      103,
+      1398,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "lp85": {
+     "levels": 1,
+     "win_levels": 8,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1484,
+      "reset_game_over": 10,
+      "plan_new": 7,
+      "plan": 7,
+      "reindex": 1
+     },
+     "score": 0.013374057105835531,
+     "level_actions": [
+      245,
+      1256,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "ls20": {
+     "levels": 1,
+     "win_levels": 7,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 840,
+      "reindex": 2,
+      "plan_new": 170,
+      "plan": 647,
+      "mover_moves": 59,
+      "reset_game_over": 12,
+      "timer": 133,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 1,
+      "plan_diverged": 4,
+      "exhausted": 1,
+      "guidance_disabled": 1,
+      "reopened": 2
+     },
+     "score": 0.003243706940460553,
+     "level_actions": [
+      730,
+      771,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "m0r0": {
+     "levels": 1,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1146,
+      "h2_ref_level_0": 1,
+      "reindex": 1,
+      "guided_frontier": 5,
+      "plan_new": 154,
+      "plan": 346,
+      "mover_moves": 304,
+      "reset_game_over": 3,
+      "timer": 151,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 5,
+      "h2_ref_level_1": 1,
+      "reset_plan_over_budget": 1,
+      "guided": 8
+     },
+     "score": 0.0034165451895043727,
+     "level_actions": [
+      1120,
+      381,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "r11l": {
+     "levels": 1,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1427,
+      "reindex": 1,
+      "reset_game_over": 55,
+      "timer": 60,
+      "morte_oculta": 1,
+      "plan_new": 19,
+      "plan": 19
+     },
+     "score": 1.7783656672545565,
+     "level_actions": [
+      36,
+      1465,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "re86": {
+     "levels": 0,
+     "win_levels": 8,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1461,
+      "mover_moves": 518,
+      "reindex": 1,
+      "guided": 294,
+      "reset_game_over": 3,
+      "timer": 100,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 11,
+      "plan_new": 23,
+      "plan": 26
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "s5i5": {
+     "levels": 0,
+     "win_levels": 8,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1335,
+      "reindex": 1,
+      "h2_ref_level_0": 1,
+      "guided_h2": 5,
+      "reset_game_over": 3,
+      "plan_new": 90,
+      "plan": 137,
+      "timer": 50,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 26
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "sb26": {
+     "levels": 0,
+     "win_levels": 8,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1436,
+      "reset_game_over": 6,
+      "h2_ref_level_0": 1,
+      "guided_h2": 88,
+      "h2_falsified": 1,
+      "plan_new": 59,
+      "plan": 59
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "sc25": {
+     "levels": 0,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1411,
+      "mover_moves": 556,
+      "h2_ref_level_0": 1,
+      "reindex": 2,
+      "guided_frontier": 8,
+      "plan_new": 52,
+      "plan": 62,
+      "reset_game_over": 23,
+      "guided_h2": 2,
+      "guided": 128,
+      "timer": 57,
+      "morte_oculta": 3,
+      "plan_diverged": 13,
+      "reset_life_budget_exhausted": 4,
+      "exhausted": 1,
+      "guidance_disabled": 1,
+      "reopened": 2
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "sk48": {
+     "levels": 0,
+     "win_levels": 8,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1482,
+      "h2_ref_level_0": 1,
+      "reset_game_over": 3,
+      "plan_new": 12,
+      "plan": 12,
+      "timer": 196,
+      "morte_oculta": 1,
+      "plan_diverged": 6,
+      "reset_life_budget_exhausted": 4
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "sp80": {
+     "levels": 1,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1154,
+      "mover_moves": 1096,
+      "reindex": 2,
+      "h2_ref_level_0": 1,
+      "guided": 583,
+      "reset_game_over": 29,
+      "plan_new": 105,
+      "plan": 308,
+      "h2_ref_level_1": 1,
+      "guided_frontier": 118,
+      "timer": 45,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 10
+     },
+     "score": 2.229257353911094,
+     "level_actions": [
+      57,
+      1444,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "su15": {
+     "levels": 1,
+     "win_levels": 9,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1387,
+      "reindex": 2,
+      "h2_ref_level_0": 1,
+      "guided_h2": 51,
+      "reset_game_over": 30,
+      "plan_new": 48,
+      "plan": 84,
+      "h2_falsified": 1,
+      "h2_ref_level_1": 1
+     },
+     "score": 0.003607842435681264,
+     "level_actions": [
+      546,
+      955,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "tn36": {
+     "levels": 1,
+     "win_levels": 7,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1477,
+      "reindex": 1,
+      "h2_ref_level_0": 1,
+      "guided_h2": 16,
+      "h2_ref_level_1": 1,
+      "reset_game_over": 3,
+      "timer": 61,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 21
+     },
+     "score": 3.571428571428571,
+     "level_actions": [
+      22,
+      1479,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "tr87": {
+     "levels": 0,
+     "win_levels": 6,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1467,
+      "reindex": 1,
+      "reset_game_over": 3,
+      "plan_new": 17,
+      "plan": 23,
+      "timer": 128,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 8
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "tu93": {
+     "levels": 2,
+     "win_levels": 9,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 791,
+      "reindex": 1,
+      "reset_game_over": 38,
+      "plan_new": 195,
+      "plan": 666,
+      "timer": 50,
+      "morte_oculta": 9,
+      "reset_life_budget_exhausted": 4,
+      "exhausted": 2,
+      "guidance_disabled": 1,
+      "reopened": 2,
+      "reset_exhausted": 1
+     },
+     "score": 0.1331250907417912,
+     "level_actions": [
+      429,
+      94,
+      978,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "vc33": {
+     "levels": 2,
+     "win_levels": 7,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1395,
+      "reindex": 1,
+      "reset_game_over": 3,
+      "plan_new": 68,
+      "plan": 78,
+      "timer": 50,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 25,
+      "h2_ref_level_2": 1,
+      "guided_h2": 29
+     },
+     "score": 0.1723847240483111,
+     "level_actions": [
+      33,
+      445,
+      1023,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "wa30": {
+     "levels": 0,
+     "win_levels": 9,
+     "actions": 1501,
+     "state": "NOT_FINISHED",
+     "stats": {
+      "local": 1455,
+      "reindex": 2,
+      "mover_moves": 86,
+      "guided": 39,
+      "plan_new": 36,
+      "plan": 39,
+      "reset_game_over": 3,
+      "guided_frontier": 4,
+      "timer": 200,
+      "morte_oculta": 1,
+      "reset_life_budget_exhausted": 4
+     },
+     "score": 0.0,
+     "level_actions": [
+      1501,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   }
+  }
+ ]
+}

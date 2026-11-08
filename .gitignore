@@ -3,7 +3,7 @@ __pycache__/
 .venv/
 .ipynb_checkpoints/
 .DS_Store
-# saídas locais de execução e caches
+# local run outputs and caches
 runs/
 outputs/
 *.log
