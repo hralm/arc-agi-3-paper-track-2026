@@ -1,0 +1,19 @@
+benchmark: duck-harness-kaggle-k-last-resort-cross-game
+solver:    duck-harness
+games:     3
+passes:    1
+runs:      3 (won: 2)
+started:   2026-11-02 21:25:47
+ended:     2026-11-02 22:10:47
+duration:  45m 0s
+mean score:    72.62
+median score:  90.97
+total actions: 1228
+total tokens:  625596
+generated tokens/sec: 231.66 (job wallclock)
+total wallclock: 6711.0s
+
+per-game (mean across passes):
+  ls20-9607627b: score=26.89, levels=4.0/7, actions=626, tokens=229710
+  tu93-0768757b: score=90.97, levels=9.0/9, actions=400, tokens=235605
+  vc33-5430563c: score=100.00, levels=7.0/7, actions=202, tokens=160281

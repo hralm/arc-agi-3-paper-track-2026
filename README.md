@@ -12,6 +12,9 @@ Code and materials for our submission to the [ARC Prize 2026 Paper Track](https:
 | The three modes on the dfranzen base | [control](https://www.kaggle.com/code/hralmjc/what-exploration-can-ignore-dfranzen-control), [K playing](https://www.kaggle.com/code/hralmjc/what-exploration-can-ignore-dfranzen-k-playing), [K advising](https://www.kaggle.com/code/hralmjc/what-exploration-can-ignore-dfranzen-k-advising), [last resort](https://www.kaggle.com/code/hralmjc/what-exploration-can-ignore-dfranzen-last-resort) |
 | Project page (how the work was done) | [docs/](docs/index.md) |
 
+Everything the paper cites is in this repository: the paper, the five notebooks with their metadata and modules, the agent
+code, the bench, the tests, the figures, and the files behind every phase-A round. A clone replaces the round of Kaggle pages.
+
 
 ## What the paper argues
 
@@ -31,9 +34,10 @@ score gain in two phase-A batches, and the paper reports each comparison with wh
 
 | folder | contents | paper |
 |---|---|---|
-| `paper/` | the PDF | — |
+| `paper/` | the PDF (English, version of record) and the Brazilian Portuguese translation | — |
+| `notebooks/` | the five Kaggle notebooks (code and text, no outputs), their kernel metadata and the modules they write, with the identifier names of this repository | §§5, 10, Table 3 |
 | `agent/` | the explorer K, the no-effect certificates and hidden-state triggers (H8), the goal-hypothesis component (H5) and the cross-game memory | §§3.1–3.4 |
-| `bench/` | the offline local bench (25 public games, 4 seeds, 1,500 steps) with the flags of the eight attribution arms, and the eight runs of Table 4 | §5, Table 4, Figure 2 |
+| `bench/` | the offline local bench (25 public games, 4 seeds, 1,500 steps) with the flags of the eight attribution arms, and the eight runs of Table 4; `results/phase-a/` holds the files behind every phase-A round (kernel log, summary, benchmark record) and `phase_a.py` recomputes the validity checks and Tables 1 and 3 from them, or from a new Kaggle run | §5, Tables 1, 3 and 4, Figures 1 and 2 |
 | `tests/` | the test suite and the mutants of the adversarial verification protocol | §4 |
 | `manifests/` | SHA-256 manifests of the frozen artifacts cited in the paper | §§5, 10 |
 | `figures/` | the script that generates Figures 1 and 2 (Figure 1 in two panels, one per phase-A batch), and the figures | §5 |
@@ -101,9 +105,19 @@ Run `sha256sum -c manifests/SHA256SUMS` to check this repository. The digests of
 ### 6. Phase A on Kaggle
 
 The rounds of Table 3 (second batch, 7 November 2026) were produced by the four public notebooks
-listed above, run on Kaggle with the same frozen code, three rounds per mode and four for the control. Their raw outputs
-are not released. Kaggle mounted the notebooks' inputs under two different layouts for different kernels of this set. The
-notebooks resolve both and record which one they found.
+listed above, run on Kaggle with the same frozen code, three rounds per mode and four for the control. The files from which
+every number was read are in [`bench/results/phase-a/`](bench/results/phase-a/), one folder per round, with the first batch, the
+Duck-line rounds of Table 1 and the v14.1 run alongside; `rounds.tsv` says which rounds the paper read. Kaggle mounted the
+notebooks' inputs under two different layouts for different kernels of this set. The notebooks resolve both and record which one
+they found; the three attempts that did not start under the old layout are shipped too.
+
+```bash
+python3 bench/phase_a.py                 # validity of every round, Table 3, Table 1, batch summaries (seconds)
+```
+
+To run a notebook yourself, copy it from [`notebooks/`](notebooks/) to Kaggle with the inputs and accelerator named in its
+`kernel-metadata.json`, download the output (`kaggle kernels output <user>/<slug> -p <folder>`) and run
+`python3 bench/phase_a.py <folder>`: it prints the same validity checks and counters for your run.
 
 ## Built on
 

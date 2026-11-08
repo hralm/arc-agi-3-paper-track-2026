@@ -1,0 +1,691 @@
+[{"stream_name": "stderr", "time": 4.256514879, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name": "stderr", "time": 4.256540829, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name": "stderr", "time": 4.256542689, "data": "0.00s - to python to disable frozen modules.\n"}
+,{"stream_name": "stderr", "time": 4.256543729, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name": "stderr", "time": 4.559295609, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name": "stderr", "time": 4.559315929, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name": "stderr", "time": 4.559317619, "data": "0.00s - to python to disable frozen modules.\n"}
+,{"stream_name": "stderr", "time": 4.559318559, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name": "stdout", "time": 5.364012349, "data": "Writing /kaggle/harness-changes.patch\n"}
+,{"stream_name": "stderr", "time": 6.049905411, "data": "Checking patch ARC3-Inference/inference/agent/action_names.py...\n"}
+,{"stream_name": "stderr", "time": 6.049916441, "data": "Checking patch ARC3-Inference/inference/agent/noop_repeat_guard.py...\n"}
+,{"stream_name": "stderr", "time": 6.049917991, "data": "Checking patch ARC3-Inference/inference/agent/priority_pace_reference.json...\n"}
+,{"stream_name": "stderr", "time": 6.049919361, "data": "Checking patch ARC3-Inference/inference/agent/priority_scheduler.py...\n"}
+,{"stream_name": "stderr", "time": 6.049920591, "data": "Checking patch ARC3-Inference/inference/agent/prompts.py...\n"}
+,{"stream_name": "stderr", "time": 6.049921401, "data": "Checking patch ARC3-Inference/inference/agent/python_tool_sandbox.py...\n"}
+,{"stream_name": "stderr", "time": 6.050048111, "data": "Checking patch ARC3-Inference/inference/agent/runtime_state.py...\n"}
+,{"stream_name": "stderr", "time": 6.050053971, "data": "Checking patch ARC3-Inference/inference/agent/tool_agent.py...\n"}
+,{"stream_name": "stderr", "time": 6.05277681, "data": "Checking patch ARC3-Inference/inference/agent/vision_context.py...\n"}
+,{"stream_name": "stderr", "time": 6.05278233, "data": "Checking patch ARC3-Inference/inference/framework/run.py...\n"}
+,{"stream_name": "stderr", "time": 6.05291874, "data": "Hunk #1 succeeded at 467 (offset 48 lines).\n"}
+,{"stream_name": "stderr", "time": 6.05292117, "data": "Hunk #2 succeeded at 1271 (offset 48 lines).\n"}
+,{"stream_name": "stderr", "time": 6.05292206, "data": "Checking patch ARC3-Inference/inference/framework/solver.py...\n"}
+,{"stream_name": "stderr", "time": 6.053169, "data": "Checking patch ARC3-Inference/inference/utils/animation.py...\n"}
+,{"stream_name": "stderr", "time": 6.0531768, "data": "Checking patch ARC3-Inference/inference/utils/frame_diff.py...\n"}
+,{"stream_name": "stderr", "time": 6.05321847, "data": "Checking patch ARC3-Inference/inference/utils/openai_compat.py...\n"}
+,{"stream_name": "stderr", "time": 6.05325112, "data": "Checking patch ARC3-Inference/inference/utils/retained_functions.py...\n"}
+,{"stream_name": "stderr", "time": 6.05328882, "data": "Checking patch ARC3-Inference/inference/utils/segmentation.py...\n"}
+,{"stream_name": "stderr", "time": 6.05341719, "data": "Applied patch ARC3-Inference/inference/agent/action_names.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05342749, "data": "Applied patch ARC3-Inference/inference/agent/noop_repeat_guard.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05343637, "data": "Applied patch ARC3-Inference/inference/agent/priority_pace_reference.json cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05345062, "data": "Applied patch ARC3-Inference/inference/agent/priority_scheduler.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05345821, "data": "Applied patch ARC3-Inference/inference/agent/prompts.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05347303, "data": "Applied patch ARC3-Inference/inference/agent/python_tool_sandbox.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05348209, "data": "Applied patch ARC3-Inference/inference/agent/runtime_state.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05352416, "data": "Applied patch ARC3-Inference/inference/agent/tool_agent.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.0535276, "data": "Applied patch ARC3-Inference/inference/agent/vision_context.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05354485, "data": "Applied patch ARC3-Inference/inference/framework/run.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05356261, "data": "Applied patch ARC3-Inference/inference/framework/solver.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05357488, "data": "Applied patch ARC3-Inference/inference/utils/animation.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05358109, "data": "Applied patch ARC3-Inference/inference/utils/frame_diff.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05359731, "data": "Applied patch ARC3-Inference/inference/utils/openai_compat.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05360094, "data": "Applied patch ARC3-Inference/inference/utils/retained_functions.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05361135, "data": "Applied patch ARC3-Inference/inference/utils/segmentation.py cleanly.\n"}
+,{"stream_name": "stdout", "time": 6.05529451, "data": "harness patch applied successfully\n"}
+,{"stream_name": "stdout", "time": 6.05529603, "data": "taaf.kaggle: TRUE_SUBMISSION=False\n"}
+,{"stream_name": "stderr", "time": 6.05569955, "data": "Checking patch ARC3-Inference/inference/agent/action_names.py...\n"}
+,{"stream_name": "stderr", "time": 6.05570078, "data": "Checking patch ARC3-Inference/inference/agent/noop_repeat_guard.py...\n"}
+,{"stream_name": "stderr", "time": 6.0557016, "data": "Checking patch ARC3-Inference/inference/agent/priority_pace_reference.json...\n"}
+,{"stream_name": "stderr", "time": 6.05570236, "data": "Checking patch ARC3-Inference/inference/agent/priority_scheduler.py...\n"}
+,{"stream_name": "stderr", "time": 6.05570323, "data": "Checking patch ARC3-Inference/inference/agent/prompts.py...\n"}
+,{"stream_name": "stderr", "time": 6.05570397, "data": "Checking patch ARC3-Inference/inference/agent/python_tool_sandbox.py...\n"}
+,{"stream_name": "stderr", "time": 6.05570469, "data": "Checking patch ARC3-Inference/inference/agent/runtime_state.py...\n"}
+,{"stream_name": "stderr", "time": 6.05570542, "data": "Checking patch ARC3-Inference/inference/agent/tool_agent.py...\n"}
+,{"stream_name": "stderr", "time": 6.05570616, "data": "Checking patch ARC3-Inference/inference/agent/vision_context.py...\n"}
+,{"stream_name": "stderr", "time": 6.05570693, "data": "Checking patch ARC3-Inference/inference/framework/run.py...\n"}
+,{"stream_name": "stderr", "time": 6.05570765, "data": "Hunk #1 succeeded at 467 (offset 48 lines).\n"}
+,{"stream_name": "stderr", "time": 6.05570855, "data": "Hunk #2 succeeded at 1271 (offset 48 lines).\n"}
+,{"stream_name": "stderr", "time": 6.05570932, "data": "Checking patch ARC3-Inference/inference/framework/solver.py...\n"}
+,{"stream_name": "stderr", "time": 6.05571009, "data": "Checking patch ARC3-Inference/inference/utils/animation.py...\n"}
+,{"stream_name": "stderr", "time": 6.05571083, "data": "Checking patch ARC3-Inference/inference/utils/frame_diff.py...\n"}
+,{"stream_name": "stderr", "time": 6.05571158, "data": "Checking patch ARC3-Inference/inference/utils/openai_compat.py...\n"}
+,{"stream_name": "stderr", "time": 6.05571369, "data": "Checking patch ARC3-Inference/inference/utils/retained_functions.py...\n"}
+,{"stream_name": "stderr", "time": 6.05571451, "data": "Checking patch ARC3-Inference/inference/utils/segmentation.py...\n"}
+,{"stream_name": "stderr", "time": 6.05571533, "data": "Applied patch ARC3-Inference/inference/agent/action_names.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05571609, "data": "Applied patch ARC3-Inference/inference/agent/noop_repeat_guard.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05571684, "data": "Applied patch ARC3-Inference/inference/agent/priority_pace_reference.json cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05571759, "data": "Applied patch ARC3-Inference/inference/agent/priority_scheduler.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05571835, "data": "Applied patch ARC3-Inference/inference/agent/prompts.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05571908, "data": "Applied patch ARC3-Inference/inference/agent/python_tool_sandbox.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05571983, "data": "Applied patch ARC3-Inference/inference/agent/runtime_state.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05572059, "data": "Applied patch ARC3-Inference/inference/agent/tool_agent.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05572132, "data": "Applied patch ARC3-Inference/inference/agent/vision_context.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05572208, "data": "Applied patch ARC3-Inference/inference/framework/run.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05572281, "data": "Applied patch ARC3-Inference/inference/framework/solver.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05572354, "data": "Applied patch ARC3-Inference/inference/utils/animation.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.0557245, "data": "Applied patch ARC3-Inference/inference/utils/frame_diff.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05572525, "data": "Applied patch ARC3-Inference/inference/utils/openai_compat.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.055726, "data": "Applied patch ARC3-Inference/inference/utils/retained_functions.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05572676, "data": "Applied patch ARC3-Inference/inference/utils/segmentation.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05572754, "data": "\n"}
+,{"stream_name": "stderr", "time": 6.05572829, "data": "Checking patch ARC3-Inference/inference/agent/action_names.py...\n"}
+,{"stream_name": "stderr", "time": 6.05572904, "data": "Checking patch ARC3-Inference/inference/agent/noop_repeat_guard.py...\n"}
+,{"stream_name": "stderr", "time": 6.0557298, "data": "Checking patch ARC3-Inference/inference/agent/priority_pace_reference.json...\n"}
+,{"stream_name": "stderr", "time": 6.05573057, "data": "Checking patch ARC3-Inference/inference/agent/priority_scheduler.py...\n"}
+,{"stream_name": "stderr", "time": 6.05573131, "data": "Checking patch ARC3-Inference/inference/agent/prompts.py...\n"}
+,{"stream_name": "stderr", "time": 6.05573205, "data": "Checking patch ARC3-Inference/inference/agent/python_tool_sandbox.py...\n"}
+,{"stream_name": "stderr", "time": 6.05573278, "data": "Checking patch ARC3-Inference/inference/agent/runtime_state.py...\n"}
+,{"stream_name": "stderr", "time": 6.05573351, "data": "Checking patch ARC3-Inference/inference/agent/tool_agent.py...\n"}
+,{"stream_name": "stderr", "time": 6.05573423, "data": "Checking patch ARC3-Inference/inference/agent/vision_context.py...\n"}
+,{"stream_name": "stderr", "time": 6.05573498, "data": "Checking patch ARC3-Inference/inference/framework/run.py...\n"}
+,{"stream_name": "stderr", "time": 6.0557357, "data": "Hunk #1 succeeded at 467 (offset 48 lines).\n"}
+,{"stream_name": "stderr", "time": 6.05573736, "data": "Hunk #2 succeeded at 1271 (offset 48 lines).\n"}
+,{"stream_name": "stderr", "time": 6.0557381, "data": "Checking patch ARC3-Inference/inference/framework/solver.py...\n"}
+,{"stream_name": "stderr", "time": 6.05573885, "data": "Checking patch ARC3-Inference/inference/utils/animation.py...\n"}
+,{"stream_name": "stderr", "time": 6.05573957, "data": "Checking patch ARC3-Inference/inference/utils/frame_diff.py...\n"}
+,{"stream_name": "stderr", "time": 6.05574032, "data": "Checking patch ARC3-Inference/inference/utils/openai_compat.py...\n"}
+,{"stream_name": "stderr", "time": 6.05574107, "data": "Checking patch ARC3-Inference/inference/utils/retained_functions.py...\n"}
+,{"stream_name": "stderr", "time": 6.05574179, "data": "Checking patch ARC3-Inference/inference/utils/segmentation.py...\n"}
+,{"stream_name": "stderr", "time": 6.05574293, "data": "Applied patch ARC3-Inference/inference/agent/action_names.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05574401, "data": "Applied patch ARC3-Inference/inference/agent/noop_repeat_guard.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05574476, "data": "Applied patch ARC3-Inference/inference/agent/priority_pace_reference.json cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05574551, "data": "Applied patch ARC3-Inference/inference/agent/priority_scheduler.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05574627, "data": "Applied patch ARC3-Inference/inference/agent/prompts.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05574701, "data": "Applied patch ARC3-Inference/inference/agent/python_tool_sandbox.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05574773, "data": "Applied patch ARC3-Inference/inference/agent/runtime_state.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05574849, "data": "Applied patch ARC3-Inference/inference/agent/tool_agent.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05574938, "data": "Applied patch ARC3-Inference/inference/agent/vision_context.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05575014, "data": "Applied patch ARC3-Inference/inference/framework/run.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05575087, "data": "Applied patch ARC3-Inference/inference/framework/solver.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05575159, "data": "Applied patch ARC3-Inference/inference/utils/animation.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05575232, "data": "Applied patch ARC3-Inference/inference/utils/frame_diff.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05575306, "data": "Applied patch ARC3-Inference/inference/utils/openai_compat.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05575382, "data": "Applied patch ARC3-Inference/inference/utils/retained_functions.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.05575456, "data": "Applied patch ARC3-Inference/inference/utils/segmentation.py cleanly.\n"}
+,{"stream_name": "stdout", "time": 6.132290563, "data": "Precaching: Started...\n"}
+,{"stream_name": "stdout", "time": 64.291536677, "data": "Precaching: loaded 211 files (6.70 GB) in 58.19 seconds.\n"}
+,{"stream_name": "stdout", "time": 64.291558297, "data": "\n"}
+,{"stream_name": "stdout", "time": 66.217031306, "data": "taaf.kaggle: wrote /usr/local/lib/python3.12/dist-packages/taaf_kaggle_sources.pth (3 source roots)\n"}
+,{"stream_name": "stdout", "time": 66.417807506, "data": "=== installing Pennyroyal (offline) ===\n"}
+,{"stream_name": "stdout", "time": 66.473475991, "data": "$ /tmp/sgl-intel/bin/uv venv --python /usr/bin/python3 /tmp/sgl-intel/venv\n"}
+,{"stream_name": "stdout", "time": 66.670359391, "data": "$ /tmp/sgl-intel/bin/uv pip install --python /tmp/sgl-intel/venv/bin/python --no-index --find-links /kaggle/input/datasets/dfranzen/pennyroyal-v253/wheels -r /kaggle/input/datasets/dfranzen/pennyroyal-v253/requirements.lock\n"}
+,{"stream_name": "stdout", "time": 69.428205748, "data": "$ /tmp/sgl-intel/bin/uv pip install --python /tmp/sgl-intel/venv/bin/python --no-index --find-links /kaggle/input/datasets/dfranzen/pennyroyal-v253/wheels --reinstall --no-deps /kaggle/input/datasets/dfranzen/pennyroyal-v253/wheels/sglang-0.5.19+gd00d88efc8d6-cp312-cp312-linux_x86_64.whl\n"}
+,{"stream_name": "stdout", "time": 69.428222218, "data": "$ /tmp/sgl-intel/venv/lib/python3.12/site-packages/nvidia/cu13/bin/nvcc --version\n"}
+,{"stream_name": "stdout", "time": 69.428224038, "data": "nvcc: NVIDIA (R) Cuda compiler driver\n"}
+,{"stream_name": "stdout", "time": 69.428224958, "data": "Copyright (c) 2005-2025 NVIDIA Corporation\n"}
+,{"stream_name": "stdout", "time": 69.428225678, "data": "Built on Wed_Aug_20_01:58:59_PM_PDT_2025\n"}
+,{"stream_name": "stdout", "time": 69.428226368, "data": "Cuda compilation tools, release 13.0, V13.0.88\n"}
+,{"stream_name": "stdout", "time": 69.428227178, "data": "Build cuda_13.0.r13.0/compiler.36424714_0\n"}
+,{"stream_name": "stdout", "time": 69.428227878, "data": "Host compiler: g++-11\n"}
+,{"stream_name": "stdout", "time": 69.428228578, "data": "$ /tmp/sgl-intel/venv/bin/python -c 'import pathlib, sglang, torch\n"}
+,{"stream_name": "stdout", "time": 69.428229358, "data": "print(\"sglang\", sglang.__version__, \"| torch\", torch.__version__)\n"}
+,{"stream_name": "stdout", "time": 69.428230358, "data": "assert torch.cuda.is_available(), \"CUDA unavailable\"\n"}
+,{"stream_name": "stdout", "time": 69.428231228, "data": "print(\"GPU:\", torch.cuda.get_device_name(0), \"capability:\", torch.cuda.get_device_capability(0))\n"}
+,{"stream_name": "stdout", "time": 69.428232188, "data": "'\n"}
+,{"stream_name": "stdout", "time": 104.173027553, "data": "sglang 0.5.19+gd00d88efc8d6 | torch 2.13.0+cu130\n"}
+,{"stream_name": "stdout", "time": 104.173048413, "data": "GPU: NVIDIA RTX PRO 6000 Blackwell Server Edition capability: (12, 0)\n"}
+,{"stream_name": "stdout", "time": 104.531788328, "data": "Target: /kaggle/input/models/dfranzen/intel-qwen3.8-flash-next-w4a16-autoround/transformers/default/1 | shards: 38 | PLE dtype: checkpoint default (typically BF16)\n"}
+,{"stream_name": "stdout", "time": 104.531807248, "data": "Draft source: /kaggle/input/models/dfranzen/albucino-qwen3-8-flash-next-drafter/transformers/default/1\n"}
+,{"stream_name": "stdout", "time": 104.531809128, "data": "SGLang draft view: /tmp/sgl-intel/draft-view-746747f37bf36968 (2 linked weight shards)\n"}
+,{"stream_name": "stdout", "time": 104.531810468, "data": "\n"}
+,{"stream_name": "stdout", "time": 104.531812318, "data": "/tmp/sgl-intel/venv/bin/sglang serve --model-path /kaggle/input/models/dfranzen/intel-qwen3.8-flash-next-w4a16-autoround/transformers/default/1 --load-format safetensors --model-loader-extra-config '{\"enable_multithread_load\":false}' --served-model-name flashnext --host 127.0.0.1 --port 8001 --tensor-parallel-size 1 --dtype bfloat16 --quantization auto-round --kv-cache-dtype fp8_e4m3 --mem-fraction-static 0.96 --context-length 139264 --page-size 64 --max-running-requests 10 --chunked-prefill-size 8192 --max-prefill-tokens 16384 --cuda-graph-max-bs-decode 10 --cuda-graph-bs-decode 1 2 4 7 8 9 10 --mamba-ssm-dtype bfloat16 --max-mamba-cache-size 60 --mamba-radix-cache-strategy extra_buffer --mamba-track-interval 64 --mamba-backend flashinfer --linear-attn-decode-backend flashinfer --linear-attn-prefill-backend flashinfer --moe-runner-backend auto --ple-offload-embedding --trust-remote-code --mm-feature-transport cpu --image-processor-backend pil --reasoning-parser qwen3 --tool-call-parser qwen3_coder --default-chat-template-kwargs '{\"preserve_thinking\":true}' --watchdog-timeout 1800 --schedule-policy lpm --warmups structured_output --enable-cache-report --enable-metrics --enable-request-time-stats-logging --weight-loader-prefetch-checkpoints --weight-loader-drop-cache-after-load --chat-template /kaggle/input/models/dfranzen/intel-qwen3.8-flash-next-w4a16-autoround/transformers/default/1/chat_template.jinja --gdn-mtp-cache-mode none --speculative-algorithm NEXTN --speculative-num-steps 3 --speculative-eagle-topk 1 --speculative-num-draft-tokens 4 --speculative-draft-model-path /tmp/sgl-intel/draft-view-746747f37bf36968 --speculative-draft-model-quantization compressed-tensors --speculative-moe-runner-backend auto --speculative-draft-kv-cache-dtype fp8_e4m3 --speculative-accept-threshold-single 1.0 --speculative-accept-threshold-acc 1.0 --speculative-token-map /kaggle/input/datasets/dfranzen/pennyroyal-v253/hot_tokens_64k.pt\n"}
+,{"stream_name": "stdout", "time": 104.531824178, "data": "\n"}
+,{"stream_name": "stdout", "time": 104.531825128, "data": "pid 499 -> /kaggle/working/serve.log\n"}
+,{"stream_name": "stdout", "time": 104.532336828, "data": "  0s ...\n"}
+,{"stream_name": "stdout", "time": 134.544900822, "data": "  30s ...\n"}
+,{"stream_name": "stdout", "time": 164.539860129, "data": "Precaching: Started...\n"}
+,{"stream_name": "stdout", "time": 164.539881459, "data": "  60s ...\n"}
+,{"stream_name": "stdout", "time": 194.551621003, "data": "  90s ...\n"}
+,{"stream_name": "stdout", "time": 224.54662012, "data": "  120s ...\n"}
+,{"stream_name": "stdout", "time": 254.558520495, "data": "  150s ...\n"}
+,{"stream_name": "stdout", "time": 284.553377851, "data": "  180s ...\n"}
+,{"stream_name": "stdout", "time": 314.565305316, "data": "  210s ...\n"}
+,{"stream_name": "stdout", "time": 344.560105079, "data": "  240s ...\n"}
+,{"stream_name": "stdout", "time": 374.572373928, "data": "  270s ...\n"}
+,{"stream_name": "stdout", "time": 404.566918849, "data": "  300s ...\n"}
+,{"stream_name": "stdout", "time": 434.579097958, "data": "  330s ...\n"}
+,{"stream_name": "stdout", "time": 464.573794469, "data": "  360s ...\n"}
+,{"stream_name": "stdout", "time": 494.586040398, "data": "  390s ...\n"}
+,{"stream_name": "stdout", "time": 524.580732059, "data": "  420s ...\n"}
+,{"stream_name": "stdout", "time": 554.592855799, "data": "  450s ...\n"}
+,{"stream_name": "stdout", "time": 584.58771705, "data": "  480s ...\n"}
+,{"stream_name": "stdout", "time": 614.599997309, "data": "  510s ...\n"}
+,{"stream_name": "stdout", "time": 644.59460834, "data": "  540s ...\n"}
+,{"stream_name": "stdout", "time": 674.606826939, "data": "  570s ...\n"}
+,{"stream_name": "stdout", "time": 704.60136823, "data": "  600s ...\n"}
+,{"stream_name": "stdout", "time": 725.613436363, "data": "\n"}
+,{"stream_name": "stdout", "time": 725.613459653, "data": "DEADLINE at 720s from notebook start; releasing the benchmark with the server still loading\n"}
+,{"stream_name": "stdout", "time": 727.426648433, "data": "benchmark.solver: HarnessSolver(label='duck-harness', runtime_environment=None, job_dir=None, soft_end_time=None, minimal_diagnostics=False, model='local', analyzer_timeout=900.0, max_actions_per_game=None, max_runtime_s_per_game=7254, max_generated_tokens_per_game=None, concurrency=25, save_request_logs=True, start_local_server=False, local_server_config='', local_server_api_key_file='', local_server_repo_dir='/Users/jeroencottaar/code/ARC3-Inference', local_server_port=None, local_server_tensor_parallel_size=None, local_server_count=1, cancel_drain_timeout_s=120.0)\n"}
+,{"stream_name": "stdout", "time": 727.4580412400001, "data": "Writing /kaggle/working/graph_explorer.py\n"}
+,{"stream_name": "stdout", "time": 727.486378007, "data": "Writing /kaggle/working/hybrid_analyzer.py\n"}
+,{"stream_name": "stdout", "time": 727.513736784, "data": "[explorer] analyzer_factory = HybridAnalyzer(h8=list)\n"}
+,{"stream_name": "stdout", "time": 727.580965508, "data": "[sys] RAM 103.3/176.9 | swap none | proc 0.4 GB, 64 threads, 68 fds | GPU0 69.9/95.6 | disk / 7123.5/8156.9, /kaggle/working 0.0/19.5\n"}
+,{"stream_name": "stdout", "time": 727.581240397, "data": "[sys] RAM 103.3/176.9 | swap none | proc 0.4 GB, 64 threads, 67 fds | GPU0 69.9/95.6 | disk / 7123.5/8156.9, /kaggle/working 0.0/19.5\n"}
+,{"stream_name": "stdout", "time": 727.627171923, "data": "Starting benchmark...\n"}
+,{"stream_name": "stderr", "time": 745.587578429, "data": "priority gate active: 10 concurrent streams\n"}
+,{"stream_name": "stderr", "time": 745.587599439, "data": "\n"}
+,{"stream_name": "stderr", "time": 745.587601399, "data": "priority gate active: 10 concurrent streams\n"}
+,{"stream_name": "stderr", "time": 745.598257278, "data": "tu93-0768757b: warmup RESET issued before the analyzer is reachable\n"}
+,{"stream_name": "stderr", "time": 745.598259598, "data": "\n"}
+,{"stream_name": "stderr", "time": 745.598261148, "data": "tu93-0768757b: warmup RESET issued before the analyzer is reachable\n"}
+,{"stream_name": "stderr", "time": 745.708372927, "data": "first analyzer request failed (ConnectionError); retrying for up to 900s while the endpoint comes up, then falling back to 3 retries per request\n"}
+,{"stream_name": "stderr", "time": 745.708375817, "data": "\n"}
+,{"stream_name": "stderr", "time": 745.708376997, "data": "first analyzer request failed (ConnectionError); retrying for up to 900s while the endpoint comes up, then falling back to 3 retries per request\n"}
+,{"stream_name": "stderr", "time": 745.708606337, "data": "first analyzer request failed (ConnectionError); retrying for up to 900s while the endpoint comes up, then falling back to 3 retries per request\n"}
+,{"stream_name": "stderr", "time": 745.708608217, "data": "\n"}
+,{"stream_name": "stderr", "time": 745.708609747, "data": "first analyzer request failed (ConnectionError); retrying for up to 900s while the endpoint comes up, then falling back to 3 retries per request\n"}
+,{"stream_name": "stderr", "time": 745.708839487, "data": "first analyzer request failed (ConnectionError); retrying for up to 900s while the endpoint comes up, then falling back to 3 retries per request\n"}
+,{"stream_name": "stderr", "time": 745.708840947, "data": "\n"}
+,{"stream_name": "stderr", "time": 745.708841947, "data": "first analyzer request failed (ConnectionError); retrying for up to 900s while the endpoint comes up, then falling back to 3 retries per request\n"}
+,{"stream_name": "stdout", "time": 847.612032666, "data": "[sys] RAM 103.3/176.9 | swap none | proc 0.4 GB, 67 threads, 70 fds | GPU0 69.9/95.6 | disk / 7123.5/8156.9, /kaggle/working 0.0/19.5\n"}
+,{"stream_name": "stdout", "time": 967.651379894, "data": "[sys] RAM 103.3/176.9 | swap none | proc 0.4 GB, 67 threads, 71 fds | GPU0 69.9/95.6 | disk / 7123.5/8156.9, /kaggle/working 0.0/19.5\n"}
+,{"stream_name": "stdout", "time": 1087.668291534, "data": "[sys] RAM 103.3/176.9 | swap none | proc 0.4 GB, 67 threads, 71 fds | GPU0 69.9/95.6 | disk / 7123.5/8156.9, /kaggle/working 0.0/19.5\n"}
+,{"stream_name": "stdout", "time": 1207.680895984, "data": "[sys] RAM 103.3/176.9 | swap none | proc 0.4 GB, 67 threads, 71 fds | GPU0 69.9/95.6 | disk / 7123.5/8156.9, /kaggle/working 0.0/19.5\n"}
+,{"stream_name": "stdout", "time": 1327.698067004, "data": "[sys] RAM 103.3/176.9 | swap none | proc 0.4 GB, 67 threads, 71 fds | GPU0 69.9/95.6 | disk / 7123.5/8156.9, /kaggle/working 0.0/19.5\n"}
+,{"stream_name": "stdout", "time": 1346.317871645, "data": "benchmark: regenerated diagnostics in /kaggle/working in 0.54s\n"}
+,{"stream_name": "stdout", "time": 1346.317889105, "data": "benchmark: duck-harness-kaggle-k-plays\n"}
+,{"stream_name": "stdout", "time": 1346.317891095, "data": "solver:    duck-harness\n"}
+,{"stream_name": "stdout", "time": 1346.317892455, "data": "games:     3\n"}
+,{"stream_name": "stdout", "time": 1346.317893355, "data": "passes:    1\n"}
+,{"stream_name": "stdout", "time": 1346.317894335, "data": "runs:      3 (won: 0)\n"}
+,{"stream_name": "stdout", "time": 1346.317970265, "data": "started:   2026-11-01 19:40:15\n"}
+,{"stream_name": "stdout", "time": 1346.317971305, "data": "ended:     in progress\n"}
+,{"stream_name": "stdout", "time": 1346.317972095, "data": "mean score:    0.00\n"}
+,{"stream_name": "stdout", "time": 1346.317972875, "data": "median score:  0.00\n"}
+,{"stream_name": "stdout", "time": 1346.317973575, "data": "total actions: 1\n"}
+,{"stream_name": "stdout", "time": 1346.317974365, "data": "total tokens:  0\n"}
+,{"stream_name": "stdout", "time": 1346.317975155, "data": "generated tokens/sec: 0.00 (job wallclock)\n"}
+,{"stream_name": "stdout", "time": 1346.317975985, "data": "total wallclock: 0.2s\n"}
+,{"stream_name": "stdout", "time": 1346.317976795, "data": "\n"}
+,{"stream_name": "stdout", "time": 1346.317977675, "data": "per-game (mean across passes):\n"}
+,{"stream_name": "stdout", "time": 1346.317978505, "data": "  ls20-9607627b: score=0.00, levels=0.0/7, actions=0, tokens=0\n"}
+,{"stream_name": "stdout", "time": 1346.317979275, "data": "  tu93-0768757b: score=0.00, levels=0.0/9, actions=1, tokens=0\n"}
+,{"stream_name": "stdout", "time": 1346.317980015, "data": "  vc33-5430563c: score=0.00, levels=0.0/7, actions=0, tokens=0\n"}
+,{"stream_name": "stdout", "time": 1346.317980745, "data": "\n"}
+,{"stream_name": "stdout", "time": 1447.712832824, "data": "[sys] RAM 103.3/176.9 | swap none | proc 0.4 GB, 67 threads, 72 fds | GPU0 69.9/95.6 | disk / 7123.5/8156.9, /kaggle/working 0.0/19.5\n"}
+,{"stream_name": "stdout", "time": 1567.734270684, "data": "[sys] RAM 103.3/176.9 | swap none | proc 0.4 GB, 67 threads, 72 fds | GPU0 69.9/95.6 | disk / 7123.5/8156.9, /kaggle/working 0.0/19.5\n"}
+,{"stream_name": "stdout", "time": 1629.601554849, "data": "Precaching: loaded 62 files (185.40 GB) in 1464.86 seconds.\n"}
+,{"stream_name": "stdout", "time": 1629.601578139, "data": "\n"}
+,{"stream_name": "stderr", "time": 1648.494125043, "data": "analyzer request failed at action 2: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5d4ce90>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1648.494145213, "data": "\n"}
+,{"stream_name": "stderr", "time": 1648.494147243, "data": "analyzer request failed at action 2: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5d4ce90>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1648.531718999, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.6s\n"}
+,{"stream_name": "stderr", "time": 1648.531723439, "data": "\n"}
+,{"stream_name": "stderr", "time": 1648.531724489, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.6s\n"}
+,{"stream_name": "stderr", "time": 1648.884916284, "data": "analyzer request failed at action 1: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5d4f7d0>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1648.884935154, "data": "\n"}
+,{"stream_name": "stderr", "time": 1648.884937354, "data": "analyzer request failed at action 1: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5d4f7d0>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1648.914690271, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 6.0s\n"}
+,{"stream_name": "stderr", "time": 1648.914706021, "data": "\n"}
+,{"stream_name": "stderr", "time": 1648.914707481, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 6.0s\n"}
+,{"stream_name": "stderr", "time": 1649.638445479, "data": "analyzer request failed at action 1: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5d4ee40>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1649.638461949, "data": "\n"}
+,{"stream_name": "stderr", "time": 1649.638463259, "data": "analyzer request failed at action 1: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5d4ee40>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1649.661227297, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.9s\n"}
+,{"stream_name": "stderr", "time": 1649.661232047, "data": "\n"}
+,{"stream_name": "stderr", "time": 1649.661232887, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.9s\n"}
+,{"stream_name": "stderr", "time": 1654.138306172, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.3s\n"}
+,{"stream_name": "stderr", "time": 1654.138339432, "data": "\n"}
+,{"stream_name": "stderr", "time": 1654.138340982, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.3s\n"}
+,{"stream_name": "stderr", "time": 1654.879393929, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.5s\n"}
+,{"stream_name": "stderr", "time": 1654.879407659, "data": "\n"}
+,{"stream_name": "stderr", "time": 1654.879409359, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.5s\n"}
+,{"stream_name": "stderr", "time": 1655.565081271, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.6s\n"}
+,{"stream_name": "stderr", "time": 1655.565102861, "data": "\n"}
+,{"stream_name": "stderr", "time": 1655.565104521, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.6s\n"}
+,{"stream_name": "stderr", "time": 1659.406597359, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.7s\n"}
+,{"stream_name": "stderr", "time": 1659.406623419, "data": "\n"}
+,{"stream_name": "stderr", "time": 1659.406624929, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.7s\n"}
+,{"stream_name": "stderr", "time": 1660.430914387, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.1s\n"}
+,{"stream_name": "stderr", "time": 1660.430932867, "data": "\n"}
+,{"stream_name": "stderr", "time": 1660.430934667, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.1s\n"}
+,{"stream_name": "stderr", "time": 1661.186724972, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.9s\n"}
+,{"stream_name": "stderr", "time": 1661.186752162, "data": "\n"}
+,{"stream_name": "stderr", "time": 1661.186754092, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.9s\n"}
+,{"stream_name": "stderr", "time": 1665.159836008, "data": "analyzer request failed at action 3: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5d4fc20>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1665.159851188, "data": "\n"}
+,{"stream_name": "stderr", "time": 1665.159853048, "data": "analyzer request failed at action 3: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5d4fc20>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1665.186292665, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.8s\n"}
+,{"stream_name": "stderr", "time": 1665.186317875, "data": "\n"}
+,{"stream_name": "stderr", "time": 1665.186319125, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.8s\n"}
+,{"stream_name": "stderr", "time": 1665.508984893, "data": "analyzer request failed at action 2: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5c96210>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1665.508995283, "data": "\n"}
+,{"stream_name": "stderr", "time": 1665.508997383, "data": "analyzer request failed at action 2: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5c96210>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1665.5387035, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.1s\n"}
+,{"stream_name": "stderr", "time": 1665.5387082, "data": "\n"}
+,{"stream_name": "stderr", "time": 1665.53870939, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.1s\n"}
+,{"stream_name": "stderr", "time": 1667.097101625, "data": "analyzer request failed at action 2: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5cae750>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1667.097115405, "data": "\n"}
+,{"stream_name": "stderr", "time": 1667.097116855, "data": "analyzer request failed at action 2: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5cae750>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1667.119482903, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.2s\n"}
+,{"stream_name": "stderr", "time": 1667.119486233, "data": "\n"}
+,{"stream_name": "stderr", "time": 1667.119487073, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.2s\n"}
+,{"stream_name": "stderr", "time": 1670.662550781, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.4s\n"}
+,{"stream_name": "stderr", "time": 1670.662562231, "data": "\n"}
+,{"stream_name": "stderr", "time": 1670.662563871, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.4s\n"}
+,{"stream_name": "stderr", "time": 1671.034666544, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.7s\n"}
+,{"stream_name": "stderr", "time": 1671.034682794, "data": "\n"}
+,{"stream_name": "stderr", "time": 1671.034684124, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.7s\n"}
+,{"stream_name": "stderr", "time": 1672.272131741, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.2s\n"}
+,{"stream_name": "stderr", "time": 1672.272145061, "data": "\n"}
+,{"stream_name": "stderr", "time": 1672.272146641, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.2s\n"}
+,{"stream_name": "stderr", "time": 1676.091704052, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.7s\n"}
+,{"stream_name": "stderr", "time": 1676.091724682, "data": "\n"}
+,{"stream_name": "stderr", "time": 1676.091726622, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.7s\n"}
+,{"stream_name": "stderr", "time": 1676.71377549, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.7s\n"}
+,{"stream_name": "stderr", "time": 1676.71378377, "data": "\n"}
+,{"stream_name": "stderr", "time": 1676.71378483, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.7s\n"}
+,{"stream_name": "stderr", "time": 1677.450856477, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 6.0s\n"}
+,{"stream_name": "stderr", "time": 1677.450882247, "data": "\n"}
+,{"stream_name": "stderr", "time": 1677.450883797, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 6.0s\n"}
+,{"stream_name": "stderr", "time": 1681.777259337, "data": "analyzer request failed at action 3: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5c7ef30>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1681.777278087, "data": "\n"}
+,{"stream_name": "stderr", "time": 1681.777279737, "data": "analyzer request failed at action 3: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5c7ef30>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1681.804223515, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.1s\n"}
+,{"stream_name": "stderr", "time": 1681.804229525, "data": "\n"}
+,{"stream_name": "stderr", "time": 1681.804230475, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.1s\n"}
+,{"stream_name": "stderr", "time": 1682.461838579, "data": "analyzer request failed at action 4: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5c7faa0>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1682.461846989, "data": "\n"}
+,{"stream_name": "stderr", "time": 1682.461848479, "data": "analyzer request failed at action 4: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5c7faa0>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1682.487988507, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.2s\n"}
+,{"stream_name": "stderr", "time": 1682.487991947, "data": "\n"}
+,{"stream_name": "stderr", "time": 1682.487992787, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.2s\n"}
+,{"stream_name": "stderr", "time": 1683.415000945, "data": "analyzer request failed at action 3: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5c7dc40>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1683.415014265, "data": "\n"}
+,{"stream_name": "stderr", "time": 1683.415015815, "data": "analyzer request failed at action 3: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5c7dc40>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1683.443841342, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.7s\n"}
+,{"stream_name": "stderr", "time": 1683.443850352, "data": "\n"}
+,{"stream_name": "stderr", "time": 1683.443853052, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.7s\n"}
+,{"stream_name": "stderr", "time": 1686.923199566, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.8s\n"}
+,{"stream_name": "stderr", "time": 1686.923217006, "data": "\n"}
+,{"stream_name": "stderr", "time": 1686.923218496, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.8s\n"}
+,{"stream_name": "stderr", "time": 1687.732805346, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.8s\n"}
+,{"stream_name": "stderr", "time": 1687.732814056, "data": "\n"}
+,{"stream_name": "stderr", "time": 1687.732815256, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.8s\n"}
+,{"stream_name": "stdout", "time": 1687.741901085, "data": "[sys] RAM 105.4/176.9 | swap none | proc 0.3 GB, 63 threads, 68 fds | GPU0 89.8/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.0/19.5\n"}
+,{"stream_name": "stderr", "time": 1689.151659835, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.4s\n"}
+,{"stream_name": "stderr", "time": 1689.151682435, "data": "\n"}
+,{"stream_name": "stderr", "time": 1689.151684515, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.4s\n"}
+,{"stream_name": "stderr", "time": 1692.754217237, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.2s\n"}
+,{"stream_name": "stderr", "time": 1692.754231857, "data": "\n"}
+,{"stream_name": "stderr", "time": 1692.754233627, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.2s\n"}
+,{"stream_name": "stderr", "time": 1693.563577467, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.8s\n"}
+,{"stream_name": "stderr", "time": 1693.563589937, "data": "\n"}
+,{"stream_name": "stderr", "time": 1693.563591887, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.8s\n"}
+,{"stream_name": "stderr", "time": 1694.506242623, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.3s\n"}
+,{"stream_name": "stderr", "time": 1694.506252873, "data": "\n"}
+,{"stream_name": "stderr", "time": 1694.506254793, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.3s\n"}
+,{"stream_name": "stderr", "time": 1697.917707644, "data": "analyzer request failed at action 4: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5cc5370>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1697.917716654, "data": "\n"}
+,{"stream_name": "stderr", "time": 1697.917718484, "data": "analyzer request failed at action 4: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5cc5370>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1697.951304871, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.7s\n"}
+,{"stream_name": "stderr", "time": 1697.951314581, "data": "\n"}
+,{"stream_name": "stderr", "time": 1697.951316451, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.7s\n"}
+,{"stream_name": "stderr", "time": 1699.410500866, "data": "analyzer request failed at action 5: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5cc6db0>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1699.410522136, "data": "\n"}
+,{"stream_name": "stderr", "time": 1699.410523596, "data": "analyzer request failed at action 5: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5cc6db0>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1699.440877183, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 6.0s\n"}
+,{"stream_name": "stderr", "time": 1699.440883773, "data": "\n"}
+,{"stream_name": "stderr", "time": 1699.440885163, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 6.0s\n"}
+,{"stream_name": "stderr", "time": 1699.76833939, "data": "analyzer request failed at action 4: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5c49550>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1699.7683451, "data": "\n"}
+,{"stream_name": "stderr", "time": 1699.76834644, "data": "analyzer request failed at action 4: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5c49550>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1699.797033307, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.5s\n"}
+,{"stream_name": "stderr", "time": 1699.797037607, "data": "\n"}
+,{"stream_name": "stderr", "time": 1699.797038887, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.5s\n"}
+,{"stream_name": "stderr", "time": 1703.645138585, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.6s\n"}
+,{"stream_name": "stderr", "time": 1703.645152875, "data": "\n"}
+,{"stream_name": "stderr", "time": 1703.645154945, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.6s\n"}
+,{"stream_name": "stderr", "time": 1705.302192971, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.5s\n"}
+,{"stream_name": "stderr", "time": 1705.302213841, "data": "\n"}
+,{"stream_name": "stderr", "time": 1705.302215571, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.5s\n"}
+,{"stream_name": "stderr", "time": 1705.4111565, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.6s\n"}
+,{"stream_name": "stderr", "time": 1705.41117307, "data": "\n"}
+,{"stream_name": "stderr", "time": 1705.41117442, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.6s\n"}
+,{"stream_name": "stderr", "time": 1709.278604836, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.8s\n"}
+,{"stream_name": "stderr", "time": 1709.278632146, "data": "\n"}
+,{"stream_name": "stderr", "time": 1709.278634106, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.8s\n"}
+,{"stream_name": "stderr", "time": 1710.84748486, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.7s\n"}
+,{"stream_name": "stderr", "time": 1710.84749741, "data": "\n"}
+,{"stream_name": "stderr", "time": 1710.84749884, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.7s\n"}
+,{"stream_name": "stderr", "time": 1711.058247229, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.3s\n"}
+,{"stream_name": "stderr", "time": 1711.058254049, "data": "\n"}
+,{"stream_name": "stderr", "time": 1711.058266119, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.3s\n"}
+,{"stream_name": "stderr", "time": 1715.123400915, "data": "analyzer request failed at action 5: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5c66960>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1715.123416245, "data": "\n"}
+,{"stream_name": "stderr", "time": 1715.123418025, "data": "analyzer request failed at action 5: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5c66960>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1715.151628863, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.5s\n"}
+,{"stream_name": "stderr", "time": 1715.151633013, "data": "\n"}
+,{"stream_name": "stderr", "time": 1715.151633853, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.5s\n"}
+,{"stream_name": "stderr", "time": 1716.336912225, "data": "analyzer request failed at action 6: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5c67a70>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1716.336922225, "data": "\n"}
+,{"stream_name": "stderr", "time": 1716.336923345, "data": "analyzer request failed at action 6: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5c67a70>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1716.364209952, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.3s\n"}
+,{"stream_name": "stderr", "time": 1716.364216452, "data": "\n"}
+,{"stream_name": "stderr", "time": 1716.364217372, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.3s\n"}
+,{"stream_name": "stderr", "time": 1716.548114594, "data": "analyzer request failed at action 5: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5c4aa20>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1716.548119414, "data": "\n"}
+,{"stream_name": "stderr", "time": 1716.548120414, "data": "analyzer request failed at action 5: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5c4aa20>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1716.578359801, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.8s\n"}
+,{"stream_name": "stderr", "time": 1716.578363031, "data": "\n"}
+,{"stream_name": "stderr", "time": 1716.578363851, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.8s\n"}
+,{"stream_name": "stderr", "time": 1720.654549476, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.5s\n"}
+,{"stream_name": "stderr", "time": 1720.654567416, "data": "\n"}
+,{"stream_name": "stderr", "time": 1720.654569066, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.5s\n"}
+,{"stream_name": "stderr", "time": 1721.689051463, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.3s\n"}
+,{"stream_name": "stderr", "time": 1721.689072333, "data": "\n"}
+,{"stream_name": "stderr", "time": 1721.689073883, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.3s\n"}
+,{"stream_name": "stderr", "time": 1722.404417812, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.8s\n"}
+,{"stream_name": "stderr", "time": 1722.404428032, "data": "\n"}
+,{"stream_name": "stderr", "time": 1722.404429432, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.8s\n"}
+,{"stream_name": "stderr", "time": 1726.142036981, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.8s\n"}
+,{"stream_name": "stderr", "time": 1726.142048271, "data": "\n"}
+,{"stream_name": "stderr", "time": 1726.142049971, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.8s\n"}
+,{"stream_name": "stderr", "time": 1727.001237226, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.4s\n"}
+,{"stream_name": "stderr", "time": 1727.001247276, "data": "\n"}
+,{"stream_name": "stderr", "time": 1727.001248866, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.4s\n"}
+,{"stream_name": "stderr", "time": 1728.171481349, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.4s\n"}
+,{"stream_name": "stderr", "time": 1728.171491959, "data": "\n"}
+,{"stream_name": "stderr", "time": 1728.171493049, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.4s\n"}
+,{"stream_name": "stderr", "time": 1731.920538947, "data": "analyzer request failed at action 6: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5c31040>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1731.920552577, "data": "\n"}
+,{"stream_name": "stderr", "time": 1731.920554347, "data": "analyzer request failed at action 6: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5c31040>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1731.951295534, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.3s\n"}
+,{"stream_name": "stderr", "time": 1731.951301654, "data": "\n"}
+,{"stream_name": "stderr", "time": 1731.951302584, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.3s\n"}
+,{"stream_name": "stderr", "time": 1732.368286673, "data": "analyzer request failed at action 7: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bbc197a40>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1732.368297743, "data": "\n"}
+,{"stream_name": "stderr", "time": 1732.368299433, "data": "analyzer request failed at action 7: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bbc197a40>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1732.401780579, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.6s\n"}
+,{"stream_name": "stderr", "time": 1732.401786109, "data": "\n"}
+,{"stream_name": "stderr", "time": 1732.401787059, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.6s\n"}
+,{"stream_name": "stderr", "time": 1733.616454949, "data": "analyzer request failed at action 6: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bbc197920>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1733.616471649, "data": "\n"}
+,{"stream_name": "stderr", "time": 1733.616473649, "data": "analyzer request failed at action 6: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bbc197920>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1733.648990685, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.4s\n"}
+,{"stream_name": "stderr", "time": 1733.648993915, "data": "\n"}
+,{"stream_name": "stderr", "time": 1733.648994755, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.4s\n"}
+,{"stream_name": "stderr", "time": 1737.23228598, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.7s\n"}
+,{"stream_name": "stderr", "time": 1737.23230352, "data": "\n"}
+,{"stream_name": "stderr", "time": 1737.23230517, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.7s\n"}
+,{"stream_name": "stderr", "time": 1738.039293839, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.8s\n"}
+,{"stream_name": "stderr", "time": 1738.039301109, "data": "\n"}
+,{"stream_name": "stderr", "time": 1738.039302319, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.8s\n"}
+,{"stream_name": "stderr", "time": 1739.078167636, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 6.0s\n"}
+,{"stream_name": "stderr", "time": 1739.078174666, "data": "\n"}
+,{"stream_name": "stderr", "time": 1739.078175596, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 6.0s\n"}
+,{"stream_name": "stderr", "time": 1742.932227243, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.3s\n"}
+,{"stream_name": "stderr", "time": 1742.932242053, "data": "\n"}
+,{"stream_name": "stderr", "time": 1742.932244053, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.3s\n"}
+,{"stream_name": "stderr", "time": 1743.792472578, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.8s\n"}
+,{"stream_name": "stderr", "time": 1743.792486648, "data": "\n"}
+,{"stream_name": "stderr", "time": 1743.792488718, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.8s\n"}
+,{"stream_name": "stderr", "time": 1745.030471185, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.1s\n"}
+,{"stream_name": "stderr", "time": 1745.030482555, "data": "\n"}
+,{"stream_name": "stderr", "time": 1745.030484385, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.1s\n"}
+,{"stream_name": "stderr", "time": 1748.209940609, "data": "analyzer request failed at action 7: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5e23380>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1748.209953299, "data": "\n"}
+,{"stream_name": "stderr", "time": 1748.209955149, "data": "analyzer request failed at action 7: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5e23380>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1748.247653425, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.5s\n"}
+,{"stream_name": "stderr", "time": 1748.247664915, "data": "\n"}
+,{"stream_name": "stderr", "time": 1748.247666115, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.5s\n"}
+,{"stream_name": "stderr", "time": 1749.622185039, "data": "analyzer request failed at action 8: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5e23ec0>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1749.622198339, "data": "\n"}
+,{"stream_name": "stderr", "time": 1749.622199999, "data": "analyzer request failed at action 8: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5e23ec0>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1749.658791635, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.6s\n"}
+,{"stream_name": "stderr", "time": 1749.658794745, "data": "\n"}
+,{"stream_name": "stderr", "time": 1749.658795595, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.6s\n"}
+,{"stream_name": "stderr", "time": 1750.142826047, "data": "analyzer request failed at action 7: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5d07bf0>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1750.142834827, "data": "\n"}
+,{"stream_name": "stderr", "time": 1750.142836187, "data": "analyzer request failed at action 7: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5d07bf0>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1750.175554264, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.6s\n"}
+,{"stream_name": "stderr", "time": 1750.175557804, "data": "\n"}
+,{"stream_name": "stderr", "time": 1750.175558634, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.6s\n"}
+,{"stream_name": "stderr", "time": 1753.758614918, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.8s\n"}
+,{"stream_name": "stderr", "time": 1753.758642108, "data": "\n"}
+,{"stream_name": "stderr", "time": 1753.758643848, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.8s\n"}
+,{"stream_name": "stderr", "time": 1755.275200427, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.5s\n"}
+,{"stream_name": "stderr", "time": 1755.275215667, "data": "\n"}
+,{"stream_name": "stderr", "time": 1755.275216787, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.5s\n"}
+,{"stream_name": "stderr", "time": 1755.745725111, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.4s\n"}
+,{"stream_name": "stderr", "time": 1755.745741201, "data": "\n"}
+,{"stream_name": "stderr", "time": 1755.745742791, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.4s\n"}
+,{"stream_name": "stderr", "time": 1759.594403528, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.4s\n"}
+,{"stream_name": "stderr", "time": 1759.594420718, "data": "\n"}
+,{"stream_name": "stderr", "time": 1759.594422208, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.4s\n"}
+,{"stream_name": "stderr", "time": 1760.78572083, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.9s\n"}
+,{"stream_name": "stderr", "time": 1760.7857447, "data": "\n"}
+,{"stream_name": "stderr", "time": 1760.78574647, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.9s\n"}
+,{"stream_name": "stderr", "time": 1761.113286428, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.2s\n"}
+,{"stream_name": "stderr", "time": 1761.113293138, "data": "\n"}
+,{"stream_name": "stderr", "time": 1761.113294378, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.2s\n"}
+,{"stream_name": "stderr", "time": 1764.965768815, "data": "analyzer request failed at action 8: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5f9f320>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1764.965786585, "data": "\n"}
+,{"stream_name": "stderr", "time": 1764.965788135, "data": "analyzer request failed at action 8: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5f9f320>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1765.000810471, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.7s\n"}
+,{"stream_name": "stderr", "time": 1765.000825771, "data": "\n"}
+,{"stream_name": "stderr", "time": 1765.000827411, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.7s\n"}
+,{"stream_name": "stderr", "time": 1766.32484989, "data": "analyzer request failed at action 8: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5fe8e00>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1766.32486713, "data": "\n"}
+,{"stream_name": "stderr", "time": 1766.32486888, "data": "analyzer request failed at action 8: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5fe8e00>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1766.350067957, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 6.0s\n"}
+,{"stream_name": "stderr", "time": 1766.350071247, "data": "\n"}
+,{"stream_name": "stderr", "time": 1766.350072107, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 6.0s\n"}
+,{"stream_name": "stderr", "time": 1766.707663802, "data": "analyzer request failed at action 9: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5de1a30>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1766.707669132, "data": "\n"}
+,{"stream_name": "stderr", "time": 1766.707680132, "data": "analyzer request failed at action 9: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5de1a30>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1766.743938698, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.9s\n"}
+,{"stream_name": "stderr", "time": 1766.743947148, "data": "\n"}
+,{"stream_name": "stderr", "time": 1766.743948548, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.9s\n"}
+,{"stream_name": "stderr", "time": 1770.749417451, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.1s\n"}
+,{"stream_name": "stderr", "time": 1770.749434681, "data": "\n"}
+,{"stream_name": "stderr", "time": 1770.749436491, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.1s\n"}
+,{"stream_name": "stderr", "time": 1772.310365666, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.1s\n"}
+,{"stream_name": "stderr", "time": 1772.310385286, "data": "\n"}
+,{"stream_name": "stderr", "time": 1772.310387046, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.1s\n"}
+,{"stream_name": "stderr", "time": 1772.614950045, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.3s\n"}
+,{"stream_name": "stderr", "time": 1772.614967495, "data": "\n"}
+,{"stream_name": "stderr", "time": 1772.614969185, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.3s\n"}
+,{"stream_name": "stderr", "time": 1775.820278787, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.3s\n"}
+,{"stream_name": "stderr", "time": 1775.820297177, "data": "\n"}
+,{"stream_name": "stderr", "time": 1775.820298847, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.3s\n"}
+,{"stream_name": "stderr", "time": 1777.374830532, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.7s\n"}
+,{"stream_name": "stderr", "time": 1777.374846082, "data": "\n"}
+,{"stream_name": "stderr", "time": 1777.374847852, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.7s\n"}
+,{"stream_name": "stderr", "time": 1777.875239413, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.3s\n"}
+,{"stream_name": "stderr", "time": 1777.875256783, "data": "\n"}
+,{"stream_name": "stderr", "time": 1777.875258363, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.3s\n"}
+,{"stream_name": "stderr", "time": 1781.094192893, "data": "analyzer request failed at action 9: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5dccfe0>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1781.094206023, "data": "\n"}
+,{"stream_name": "stderr", "time": 1781.094207703, "data": "analyzer request failed at action 9: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5dccfe0>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1781.134885799, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.7s\n"}
+,{"stream_name": "stderr", "time": 1781.134889499, "data": "\n"}
+,{"stream_name": "stderr", "time": 1781.134890519, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.7s\n"}
+,{"stream_name": "stderr", "time": 1783.111117043, "data": "analyzer request failed at action 9: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5dcc2f0>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1783.111134493, "data": "\n"}
+,{"stream_name": "stderr", "time": 1783.111136503, "data": "analyzer request failed at action 9: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5dcc2f0>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1783.145659069, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.2s\n"}
+,{"stream_name": "stderr", "time": 1783.145667089, "data": "\n"}
+,{"stream_name": "stderr", "time": 1783.145668749, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.2s\n"}
+,{"stream_name": "stderr", "time": 1783.217053642, "data": "analyzer request failed at action 10: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5dfa990>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1783.217060902, "data": "\n"}
+,{"stream_name": "stderr", "time": 1783.217062242, "data": "analyzer request failed at action 10: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5dfa990>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1783.252027379, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.7s\n"}
+,{"stream_name": "stderr", "time": 1783.252031719, "data": "\n"}
+,{"stream_name": "stderr", "time": 1783.252032959, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.7s\n"}
+,{"stream_name": "stderr", "time": 1786.791565847, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.3s\n"}
+,{"stream_name": "stderr", "time": 1786.791585667, "data": "\n"}
+,{"stream_name": "stderr", "time": 1786.791587277, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.3s\n"}
+,{"stream_name": "stderr", "time": 1788.383112419, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.2s\n"}
+,{"stream_name": "stderr", "time": 1788.383142419, "data": "\n"}
+,{"stream_name": "stderr", "time": 1788.383144709, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.2s\n"}
+,{"stream_name": "stderr", "time": 1788.924769315, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.1s\n"}
+,{"stream_name": "stderr", "time": 1788.924795895, "data": "\n"}
+,{"stream_name": "stderr", "time": 1788.924797445, "data": "analyzer endpoint unreachable (ConnectionError); retry 2/3 in 5.1s\n"}
+,{"stream_name": "stderr", "time": 1792.10543353, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.3s\n"}
+,{"stream_name": "stderr", "time": 1792.10544969, "data": "\n"}
+,{"stream_name": "stderr", "time": 1792.10545135, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.3s\n"}
+,{"stream_name": "stderr", "time": 1793.598337691, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.0s\n"}
+,{"stream_name": "stderr", "time": 1793.598361301, "data": "\n"}
+,{"stream_name": "stderr", "time": 1793.598362881, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.0s\n"}
+,{"stream_name": "stderr", "time": 1794.031555298, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.5s\n"}
+,{"stream_name": "stderr", "time": 1794.031567928, "data": "\n"}
+,{"stream_name": "stderr", "time": 1794.031569638, "data": "analyzer endpoint unreachable (ConnectionError); retry 3/3 in 5.5s\n"}
+,{"stream_name": "stderr", "time": 1797.431152591, "data": "analyzer request failed at action 10: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5d9abd0>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1797.431172451, "data": "\n"}
+,{"stream_name": "stderr", "time": 1797.431174191, "data": "analyzer request failed at action 10: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5d9abd0>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1797.468009597, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.0s\n"}
+,{"stream_name": "stderr", "time": 1797.468026577, "data": "\n"}
+,{"stream_name": "stderr", "time": 1797.468028297, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.0s\n"}
+,{"stream_name": "stderr", "time": 1798.611237533, "data": "analyzer request failed at action 10: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5db33b0>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1798.611249223, "data": "\n"}
+,{"stream_name": "stderr", "time": 1798.611250863, "data": "analyzer request failed at action 10: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5db33b0>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1798.64739115, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.8s\n"}
+,{"stream_name": "stderr", "time": 1798.64739692, "data": "\n"}
+,{"stream_name": "stderr", "time": 1798.64739798, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.8s\n"}
+,{"stream_name": "stderr", "time": 1799.575220718, "data": "analyzer request failed at action 11: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5db1130>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1799.575232178, "data": "\n"}
+,{"stream_name": "stderr", "time": 1799.575233688, "data": "analyzer request failed at action 11: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e8bb5db1130>: Failed to establish a new connection: [Errno 111] Connection refused'))\n"}
+,{"stream_name": "stderr", "time": 1799.618139163, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.3s\n"}
+,{"stream_name": "stderr", "time": 1799.618142643, "data": "\n"}
+,{"stream_name": "stderr", "time": 1799.618143503, "data": "analyzer endpoint unreachable (ConnectionError); retry 1/3 in 5.3s\n"}
+,{"stream_name": "stdout", "time": 1807.754714175, "data": "[sys] RAM 106.1/176.9 | swap none | proc 0.3 GB, 63 threads, 71 fds | GPU0 93.1/95.6 | disk / 7123.5/8156.9, /kaggle/working 0.0/19.5\n"}
+,{"stream_name": "stdout", "time": 1927.781384437, "data": "[sys] RAM 106.1/176.9 | swap none | proc 0.3 GB, 63 threads, 71 fds | GPU0 93.1/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.0/19.5\n"}
+,{"stream_name": "stdout", "time": 1946.997010169, "data": "benchmark: regenerated diagnostics in /kaggle/working in 0.58s\n"}
+,{"stream_name": "stdout", "time": 1946.997031609, "data": "benchmark: duck-harness-kaggle-k-plays\n"}
+,{"stream_name": "stdout", "time": 1946.997033619, "data": "solver:    duck-harness\n"}
+,{"stream_name": "stdout", "time": 1946.997034859, "data": "games:     3\n"}
+,{"stream_name": "stdout", "time": 1946.997035889, "data": "passes:    1\n"}
+,{"stream_name": "stdout", "time": 1946.997036819, "data": "runs:      3 (won: 0)\n"}
+,{"stream_name": "stdout", "time": 1946.997037799, "data": "started:   2026-11-01 19:40:15\n"}
+,{"stream_name": "stdout", "time": 1946.997045629, "data": "ended:     in progress\n"}
+,{"stream_name": "stdout", "time": 1946.997046589, "data": "mean score:    0.69\n"}
+,{"stream_name": "stdout", "time": 1946.997047279, "data": "median score:  1.02\n"}
+,{"stream_name": "stdout", "time": 1946.997048099, "data": "total actions: 60\n"}
+,{"stream_name": "stdout", "time": 1946.997048799, "data": "total tokens:  24335\n"}
+,{"stream_name": "stdout", "time": 1946.997049539, "data": "generated tokens/sec: 20.16 (job wallclock)\n"}
+,{"stream_name": "stdout", "time": 1946.997050329, "data": "total wallclock: 3419.0s\n"}
+,{"stream_name": "stdout", "time": 1946.997051139, "data": "\n"}
+,{"stream_name": "stdout", "time": 1946.997052039, "data": "per-game (mean across passes):\n"}
+,{"stream_name": "stdout", "time": 1946.997052789, "data": "  ls20-9607627b: score=0.00, levels=0.0/7, actions=10, tokens=0\n"}
+,{"stream_name": "stdout", "time": 1946.997053609, "data": "  tu93-0768757b: score=1.02, levels=1.0/9, actions=33, tokens=10609\n"}
+,{"stream_name": "stdout", "time": 1946.997054389, "data": "  vc33-5430563c: score=1.04, levels=1.0/7, actions=17, tokens=13726\n"}
+,{"stream_name": "stdout", "time": 1946.997055149, "data": "\n"}
+,{"stream_name": "stdout", "time": 2047.797238233, "data": "[sys] RAM 106.5/176.9 | swap none | proc 0.3 GB, 63 threads, 71 fds | GPU0 93.1/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.0/19.5\n"}
+,{"stream_name": "stdout", "time": 2167.812805629, "data": "[sys] RAM 106.8/176.9 | swap none | proc 0.3 GB, 63 threads, 71 fds | GPU0 93.1/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.1/19.5\n"}
+,{"stream_name": "stdout", "time": 2287.828146515, "data": "[sys] RAM 107.1/176.9 | swap none | proc 0.4 GB, 63 threads, 71 fds | GPU0 93.1/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.1/19.5\n"}
+,{"stream_name": "stdout", "time": 2407.843339621, "data": "[sys] RAM 107.3/176.9 | swap none | proc 0.4 GB, 63 threads, 71 fds | GPU0 93.1/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.1/19.5\n"}
+,{"stream_name": "stderr", "time": 2459.498640719, "data": "priority: total level count unavailable or invalid; using 10\n"}
+,{"stream_name": "stderr", "time": 2459.498669729, "data": "\n"}
+,{"stream_name": "stderr", "time": 2459.498683469, "data": "priority: total level count unavailable or invalid; using 10\n"}
+,{"stream_name": "stderr", "time": 2496.573263457, "data": "priority: total level count unavailable or invalid; using 10\n"}
+,{"stream_name": "stderr", "time": 2496.573286677, "data": "\n"}
+,{"stream_name": "stderr", "time": 2496.573288517, "data": "priority: total level count unavailable or invalid; using 10\n"}
+,{"stream_name": "stdout", "time": 2527.859938717, "data": "[sys] RAM 107.4/176.9 | swap none | proc 0.4 GB, 63 threads, 71 fds | GPU0 93.3/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.1/19.5\n"}
+,{"stream_name": "stderr", "time": 2529.821324603, "data": "priority: total level count unavailable or invalid; using 10\n"}
+,{"stream_name": "stderr", "time": 2529.821344363, "data": "\n"}
+,{"stream_name": "stderr", "time": 2529.821346223, "data": "priority: total level count unavailable or invalid; using 10\n"}
+,{"stream_name": "stdout", "time": 2547.591769868, "data": "benchmark: regenerated diagnostics in /kaggle/working in 0.49s\n"}
+,{"stream_name": "stdout", "time": 2547.591789258, "data": "benchmark: duck-harness-kaggle-k-plays\n"}
+,{"stream_name": "stdout", "time": 2547.591791468, "data": "solver:    duck-harness\n"}
+,{"stream_name": "stdout", "time": 2547.591792748, "data": "games:     3\n"}
+,{"stream_name": "stdout", "time": 2547.591793758, "data": "passes:    1\n"}
+,{"stream_name": "stdout", "time": 2547.591794678, "data": "runs:      3 (won: 0)\n"}
+,{"stream_name": "stdout", "time": 2547.591795748, "data": "started:   2026-11-01 19:40:15\n"}
+,{"stream_name": "stdout", "time": 2547.591802828, "data": "ended:     in progress\n"}
+,{"stream_name": "stdout", "time": 2547.591803858, "data": "mean score:    12.32\n"}
+,{"stream_name": "stdout", "time": 2547.591804538, "data": "median score:  13.33\n"}
+,{"stream_name": "stdout", "time": 2547.591805238, "data": "total actions: 231\n"}
+,{"stream_name": "stdout", "time": 2547.591805928, "data": "total tokens:  229330\n"}
+,{"stream_name": "stdout", "time": 2547.591806748, "data": "generated tokens/sec: 126.85 (job wallclock)\n"}
+,{"stream_name": "stdout", "time": 2547.591807548, "data": "total wallclock: 5370.2s\n"}
+,{"stream_name": "stdout", "time": 2547.591808358, "data": "\n"}
+,{"stream_name": "stdout", "time": 2547.591809378, "data": "per-game (mean across passes):\n"}
+,{"stream_name": "stdout", "time": 2547.591810168, "data": "  ls20-9607627b: score=2.20, levels=1.0/7, actions=85, tokens=74796\n"}
+,{"stream_name": "stdout", "time": 2547.591810958, "data": "  tu93-0768757b: score=13.33, levels=3.0/9, actions=96, tokens=76647\n"}
+,{"stream_name": "stdout", "time": 2547.591811718, "data": "  vc33-5430563c: score=21.43, levels=3.0/7, actions=50, tokens=77887\n"}
+,{"stream_name": "stdout", "time": 2547.591812458, "data": "\n"}
+,{"stream_name": "stdout", "time": 2647.875205743, "data": "[sys] RAM 113.0/176.9 | swap none | proc 0.4 GB, 64 threads, 73 fds | GPU0 93.4/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.1/19.5\n"}
+,{"stream_name": "stdout", "time": 2767.890100449, "data": "[sys] RAM 108.0/176.9 | swap none | proc 0.4 GB, 63 threads, 71 fds | GPU0 93.4/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.1/19.5\n"}
+,{"stream_name": "stdout", "time": 2888.329472453, "data": "[sys] RAM 107.5/176.9 | swap none | proc 0.5 GB, 63 threads, 68 fds | GPU0 93.4/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.1/19.5\n"}
+,{"stream_name": "stdout", "time": 3008.652691835, "data": "[sys] RAM 107.3/176.9 | swap none | proc 0.7 GB, 63 threads, 69 fds | GPU0 93.4/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.2/19.5\n"}
+,{"stream_name": "stdout", "time": 3129.078123813, "data": "[sys] RAM 107.3/176.9 | swap none | proc 0.8 GB, 63 threads, 68 fds | GPU0 93.4/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.2/19.5\n"}
+,{"stream_name": "stdout", "time": 3249.720441389, "data": "[sys] RAM 107.4/176.9 | swap none | proc 0.8 GB, 63 threads, 70 fds | GPU0 93.4/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.2/19.5\n"}
+,{"stream_name": "stdout", "time": 3363.25405854, "data": "benchmark: regenerated diagnostics in /kaggle/working in 215.14s\n"}
+,{"stream_name": "stdout", "time": 3363.25407955, "data": "benchmark: duck-harness-kaggle-k-plays\n"}
+,{"stream_name": "stdout", "time": 3363.25408154, "data": "solver:    duck-harness\n"}
+,{"stream_name": "stdout", "time": 3363.25408278, "data": "games:     3\n"}
+,{"stream_name": "stdout", "time": 3363.25408391, "data": "passes:    1\n"}
+,{"stream_name": "stdout", "time": 3363.254085, "data": "runs:      3 (won: 0)\n"}
+,{"stream_name": "stdout", "time": 3363.25408599, "data": "started:   2026-11-01 19:40:15\n"}
+,{"stream_name": "stdout", "time": 3363.254087, "data": "ended:     in progress\n"}
+,{"stream_name": "stdout", "time": 3363.25408794, "data": "mean score:    17.08\n"}
+,{"stream_name": "stdout", "time": 3363.25408888, "data": "median score:  13.33\n"}
+,{"stream_name": "stdout", "time": 3363.25408983, "data": "total actions: 1318\n"}
+,{"stream_name": "stdout", "time": 3363.25409089, "data": "total tokens:  334809\n"}
+,{"stream_name": "stdout", "time": 3363.25409186, "data": "generated tokens/sec: 127.62 (job wallclock)\n"}
+,{"stream_name": "stdout", "time": 3363.25409291, "data": "total wallclock: 7850.0s\n"}
+,{"stream_name": "stdout", "time": 3363.25409391, "data": "\n"}
+,{"stream_name": "stdout", "time": 3363.25409487, "data": "per-game (mean across passes):\n"}
+,{"stream_name": "stdout", "time": 3363.25409587, "data": "  ls20-9607627b: score=2.20, levels=1.0/7, actions=456, tokens=108724\n"}
+,{"stream_name": "stdout", "time": 3363.25410156, "data": "  tu93-0768757b: score=13.33, levels=3.0/9, actions=398, tokens=114236\n"}
+,{"stream_name": "stdout", "time": 3363.25410249, "data": "  vc33-5430563c: score=35.71, levels=4.0/7, actions=464, tokens=111849\n"}
+,{"stream_name": "stdout", "time": 3363.25410326, "data": "\n"}
+,{"stream_name": "stdout", "time": 3370.304185652, "data": "[sys] RAM 107.4/176.9 | swap none | proc 0.9 GB, 63 threads, 68 fds | GPU0 93.4/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.2/19.5\n"}
+,{"stream_name": "stdout", "time": 3446.351080363, "data": "[finished] ls20-9607627b state=gave_up level=1/7 score=2.20 actions=488 tokens=108724 per-level=28/22,460/123,0/73,0/84,0/96,0/192,0/186 note=\"tokens=108724\"\n"}
+,{"stream_name": "stdout", "time": 3446.351101193, "data": "[finished] vc33-5430563c state=gave_up level=4/7 score=35.71 actions=496 tokens=111849 per-level=13/7,8/18,26/44,34/61,415/131,0/34,0/152 note=\"tokens=111849\"\n"}
+,{"stream_name": "stdout", "time": 3446.351103133, "data": "[finished] tu93-0768757b state=gave_up level=3/9 score=13.33 actions=429 tokens=114236 per-level=28/19,15/16,28/34,358/42,0/123,0/80,0/14,0/23,0/111 note=\"tokens=114236\"\n"}
+,{"stream_name": "stdout", "time": 3447.890375471, "data": "benchmark: regenerated diagnostics in /kaggle/working in 1.41s\n"}
+,{"stream_name": "stdout", "time": 3447.890394461, "data": "benchmark: duck-harness-kaggle-k-plays\n"}
+,{"stream_name": "stdout", "time": 3447.890396441, "data": "solver:    duck-harness\n"}
+,{"stream_name": "stdout", "time": 3447.890397691, "data": "games:     3\n"}
+,{"stream_name": "stdout", "time": 3447.890398721, "data": "passes:    1\n"}
+,{"stream_name": "stdout", "time": 3447.890399641, "data": "runs:      3 (won: 0)\n"}
+,{"stream_name": "stdout", "time": 3447.890400611, "data": "started:   2026-11-01 19:40:15\n"}
+,{"stream_name": "stdout", "time": 3447.890401561, "data": "ended:     2026-11-01 20:25:22\n"}
+,{"stream_name": "stdout", "time": 3447.890402501, "data": "duration:  45m 6s\n"}
+,{"stream_name": "stdout", "time": 3447.890403401, "data": "mean score:    17.08\n"}
+,{"stream_name": "stdout", "time": 3447.890404321, "data": "median score:  13.33\n"}
+,{"stream_name": "stdout", "time": 3447.890405221, "data": "total actions: 1413\n"}
+,{"stream_name": "stdout", "time": 3447.890406121, "data": "total tokens:  334809\n"}
+,{"stream_name": "stdout", "time": 3447.890407081, "data": "generated tokens/sec: 123.70 (job wallclock)\n"}
+,{"stream_name": "stdout", "time": 3447.890408091, "data": "total wallclock: 8102.3s\n"}
+,{"stream_name": "stdout", "time": 3447.890409031, "data": "\n"}
+,{"stream_name": "stdout", "time": 3447.890409971, "data": "per-game (mean across passes):\n"}
+,{"stream_name": "stdout", "time": 3447.890410931, "data": "  ls20-9607627b: score=2.20, levels=1.0/7, actions=488, tokens=108724\n"}
+,{"stream_name": "stdout", "time": 3447.890411951, "data": "  tu93-0768757b: score=13.33, levels=3.0/9, actions=429, tokens=114236\n"}
+,{"stream_name": "stdout", "time": 3447.890412921, "data": "  vc33-5430563c: score=35.71, levels=4.0/7, actions=496, tokens=111849\n"}
+,{"stream_name": "stdout", "time": 3447.890413871, "data": "\n"}
+,{"stream_name": "stdout", "time": 3447.890414781, "data": "diagnostics: /kaggle/working/diagnostics.html\n"}
+,{"stream_name": "stdout", "time": 3448.661295805, "data": "game   levels actions    tokens  tok/level actions/level   score\n"}
+,{"stream_name": "stdout", "time": 3448.661313285, "data": "ls20        1    488    108724     108724       488.0   2.205\n"}
+,{"stream_name": "stdout", "time": 3448.661315135, "data": "tu93        3    429    114236      38079       143.0  13.333\n"}
+,{"stream_name": "stdout", "time": 3448.661316295, "data": "vc33        4    496    111849      27962       124.0  35.714\n"}
+,{"stream_name": "stdout", "time": 3448.661324685, "data": "TOTAL levels=8 actions=1413 tokens=334809 tokens/level=41851 actions/level=176.6 mean score=17.0841\n"}
+,{"stream_name": "stdout", "time": 3448.661326395, "data": "game   model_act_ model_act_ cert_emitt cert_falsi cert_revok cert_revok h8_masked_ h8_refused  k_failure    k_stall   k_repeat     k_time    k_yield model_batc model_deat  layer_exc      k_exc  model_exc fallback_a  turns(model/K)  hidden  hint_max\n"}
+,{"stream_name": "stdout", "time": 3448.661330945, "data": "ls20           10          0          4          0          4          0          9          0         10          0          0        355          0          8          0          0          0          0          0  42/365  []  484\n"}
+,{"stream_name": "stdout", "time": 3448.661332375, "data": "tu93           14          0         27          0          0          0          3          0         10          0          0        319          0         11          4          0          0          0          0  36/329  [3]  351\n"}
+,{"stream_name": "stdout", "time": 3448.661333905, "data": "vc33           71          0        416          0         10        352          0          0         10          0          0        414          0          0          0          0          0          0          0  42/424  []  694\n"}
+,{"stream_name": "stderr", "time": 3448.71117618, "data": "/usr/local/lib/python3.12/dist-packages/IPython/core/display.py:724: UserWarning: Consider using IPython.display.IFrame instead\n"}
+,{"stream_name": "stderr", "time": 3448.71118548, "data": "  warnings.warn(\"Consider using IPython.display.IFrame instead\")\n"}
+,{"stream_name": "stderr", "time": 3448.71118689, "data": "\n"}
+,{"stream_name": "stderr", "time": 3448.71118769, "data": "/usr/local/lib/python3.12/dist-packages/IPython/core/display.py:724: UserWarning: Consider using IPython.display.IFrame instead\n"}
+,{"stream_name": "stderr", "time": 3448.71118871, "data": "  warnings.warn(\"Consider using IPython.display.IFrame instead\")\n"}
+,{"stream_name": "stderr", "time": 3450.851447158, "data": "/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name": "stderr", "time": 3450.851464608, "data": "  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name": "stderr", "time": 3451.024666421, "data": "/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name": "stderr", "time": 3451.024689971, "data": "  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name": "stderr", "time": 3451.924800851, "data": "[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name": "stderr", "time": 3452.089665025, "data": "[NbConvertApp] Writing 1550024 bytes to __notebook__.ipynb\n"}
+,{"stream_name": "stderr", "time": 3453.274069438, "data": "[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name": "stderr", "time": 3454.437023123, "data": "[NbConvertApp] Writing 3619515 bytes to __results__.html\n"}]

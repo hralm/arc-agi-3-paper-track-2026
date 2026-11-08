@@ -7,5 +7,6 @@
 - `fig2-h5-identification.pdf`: H5 bench wins with and without a true hypothesis instance in the winning frame
   (Table 4; the counts can be recomputed from the bench data with `bench/table4.py`).
 
-The numbers are written in the script, as in the paper. Figure 1's phase-A scores come from Kaggle kernel runs whose
-raw outputs (logs) are not released (the second batch ran the four public notebooks of the main README); Figure 2's counts come from the shipped bench results.
+The numbers are written in the script, as in the paper. Figure 1's phase-A scores come from the Kaggle kernel runs shipped in
+`../bench/results/phase-a/` (the second batch ran the four public notebooks of the main README; `python3 bench/phase_a.py`
+recomputes the round means the script holds); Figure 2's counts come from the shipped bench results.

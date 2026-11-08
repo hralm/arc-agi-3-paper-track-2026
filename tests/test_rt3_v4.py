@@ -76,7 +76,7 @@ def _hyb():
 
 
 def test_death_without_prior_certificate_does_not_emit():
-    """Red-team cases: reopen (the level's certs erased) and reindex (certs.clear()); tried stays NOOP (morte_oculta)."""
+    """Red-team cases: reopen (the level's certs erased) and reindex (certs.clear()); tried stays NOOP (hidden_death)."""
     for case, key, level, act in (("reopen", 100, 0, (1,)), ("reindex", 200, 1, (2,))):
         h = _hyb()
         ag = h.policy.agent
@@ -110,7 +110,7 @@ def test_real_death_after_reopen_in_wrapper():
     h.policy.current_frame = lambda: dead
     h._wrap_step_env(lambda a: {"executed": True, "executed_actions": ["ACTION1"], "executed_count": 1})(
         {"actions": [{"action": "ACTION1"}]})
-    assert node.tried.get((1,)) == ka._NOOP and ag.stats["morte_oculta"] == 1, (node.tried, dict(ag.stats))
+    assert node.tried.get((1,)) == ka._NOOP and ag.stats["hidden_death"] == 1, (node.tried, dict(ag.stats))
     assert (100, (1,)) not in h.certs and h.stats["cert_emitted"] == 1, (h.certs, h.stats)
     assert 0 in h.hidden_levels and h.stats["cert_falsified"] == 1, (h.stats, h.hidden_levels)
     return "wrapper: reopen erases the certificate and the following GAME OVER does not re-emit it; level hidden"

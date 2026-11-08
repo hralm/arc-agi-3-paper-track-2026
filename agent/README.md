@@ -5,6 +5,9 @@ The two files are the frozen modules of that submission with comments and docstr
 identifiers renamed to the names used in the public notebooks; the code is otherwise unchanged (abstract syntax tree
 identical under the rename map).
 SHA-256 digests of the frozen originals are in [`../manifests/frozen-artifacts.tsv`](../manifests/frozen-artifacts.tsv).
+The Kaggle versions of the notebooks that ran the second batch kept a few development names for internal counters (for
+example `morte_oculta`, published here and in [`../notebooks`](../notebooks) as `hidden_death`); the copies in this
+repository use the names below throughout.
 
 | file | contents | paper |
 |---|---|---|

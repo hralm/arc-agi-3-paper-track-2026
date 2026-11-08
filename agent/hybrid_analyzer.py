@@ -525,7 +525,7 @@ class HybridAnalyzer:
         self.model = tool_agent
         self.policy = KPolicy(game)
         self.policy.hidden_levels = self.hidden_levels   # shared reference to hidden state levels
-        self._morte_oculta_seen = 0                   # hidden deaths already processed
+        self._hidden_death_seen = 0                   # hidden deaths already processed
         self.stall_steps = stall_steps
         self.repeat_noop_limit = repeat_noop_limit
         self.time_floor_s = time_floor_s
@@ -551,7 +551,7 @@ class HybridAnalyzer:
                                       # k_map served/queried/refused; pace requests penalized
                                       "kmap_served": 0, "kmap_used": 0, "kmap_unusable": 0, "pace_penalized": 0,
                                       # K turns whose guide had its leader changed by the cross-game store
-                                      "k_cross_decisao": 0}
+                                      "k_cross_decisions": 0}
         self.last_exc = ""
         self._rng = random.Random(zlib.crc32(_game_key(game).encode()))
         self._executed = 0                               # actions executed via step_env on this instance
@@ -607,10 +607,10 @@ class HybridAnalyzer:
             if n != self._reopened_seen.get(lvl):
                 self._reopened_seen[lvl] = n
                 self.stats["cert_revoked_reopen"] += self._drop_level(lvl)
-        mo = int(ag.stats.get("morte_oculta", 0))
-        if mo != self._morte_oculta_seen:
+        mo = int(ag.stats.get("hidden_death", 0))
+        if mo != self._hidden_death_seen:
             # Death on previously safe edge indicates hidden state: revoke level certificates and mark hidden
-            self._morte_oculta_seen = mo
+            self._hidden_death_seen = mo
             nb = ag.nodes.get(before_key) if before_key is not None else None
             lvl = nb.level if nb is not None else int(ag.prev_levels)
             self.stats["cert_hidden_death"] += 1
@@ -1022,7 +1022,7 @@ class HybridAnalyzer:
             self._note_exc("k_exc", e)
             return self._fallback_turn(step_env, why)
         if h5 is not None and getattr(h5, "guide_cross_changed", False):
-            self.stats["k_cross_decisao"] += 1
+            self.stats["k_cross_decisions"] += 1
         ag = self.policy.agent
         k_key, k_act = ag.prev_key, ag.prev_act          # explorer action to be learned after execution
         payload = step_env(args)

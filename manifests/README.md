@@ -5,6 +5,8 @@
   phase-A ablation of 2 November, and the five kernels prepared for the public notebook and the later runs. Files of
   the development tree that are not released (build scripts, internal notebooks) are listed by role; their digests
   commit to the exact bytes without publishing them.
+- `notebooks/<slug>/SHA256SUMS`: the digests of the copies in this repository (names of this repository; the Kaggle bytes are
+  the rows above).
 - `SHA256SUMS`: the digest of every file in this repository except itself (`sha256sum -c manifests/SHA256SUMS` from the
   repository root).
 

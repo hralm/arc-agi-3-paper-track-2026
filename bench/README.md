@@ -7,6 +7,8 @@ The offline local bench: K alone (no language model) on the 25 public ARC-AGI-3 
 | `bench.py` | runs `agent/graph_explorer.py` on every public game for N seeds and writes one JSON per run |
 | `table4.py` | recomputes Table 4 from the JSON files (by default, the eight shipped in `results/table4/`) |
 | `results/table4/` | the eight runs of Table 4 (25 games × 4 seeds × 1,500 steps, 3 November 2026) |
+| `phase_a.py` | reads the output of a Kaggle run of one of our notebooks (kernel log, `summary.txt`, `benchmark.json`): validity checks, per-game scores, explorer counters; on the shipped rounds it prints Tables 1 and 3 and the batch summaries |
+| `results/phase-a/` | the files behind every phase-A round the paper reports, one folder per round, and `rounds.tsv` with the declared reading (see its README) |
 
 ## The eight arms of Table 4
 

@@ -424,7 +424,7 @@ class H5:
                     prior=fams.get(x.fam, 0)))                                         # family prior
                 self.cross_changed = hc is not h
                 if self.cross_changed:
-                    self.ag.stats["h5_cross_mudou_topo"] += 1   # every call, including on the model's turns
+                    self.ag.stats["h5_cross_leader_changed"] += 1   # every call, including on the model's turns
                 h = hc
             except Exception:
                 self.ag.stats["h5_cross_exc"] += 1                 # the cross-game store never brings H5 down (I1)
@@ -475,7 +475,7 @@ class H5:
             # the store learns only from unambiguous wins (being right for the wrong reasons would reinforce itself)
             try:
                 self.cross.record(win_key[0], self.role(*win_key))
-                st["h5_cross_registro"] += 1
+                st["h5_cross_records"] += 1
             except Exception:
                 st["h5_cross_exc"] += 1
         if len(true_instances) > 1:
@@ -1213,7 +1213,7 @@ class MyAgent(Agent):
                 safe_before = pn.tried.get(self.prev_act) in (NOOP, CHANGE, PROGRESS)
                 timed = self.life_budget is not None and self.life >= self.life_budget
                 if safe_before or timed:
-                    self.stats["morte_oculta"] += 1
+                    self.stats["hidden_death"] += 1
                     if not safe_before:
                         pn.tried.pop(self.prev_act, None)
                 else:

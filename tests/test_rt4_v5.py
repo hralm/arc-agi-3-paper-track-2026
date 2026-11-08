@@ -1,5 +1,5 @@
 """RT4/v5: only RESET available → RESET; h8_lines consistent with I10; the hint does not
-call a NOOP on a hidden level proven; morte_oculta (hidden death) on a CHANGE edge or by timer hides the level and
+call a NOOP on a hidden level proven; hidden_death on a CHANGE edge or by timer hides the level and
 revokes the certificates.
     python tests/test_rt4_v5.py
 """
@@ -101,7 +101,7 @@ def test_hidden_death_change_and_timer_hide_level():
             ag.life_budget, ag.life = 10, 10
             ag.prev_key, ag.prev_act = 300, None
             _death(h, grid, 300, "ACTION3", [1, 2, 3])
-        assert ag.stats["morte_oculta"] == 1, (case, dict(ag.stats))
+        assert ag.stats["hidden_death"] == 1, (case, dict(ag.stats))
         assert 0 in h.hidden_levels, (case, h.hidden_levels)
         assert (100, (1,)) not in h.certs, (case, h.certs)
         assert h.stats["cert_hidden_death"] == 1, (case, h.stats)

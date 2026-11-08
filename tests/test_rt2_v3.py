@@ -106,7 +106,7 @@ def test_plan_does_not_cross_level():
 
 
 def test_real_model_death_revokes_certificate():
-    """Real flow (not synthetic): K does not mark DEATH on an edge already seen as NOOP (`morte_oculta`, hidden
+    """Real flow (not synthetic): K does not mark DEATH on an edge already seen as NOOP (`hidden_death`, hidden
     death), so `tried` stays NOOP; the certificate only falls if the analyzer looks at the step's resulting frame
     (GAME OVER)."""
     h = _hyb()
@@ -126,7 +126,7 @@ def test_real_model_death_revokes_certificate():
     h.policy.current_frame = lambda: dead
     h._wrap_step_env(fake_step)({"actions": [{"action": "ACTION1"}]})
     assert node.tried.get((1,)) == ka._NOOP, f"premise: K marked {node.tried.get((1,))}, this is not the real-flow case"
-    assert ag.stats["morte_oculta"] == 1, dict(ag.stats)
+    assert ag.stats["hidden_death"] == 1, dict(ag.stats)
     assert (100, (1,)) not in h.certs, "certificate survived the real GAME OVER"
     assert h.stats["cert_falsified"] == 1 and 0 in h.hidden_levels, (h.stats, h.hidden_levels)
     ag.prev_key = 100

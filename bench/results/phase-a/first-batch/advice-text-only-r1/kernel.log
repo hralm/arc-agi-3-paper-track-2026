@@ -1,0 +1,359 @@
+[{"stream_name": "stderr", "time": 4.262253353, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name": "stderr", "time": 4.262275483, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name": "stderr", "time": 4.262277413, "data": "0.00s - to python to disable frozen modules.\n"}
+,{"stream_name": "stderr", "time": 4.262278633, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name": "stderr", "time": 4.582457458, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name": "stderr", "time": 4.582476848, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name": "stderr", "time": 4.582478538, "data": "0.00s - to python to disable frozen modules.\n"}
+,{"stream_name": "stderr", "time": 4.582479528, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name": "stdout", "time": 5.405149707, "data": "Writing /kaggle/harness-changes.patch\n"}
+,{"stream_name": "stderr", "time": 6.236561757, "data": "Checking patch ARC3-Inference/inference/agent/action_names.py...\n"}
+,{"stream_name": "stderr", "time": 6.236587997, "data": "Checking patch ARC3-Inference/inference/agent/noop_repeat_guard.py...\n"}
+,{"stream_name": "stderr", "time": 6.236595847, "data": "Checking patch ARC3-Inference/inference/agent/priority_pace_reference.json...\n"}
+,{"stream_name": "stderr", "time": 6.236597497, "data": "Checking patch ARC3-Inference/inference/agent/priority_scheduler.py...\n"}
+,{"stream_name": "stderr", "time": 6.236598557, "data": "Checking patch ARC3-Inference/inference/agent/prompts.py...\n"}
+,{"stream_name": "stderr", "time": 6.236599477, "data": "Checking patch ARC3-Inference/inference/agent/python_tool_sandbox.py...\n"}
+,{"stream_name": "stderr", "time": 6.236734447, "data": "Checking patch ARC3-Inference/inference/agent/runtime_state.py...\n"}
+,{"stream_name": "stderr", "time": 6.236752237, "data": "Checking patch ARC3-Inference/inference/agent/tool_agent.py...\n"}
+,{"stream_name": "stderr", "time": 6.239432747, "data": "Checking patch ARC3-Inference/inference/agent/vision_context.py...\n"}
+,{"stream_name": "stderr", "time": 6.239443397, "data": "Checking patch ARC3-Inference/inference/framework/run.py...\n"}
+,{"stream_name": "stderr", "time": 6.239591667, "data": "Hunk #1 succeeded at 467 (offset 48 lines).\n"}
+,{"stream_name": "stderr", "time": 6.239595497, "data": "Hunk #2 succeeded at 1271 (offset 48 lines).\n"}
+,{"stream_name": "stderr", "time": 6.239596527, "data": "Checking patch ARC3-Inference/inference/framework/solver.py...\n"}
+,{"stream_name": "stderr", "time": 6.239830417, "data": "Checking patch ARC3-Inference/inference/utils/animation.py...\n"}
+,{"stream_name": "stderr", "time": 6.2398559670000004, "data": "Checking patch ARC3-Inference/inference/utils/frame_diff.py...\n"}
+,{"stream_name": "stderr", "time": 6.239895197, "data": "Checking patch ARC3-Inference/inference/utils/openai_compat.py...\n"}
+,{"stream_name": "stderr", "time": 6.239930547, "data": "Checking patch ARC3-Inference/inference/utils/retained_functions.py...\n"}
+,{"stream_name": "stderr", "time": 6.239962667, "data": "Checking patch ARC3-Inference/inference/utils/segmentation.py...\n"}
+,{"stream_name": "stderr", "time": 6.240114677, "data": "Applied patch ARC3-Inference/inference/agent/action_names.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.240127357, "data": "Applied patch ARC3-Inference/inference/agent/noop_repeat_guard.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.240135617, "data": "Applied patch ARC3-Inference/inference/agent/priority_pace_reference.json cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.240148477, "data": "Applied patch ARC3-Inference/inference/agent/priority_scheduler.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.240160387, "data": "Applied patch ARC3-Inference/inference/agent/prompts.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.240172677, "data": "Applied patch ARC3-Inference/inference/agent/python_tool_sandbox.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.240181417, "data": "Applied patch ARC3-Inference/inference/agent/runtime_state.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.240218597, "data": "Applied patch ARC3-Inference/inference/agent/tool_agent.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.240226957, "data": "Applied patch ARC3-Inference/inference/agent/vision_context.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.240242927, "data": "Applied patch ARC3-Inference/inference/framework/run.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.240259657, "data": "Applied patch ARC3-Inference/inference/framework/solver.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.240270127, "data": "Applied patch ARC3-Inference/inference/utils/animation.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.240280487, "data": "Applied patch ARC3-Inference/inference/utils/frame_diff.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.240289267, "data": "Applied patch ARC3-Inference/inference/utils/openai_compat.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.240304387, "data": "Applied patch ARC3-Inference/inference/utils/retained_functions.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.240320467, "data": "Applied patch ARC3-Inference/inference/utils/segmentation.py cleanly.\n"}
+,{"stream_name": "stdout", "time": 6.242159407, "data": "harness patch applied successfully\n"}
+,{"stream_name": "stdout", "time": 6.242176047, "data": "taaf.kaggle: TRUE_SUBMISSION=False\n"}
+,{"stream_name": "stderr", "time": 6.242474297, "data": "Checking patch ARC3-Inference/inference/agent/action_names.py...\n"}
+,{"stream_name": "stderr", "time": 6.242477187, "data": "Checking patch ARC3-Inference/inference/agent/noop_repeat_guard.py...\n"}
+,{"stream_name": "stderr", "time": 6.242478287, "data": "Checking patch ARC3-Inference/inference/agent/priority_pace_reference.json...\n"}
+,{"stream_name": "stderr", "time": 6.242479237, "data": "Checking patch ARC3-Inference/inference/agent/priority_scheduler.py...\n"}
+,{"stream_name": "stderr", "time": 6.242480307, "data": "Checking patch ARC3-Inference/inference/agent/prompts.py...\n"}
+,{"stream_name": "stderr", "time": 6.242481577, "data": "Checking patch ARC3-Inference/inference/agent/python_tool_sandbox.py...\n"}
+,{"stream_name": "stderr", "time": 6.242482347, "data": "Checking patch ARC3-Inference/inference/agent/runtime_state.py...\n"}
+,{"stream_name": "stderr", "time": 6.242483187, "data": "Checking patch ARC3-Inference/inference/agent/tool_agent.py...\n"}
+,{"stream_name": "stderr", "time": 6.242483937, "data": "Checking patch ARC3-Inference/inference/agent/vision_context.py...\n"}
+,{"stream_name": "stderr", "time": 6.242484787, "data": "Checking patch ARC3-Inference/inference/framework/run.py...\n"}
+,{"stream_name": "stderr", "time": 6.242485557, "data": "Hunk #1 succeeded at 467 (offset 48 lines).\n"}
+,{"stream_name": "stderr", "time": 6.242486317, "data": "Hunk #2 succeeded at 1271 (offset 48 lines).\n"}
+,{"stream_name": "stderr", "time": 6.242487047, "data": "Checking patch ARC3-Inference/inference/framework/solver.py...\n"}
+,{"stream_name": "stderr", "time": 6.242487757, "data": "Checking patch ARC3-Inference/inference/utils/animation.py...\n"}
+,{"stream_name": "stderr", "time": 6.242488487, "data": "Checking patch ARC3-Inference/inference/utils/frame_diff.py...\n"}
+,{"stream_name": "stderr", "time": 6.242489307, "data": "Checking patch ARC3-Inference/inference/utils/openai_compat.py...\n"}
+,{"stream_name": "stderr", "time": 6.242494717, "data": "Checking patch ARC3-Inference/inference/utils/retained_functions.py...\n"}
+,{"stream_name": "stderr", "time": 6.242495757, "data": "Checking patch ARC3-Inference/inference/utils/segmentation.py...\n"}
+,{"stream_name": "stderr", "time": 6.242496507, "data": "Applied patch ARC3-Inference/inference/agent/action_names.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.242497237, "data": "Applied patch ARC3-Inference/inference/agent/noop_repeat_guard.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.242497987, "data": "Applied patch ARC3-Inference/inference/agent/priority_pace_reference.json cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.242498827, "data": "Applied patch ARC3-Inference/inference/agent/priority_scheduler.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.242499567, "data": "Applied patch ARC3-Inference/inference/agent/prompts.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.242500307, "data": "Applied patch ARC3-Inference/inference/agent/python_tool_sandbox.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.2425010069999995, "data": "Applied patch ARC3-Inference/inference/agent/runtime_state.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.242501747, "data": "Applied patch ARC3-Inference/inference/agent/tool_agent.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.242502477, "data": "Applied patch ARC3-Inference/inference/agent/vision_context.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.242503227, "data": "Applied patch ARC3-Inference/inference/framework/run.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.242503937, "data": "Applied patch ARC3-Inference/inference/framework/solver.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.242504667, "data": "Applied patch ARC3-Inference/inference/utils/animation.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.242505567, "data": "Applied patch ARC3-Inference/inference/utils/frame_diff.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.242506277, "data": "Applied patch ARC3-Inference/inference/utils/openai_compat.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.242506977, "data": "Applied patch ARC3-Inference/inference/utils/retained_functions.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.242507697, "data": "Applied patch ARC3-Inference/inference/utils/segmentation.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.242508457, "data": "\n"}
+,{"stream_name": "stderr", "time": 6.242509237, "data": "Checking patch ARC3-Inference/inference/agent/action_names.py...\n"}
+,{"stream_name": "stderr", "time": 6.242522957, "data": "Checking patch ARC3-Inference/inference/agent/noop_repeat_guard.py...\n"}
+,{"stream_name": "stderr", "time": 6.242523777, "data": "Checking patch ARC3-Inference/inference/agent/priority_pace_reference.json...\n"}
+,{"stream_name": "stderr", "time": 6.242524557, "data": "Checking patch ARC3-Inference/inference/agent/priority_scheduler.py...\n"}
+,{"stream_name": "stderr", "time": 6.242525307, "data": "Checking patch ARC3-Inference/inference/agent/prompts.py...\n"}
+,{"stream_name": "stderr", "time": 6.242526047, "data": "Checking patch ARC3-Inference/inference/agent/python_tool_sandbox.py...\n"}
+,{"stream_name": "stderr", "time": 6.242526777, "data": "Checking patch ARC3-Inference/inference/agent/runtime_state.py...\n"}
+,{"stream_name": "stderr", "time": 6.242527537, "data": "Checking patch ARC3-Inference/inference/agent/tool_agent.py...\n"}
+,{"stream_name": "stderr", "time": 6.242528247, "data": "Checking patch ARC3-Inference/inference/agent/vision_context.py...\n"}
+,{"stream_name": "stderr", "time": 6.242529017, "data": "Checking patch ARC3-Inference/inference/framework/run.py...\n"}
+,{"stream_name": "stderr", "time": 6.242529757, "data": "Hunk #1 succeeded at 467 (offset 48 lines).\n"}
+,{"stream_name": "stderr", "time": 6.242531747, "data": "Hunk #2 succeeded at 1271 (offset 48 lines).\n"}
+,{"stream_name": "stderr", "time": 6.242532497, "data": "Checking patch ARC3-Inference/inference/framework/solver.py...\n"}
+,{"stream_name": "stderr", "time": 6.242533197, "data": "Checking patch ARC3-Inference/inference/utils/animation.py...\n"}
+,{"stream_name": "stderr", "time": 6.242533947, "data": "Checking patch ARC3-Inference/inference/utils/frame_diff.py...\n"}
+,{"stream_name": "stderr", "time": 6.242534677, "data": "Checking patch ARC3-Inference/inference/utils/openai_compat.py...\n"}
+,{"stream_name": "stderr", "time": 6.242535437, "data": "Checking patch ARC3-Inference/inference/utils/retained_functions.py...\n"}
+,{"stream_name": "stderr", "time": 6.242536187, "data": "Checking patch ARC3-Inference/inference/utils/segmentation.py...\n"}
+,{"stream_name": "stderr", "time": 6.242536897, "data": "Applied patch ARC3-Inference/inference/agent/action_names.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.242537637, "data": "Applied patch ARC3-Inference/inference/agent/noop_repeat_guard.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.242538387, "data": "Applied patch ARC3-Inference/inference/agent/priority_pace_reference.json cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.2425391470000005, "data": "Applied patch ARC3-Inference/inference/agent/priority_scheduler.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.242539897, "data": "Applied patch ARC3-Inference/inference/agent/prompts.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.242540647, "data": "Applied patch ARC3-Inference/inference/agent/python_tool_sandbox.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.242541387, "data": "Applied patch ARC3-Inference/inference/agent/runtime_state.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.242542087, "data": "Applied patch ARC3-Inference/inference/agent/tool_agent.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.242542977, "data": "Applied patch ARC3-Inference/inference/agent/vision_context.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.242543737, "data": "Applied patch ARC3-Inference/inference/framework/run.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.242544477, "data": "Applied patch ARC3-Inference/inference/framework/solver.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.242545197, "data": "Applied patch ARC3-Inference/inference/utils/animation.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.242545937, "data": "Applied patch ARC3-Inference/inference/utils/frame_diff.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.242546647, "data": "Applied patch ARC3-Inference/inference/utils/openai_compat.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.242547377, "data": "Applied patch ARC3-Inference/inference/utils/retained_functions.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.242548157, "data": "Applied patch ARC3-Inference/inference/utils/segmentation.py cleanly.\n"}
+,{"stream_name": "stdout", "time": 6.2826696890000004, "data": "Precaching: Started...\n"}
+,{"stream_name": "stdout", "time": 41.32281326, "data": "Precaching: loaded 211 files (6.70 GB) in 35.03 seconds.\n"}
+,{"stream_name": "stdout", "time": 41.32283451, "data": "\n"}
+,{"stream_name": "stdout", "time": 43.299874674, "data": "taaf.kaggle: wrote /usr/local/lib/python3.12/dist-packages/taaf_kaggle_sources.pth (3 source roots)\n"}
+,{"stream_name": "stdout", "time": 43.502003664, "data": "=== installing Pennyroyal (offline) ===\n"}
+,{"stream_name": "stdout", "time": 43.557654187, "data": "$ /tmp/sgl-intel/bin/uv venv --python /usr/bin/python3 /tmp/sgl-intel/venv\n"}
+,{"stream_name": "stdout", "time": 43.756993436, "data": "$ /tmp/sgl-intel/bin/uv pip install --python /tmp/sgl-intel/venv/bin/python --no-index --find-links /kaggle/input/datasets/dfranzen/pennyroyal-v253/wheels -r /kaggle/input/datasets/dfranzen/pennyroyal-v253/requirements.lock\n"}
+,{"stream_name": "stdout", "time": 46.471574026, "data": "$ /tmp/sgl-intel/bin/uv pip install --python /tmp/sgl-intel/venv/bin/python --no-index --find-links /kaggle/input/datasets/dfranzen/pennyroyal-v253/wheels --reinstall --no-deps /kaggle/input/datasets/dfranzen/pennyroyal-v253/wheels/sglang-0.5.19+gd00d88efc8d6-cp312-cp312-linux_x86_64.whl\n"}
+,{"stream_name": "stdout", "time": 46.471590296, "data": "$ /tmp/sgl-intel/venv/lib/python3.12/site-packages/nvidia/cu13/bin/nvcc --version\n"}
+,{"stream_name": "stdout", "time": 46.471591966, "data": "nvcc: NVIDIA (R) Cuda compiler driver\n"}
+,{"stream_name": "stdout", "time": 46.471592816, "data": "Copyright (c) 2005-2025 NVIDIA Corporation\n"}
+,{"stream_name": "stdout", "time": 46.471593576, "data": "Built on Wed_Aug_20_01:58:59_PM_PDT_2025\n"}
+,{"stream_name": "stdout", "time": 46.471594266, "data": "Cuda compilation tools, release 13.0, V13.0.88\n"}
+,{"stream_name": "stdout", "time": 46.471595096, "data": "Build cuda_13.0.r13.0/compiler.36424714_0\n"}
+,{"stream_name": "stdout", "time": 46.471595796, "data": "Host compiler: g++-11\n"}
+,{"stream_name": "stdout", "time": 46.471596616, "data": "$ /tmp/sgl-intel/venv/bin/python -c 'import pathlib, sglang, torch\n"}
+,{"stream_name": "stdout", "time": 46.471597356, "data": "print(\"sglang\", sglang.__version__, \"| torch\", torch.__version__)\n"}
+,{"stream_name": "stdout", "time": 46.471598356, "data": "assert torch.cuda.is_available(), \"CUDA unavailable\"\n"}
+,{"stream_name": "stdout", "time": 46.471599236, "data": "print(\"GPU:\", torch.cuda.get_device_name(0), \"capability:\", torch.cuda.get_device_capability(0))\n"}
+,{"stream_name": "stdout", "time": 46.471600146, "data": "'\n"}
+,{"stream_name": "stdout", "time": 78.01344795, "data": "sglang 0.5.19+gd00d88efc8d6 | torch 2.13.0+cu130\n"}
+,{"stream_name": "stdout", "time": 78.0134717, "data": "GPU: NVIDIA RTX PRO 6000 Blackwell Server Edition capability: (12, 0)\n"}
+,{"stream_name": "stdout", "time": 78.357847211, "data": "Target: /kaggle/input/models/dfranzen/intel-qwen3.8-flash-next-w4a16-autoround/transformers/default/1 | shards: 38 | PLE dtype: checkpoint default (typically BF16)\n"}
+,{"stream_name": "stdout", "time": 78.357856501, "data": "Draft source: /kaggle/input/models/dfranzen/albucino-qwen3-8-flash-next-drafter/transformers/default/1\n"}
+,{"stream_name": "stdout", "time": 78.357858151, "data": "SGLang draft view: /tmp/sgl-intel/draft-view-746747f37bf36968 (2 linked weight shards)\n"}
+,{"stream_name": "stdout", "time": 78.433439322, "data": "\n"}
+,{"stream_name": "stdout", "time": 78.433450062, "data": "/tmp/sgl-intel/venv/bin/sglang serve --model-path /kaggle/input/models/dfranzen/intel-qwen3.8-flash-next-w4a16-autoround/transformers/default/1 --load-format safetensors --model-loader-extra-config '{\"enable_multithread_load\":false}' --served-model-name flashnext --host 127.0.0.1 --port 8001 --tensor-parallel-size 1 --dtype bfloat16 --quantization auto-round --kv-cache-dtype fp8_e4m3 --mem-fraction-static 0.96 --context-length 139264 --page-size 64 --max-running-requests 10 --chunked-prefill-size 8192 --max-prefill-tokens 16384 --cuda-graph-max-bs-decode 10 --cuda-graph-bs-decode 1 2 4 7 8 9 10 --mamba-ssm-dtype bfloat16 --max-mamba-cache-size 60 --mamba-radix-cache-strategy extra_buffer --mamba-track-interval 64 --mamba-backend flashinfer --linear-attn-decode-backend flashinfer --linear-attn-prefill-backend flashinfer --moe-runner-backend auto --ple-offload-embedding --trust-remote-code --mm-feature-transport cpu --image-processor-backend pil --reasoning-parser qwen3 --tool-call-parser qwen3_coder --default-chat-template-kwargs '{\"preserve_thinking\":true}' --watchdog-timeout 1800 --schedule-policy lpm --warmups structured_output --enable-cache-report --enable-metrics --enable-request-time-stats-logging --weight-loader-prefetch-checkpoints --weight-loader-drop-cache-after-load --chat-template /kaggle/input/models/dfranzen/intel-qwen3.8-flash-next-w4a16-autoround/transformers/default/1/chat_template.jinja --gdn-mtp-cache-mode none --speculative-algorithm NEXTN --speculative-num-steps 3 --speculative-eagle-topk 1 --speculative-num-draft-tokens 4 --speculative-draft-model-path /tmp/sgl-intel/draft-view-746747f37bf36968 --speculative-draft-model-quantization compressed-tensors --speculative-moe-runner-backend auto --speculative-draft-kv-cache-dtype fp8_e4m3 --speculative-accept-threshold-single 1.0 --speculative-accept-threshold-acc 1.0 --speculative-token-map /kaggle/input/datasets/dfranzen/pennyroyal-v253/hot_tokens_64k.pt\n"}
+,{"stream_name": "stdout", "time": 78.433461302, "data": "\n"}
+,{"stream_name": "stdout", "time": 78.433462522, "data": "pid 500 -> /kaggle/working/serve.log\n"}
+,{"stream_name": "stdout", "time": 78.433463562, "data": "  0s ...\n"}
+,{"stream_name": "stdout", "time": 108.445847253, "data": "  30s ...\n"}
+,{"stream_name": "stdout", "time": 138.440274196, "data": "Precaching: Started...\n"}
+,{"stream_name": "stdout", "time": 138.440298496, "data": "  60s ...\n"}
+,{"stream_name": "stdout", "time": 168.451463588, "data": "  90s ...\n"}
+,{"stream_name": "stdout", "time": 198.445568681, "data": "  120s ...\n"}
+,{"stream_name": "stdout", "time": 228.456567522, "data": "  150s ...\n"}
+,{"stream_name": "stdout", "time": 258.450900065, "data": "  180s ...\n"}
+,{"stream_name": "stdout", "time": 288.462021367, "data": "  210s ...\n"}
+,{"stream_name": "stdout", "time": 318.45610526, "data": "  240s ...\n"}
+,{"stream_name": "stdout", "time": 348.467860912, "data": "  270s ...\n"}
+,{"stream_name": "stdout", "time": 378.462218682, "data": "  300s ...\n"}
+,{"stream_name": "stdout", "time": 408.474549263, "data": "  330s ...\n"}
+,{"stream_name": "stdout", "time": 438.468946273, "data": "  360s ...\n"}
+,{"stream_name": "stdout", "time": 468.481323084, "data": "  390s ...\n"}
+,{"stream_name": "stdout", "time": 498.476306924, "data": "  420s ...\n"}
+,{"stream_name": "stdout", "time": 528.488836995, "data": "  450s ...\n"}
+,{"stream_name": "stdout", "time": 558.483578718, "data": "  480s ...\n"}
+,{"stream_name": "stdout", "time": 588.496037963, "data": "  510s ...\n"}
+,{"stream_name": "stdout", "time": 618.490787453, "data": "  540s ...\n"}
+,{"stream_name": "stdout", "time": 648.503442507, "data": "  570s ...\n"}
+,{"stream_name": "stdout", "time": 678.49783701, "data": "  600s ...\n"}
+,{"stream_name": "stdout", "time": 708.510158771, "data": "  630s ...\n"}
+,{"stream_name": "stdout", "time": 726.506176583, "data": "\n"}
+,{"stream_name": "stdout", "time": 726.506198693, "data": "DEADLINE at 721s from notebook start; releasing the benchmark with the server still loading\n"}
+,{"stream_name": "stdout", "time": 728.343724955, "data": "benchmark.solver: HarnessSolver(label='duck-harness', runtime_environment=None, job_dir=None, soft_end_time=None, minimal_diagnostics=False, model='local', analyzer_timeout=900.0, max_actions_per_game=None, max_runtime_s_per_game=7254, max_generated_tokens_per_game=None, concurrency=25, save_request_logs=True, start_local_server=False, local_server_config='', local_server_api_key_file='', local_server_repo_dir='/Users/jeroencottaar/code/ARC3-Inference', local_server_port=None, local_server_tensor_parallel_size=None, local_server_count=1, cancel_drain_timeout_s=120.0)\n"}
+,{"stream_name": "stdout", "time": 728.373910872, "data": "Writing /kaggle/working/graph_explorer.py\n"}
+,{"stream_name": "stdout", "time": 728.402182529, "data": "Writing /kaggle/working/hybrid_analyzer.py\n"}
+,{"stream_name": "stdout", "time": 728.429293146, "data": "[explorer] analyzer_factory = HybridAnalyzer(h8=None, advisor=True)\n"}
+,{"stream_name": "stdout", "time": 728.524381675, "data": "[sys] RAM 103.3/176.9 | swap none | proc 0.4 GB, 64 threads, 67 fds | GPU0 69.9/95.6 | disk / 7123.5/8156.9, /kaggle/working 0.0/19.5\n"}
+,{"stream_name": "stdout", "time": 728.524656345, "data": "[sys] RAM 103.3/176.9 | swap none | proc 0.4 GB, 64 threads, 67 fds | GPU0 69.9/95.6 | disk / 7123.5/8156.9, /kaggle/working 0.0/19.5\n"}
+,{"stream_name": "stdout", "time": 728.574610889, "data": "Starting benchmark...\n"}
+,{"stream_name": "stderr", "time": 734.603594166, "data": "priority gate active: 10 concurrent streams\n"}
+,{"stream_name": "stderr", "time": 734.603613256, "data": "\n"}
+,{"stream_name": "stderr", "time": 734.603614696, "data": "priority gate active: 10 concurrent streams\n"}
+,{"stream_name": "stderr", "time": 734.608627956, "data": "tu93-0768757b: warmup RESET issued before the analyzer is reachable\n"}
+,{"stream_name": "stderr", "time": 734.608637266, "data": "\n"}
+,{"stream_name": "stderr", "time": 734.608638876, "data": "tu93-0768757b: warmup RESET issued before the analyzer is reachable\n"}
+,{"stream_name": "stderr", "time": 734.722505693, "data": "first analyzer request failed (ConnectionError); retrying for up to 900s while the endpoint comes up, then falling back to 3 retries per request\n"}
+,{"stream_name": "stderr", "time": 734.722520553, "data": "\n"}
+,{"stream_name": "stderr", "time": 734.722521743, "data": "first analyzer request failed (ConnectionError); retrying for up to 900s while the endpoint comes up, then falling back to 3 retries per request\n"}
+,{"stream_name": "stderr", "time": 734.722797093, "data": "first analyzer request failed (ConnectionError); retrying for up to 900s while the endpoint comes up, then falling back to 3 retries per request\n"}
+,{"stream_name": "stderr", "time": 734.722799563, "data": "\n"}
+,{"stream_name": "stderr", "time": 734.722800403, "data": "first analyzer request failed (ConnectionError); retrying for up to 900s while the endpoint comes up, then falling back to 3 retries per request\n"}
+,{"stream_name": "stderr", "time": 734.723003233, "data": "first analyzer request failed (ConnectionError); retrying for up to 900s while the endpoint comes up, then falling back to 3 retries per request\n"}
+,{"stream_name": "stderr", "time": 734.723004423, "data": "\n"}
+,{"stream_name": "stderr", "time": 734.723005133, "data": "first analyzer request failed (ConnectionError); retrying for up to 900s while the endpoint comes up, then falling back to 3 retries per request\n"}
+,{"stream_name": "stdout", "time": 848.557309951, "data": "[sys] RAM 103.3/176.9 | swap none | proc 0.4 GB, 67 threads, 71 fds | GPU0 69.9/95.6 | disk / 7123.5/8156.9, /kaggle/working 0.0/19.5\n"}
+,{"stream_name": "stdout", "time": 968.575705406, "data": "[sys] RAM 103.3/176.9 | swap none | proc 0.4 GB, 67 threads, 71 fds | GPU0 69.9/95.6 | disk / 7123.5/8156.9, /kaggle/working 0.0/19.5\n"}
+,{"stream_name": "stdout", "time": 1088.589372826, "data": "[sys] RAM 103.3/176.9 | swap none | proc 0.4 GB, 67 threads, 71 fds | GPU0 69.9/95.6 | disk / 7123.5/8156.9, /kaggle/working 0.0/19.5\n"}
+,{"stream_name": "stdout", "time": 1142.135684389, "data": "Precaching: loaded 62 files (185.40 GB) in 1003.49 seconds.\n"}
+,{"stream_name": "stdout", "time": 1142.135712159, "data": "\n"}
+,{"stream_name": "stdout", "time": 1208.602903151, "data": "[sys] RAM 105.6/176.9 | swap none | proc 0.3 GB, 63 threads, 67 fds | GPU0 89.8/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.0/19.5\n"}
+,{"stream_name": "stdout", "time": 1328.616059661, "data": "[sys] RAM 106.6/176.9 | swap none | proc 0.3 GB, 63 threads, 71 fds | GPU0 93.7/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.0/19.5\n"}
+,{"stream_name": "stdout", "time": 1335.340110481, "data": "benchmark: regenerated diagnostics in /kaggle/working in 0.54s\n"}
+,{"stream_name": "stdout", "time": 1335.340130571, "data": "benchmark: duck-harness-kaggle-k-advises-text-only\n"}
+,{"stream_name": "stdout", "time": 1335.340132621, "data": "solver:    duck-harness\n"}
+,{"stream_name": "stdout", "time": 1335.340140481, "data": "games:     3\n"}
+,{"stream_name": "stdout", "time": 1335.340141381, "data": "passes:    1\n"}
+,{"stream_name": "stdout", "time": 1335.340142071, "data": "runs:      3 (won: 0)\n"}
+,{"stream_name": "stdout", "time": 1335.340142771, "data": "started:   2026-11-02 09:23:10\n"}
+,{"stream_name": "stdout", "time": 1335.340143571, "data": "ended:     in progress\n"}
+,{"stream_name": "stdout", "time": 1335.340144261, "data": "mean score:    0.00\n"}
+,{"stream_name": "stdout", "time": 1335.340144941, "data": "median score:  0.00\n"}
+,{"stream_name": "stdout", "time": 1335.340145591, "data": "total actions: 1\n"}
+,{"stream_name": "stdout", "time": 1335.340146301, "data": "total tokens:  0\n"}
+,{"stream_name": "stdout", "time": 1335.340147011, "data": "generated tokens/sec: 0.00 (job wallclock)\n"}
+,{"stream_name": "stdout", "time": 1335.340147801, "data": "total wallclock: 0.1s\n"}
+,{"stream_name": "stdout", "time": 1335.340148521, "data": "\n"}
+,{"stream_name": "stdout", "time": 1335.340149351, "data": "per-game (mean across passes):\n"}
+,{"stream_name": "stdout", "time": 1335.340150071, "data": "  ls20-9607627b: score=0.00, levels=0.0/7, actions=0, tokens=0\n"}
+,{"stream_name": "stdout", "time": 1335.340151001, "data": "  tu93-0768757b: score=0.00, levels=0.0/9, actions=1, tokens=0\n"}
+,{"stream_name": "stdout", "time": 1335.340151721, "data": "  vc33-5430563c: score=0.00, levels=0.0/7, actions=0, tokens=0\n"}
+,{"stream_name": "stdout", "time": 1335.340152431, "data": "\n"}
+,{"stream_name": "stdout", "time": 1448.632701275, "data": "[sys] RAM 106.4/176.9 | swap none | proc 0.3 GB, 63 threads, 71 fds | GPU0 93.7/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.0/19.5\n"}
+,{"stream_name": "stdout", "time": 1568.648749581, "data": "[sys] RAM 106.8/176.9 | swap none | proc 0.3 GB, 63 threads, 71 fds | GPU0 93.7/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.0/19.5\n"}
+,{"stream_name": "stdout", "time": 1688.664368571, "data": "[sys] RAM 107.0/176.9 | swap none | proc 0.4 GB, 63 threads, 71 fds | GPU0 93.7/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.0/19.5\n"}
+,{"stream_name": "stdout", "time": 1808.68071885, "data": "[sys] RAM 107.5/176.9 | swap none | proc 0.4 GB, 63 threads, 71 fds | GPU0 93.7/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.1/19.5\n"}
+,{"stream_name": "stderr", "time": 1895.951088597, "data": "priority: total level count unavailable or invalid; using 10\n"}
+,{"stream_name": "stderr", "time": 1895.951104797, "data": "\n"}
+,{"stream_name": "stderr", "time": 1895.951106537, "data": "priority: total level count unavailable or invalid; using 10\n"}
+,{"stream_name": "stdout", "time": 1928.696142912, "data": "[sys] RAM 108.5/176.9 | swap none | proc 0.4 GB, 63 threads, 71 fds | GPU0 93.7/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.1/19.5\n"}
+,{"stream_name": "stdout", "time": 1935.942092633, "data": "benchmark: regenerated diagnostics in /kaggle/working in 0.56s\n"}
+,{"stream_name": "stdout", "time": 1935.942109033, "data": "benchmark: duck-harness-kaggle-k-advises-text-only\n"}
+,{"stream_name": "stdout", "time": 1935.942110813, "data": "solver:    duck-harness\n"}
+,{"stream_name": "stdout", "time": 1935.942111903, "data": "games:     3\n"}
+,{"stream_name": "stdout", "time": 1935.942112973, "data": "passes:    1\n"}
+,{"stream_name": "stdout", "time": 1935.942113903, "data": "runs:      3 (won: 0)\n"}
+,{"stream_name": "stdout", "time": 1935.942114833, "data": "started:   2026-11-02 09:23:10\n"}
+,{"stream_name": "stdout", "time": 1935.942115763, "data": "ended:     in progress\n"}
+,{"stream_name": "stdout", "time": 1935.942116753, "data": "mean score:    11.01\n"}
+,{"stream_name": "stdout", "time": 1935.942117663, "data": "median score:  9.55\n"}
+,{"stream_name": "stdout", "time": 1935.942118573, "data": "total actions: 201\n"}
+,{"stream_name": "stdout", "time": 1935.942125053, "data": "total tokens:  181339\n"}
+,{"stream_name": "stdout", "time": 1935.942126093, "data": "generated tokens/sec: 150.76 (job wallclock)\n"}
+,{"stream_name": "stdout", "time": 1935.942126853, "data": "total wallclock: 3552.5s\n"}
+,{"stream_name": "stdout", "time": 1935.942127573, "data": "\n"}
+,{"stream_name": "stdout", "time": 1935.942128293, "data": "per-game (mean across passes):\n"}
+,{"stream_name": "stdout", "time": 1935.942129013, "data": "  ls20-9607627b: score=2.06, levels=1.0/7, actions=29, tokens=59753\n"}
+,{"stream_name": "stdout", "time": 1935.942129763, "data": "  tu93-0768757b: score=9.55, levels=3.0/9, actions=105, tokens=61703\n"}
+,{"stream_name": "stdout", "time": 1935.942130523, "data": "  vc33-5430563c: score=21.43, levels=3.0/7, actions=67, tokens=59883\n"}
+,{"stream_name": "stdout", "time": 1935.942131233, "data": "\n"}
+,{"stream_name": "stderr", "time": 1970.449956889, "data": "priority: total level count unavailable or invalid; using 10\n"}
+,{"stream_name": "stderr", "time": 1970.449985509, "data": "\n"}
+,{"stream_name": "stderr", "time": 1970.449988069, "data": "priority: total level count unavailable or invalid; using 10\n"}
+,{"stream_name": "stdout", "time": 2048.711579341, "data": "[sys] RAM 108.1/176.9 | swap none | proc 0.4 GB, 63 threads, 71 fds | GPU0 93.7/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.1/19.5\n"}
+,{"stream_name": "stderr", "time": 2066.593289709, "data": "priority: total level count unavailable or invalid; using 10\n"}
+,{"stream_name": "stderr", "time": 2066.593312089, "data": "\n"}
+,{"stream_name": "stderr", "time": 2066.593314339, "data": "priority: total level count unavailable or invalid; using 10\n"}
+,{"stream_name": "stdout", "time": 2168.727064587, "data": "[sys] RAM 108.3/176.9 | swap none | proc 0.4 GB, 63 threads, 71 fds | GPU0 93.7/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.1/19.5\n"}
+,{"stream_name": "stdout", "time": 2288.743762908, "data": "[sys] RAM 107.8/176.9 | swap none | proc 0.4 GB, 63 threads, 71 fds | GPU0 93.7/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.1/19.5\n"}
+,{"stream_name": "stdout", "time": 2408.760354033, "data": "[sys] RAM 108.2/176.9 | swap none | proc 0.5 GB, 63 threads, 71 fds | GPU0 93.7/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.1/19.5\n"}
+,{"stream_name": "stdout", "time": 2528.776080203, "data": "[sys] RAM 108.1/176.9 | swap none | proc 0.5 GB, 63 threads, 71 fds | GPU0 93.7/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.1/19.5\n"}
+,{"stream_name": "stdout", "time": 2536.534763562, "data": "benchmark: regenerated diagnostics in /kaggle/working in 0.49s\n"}
+,{"stream_name": "stdout", "time": 2536.534785842, "data": "benchmark: duck-harness-kaggle-k-advises-text-only\n"}
+,{"stream_name": "stdout", "time": 2536.534787712, "data": "solver:    duck-harness\n"}
+,{"stream_name": "stdout", "time": 2536.534788892, "data": "games:     3\n"}
+,{"stream_name": "stdout", "time": 2536.534789902, "data": "passes:    1\n"}
+,{"stream_name": "stdout", "time": 2536.534790822, "data": "runs:      3 (won: 0)\n"}
+,{"stream_name": "stdout", "time": 2536.534791832, "data": "started:   2026-11-02 09:23:10\n"}
+,{"stream_name": "stdout", "time": 2536.534792782, "data": "ended:     in progress\n"}
+,{"stream_name": "stdout", "time": 2536.534793772, "data": "mean score:    21.22\n"}
+,{"stream_name": "stdout", "time": 2536.534794712, "data": "median score:  21.43\n"}
+,{"stream_name": "stdout", "time": 2536.534795702, "data": "total actions: 434\n"}
+,{"stream_name": "stdout", "time": 2536.534796622, "data": "total tokens:  351177\n"}
+,{"stream_name": "stdout", "time": 2536.534797612, "data": "generated tokens/sec: 194.73 (job wallclock)\n"}
+,{"stream_name": "stdout", "time": 2536.534798622, "data": "total wallclock: 5241.1s\n"}
+,{"stream_name": "stdout", "time": 2536.534799602, "data": "\n"}
+,{"stream_name": "stdout", "time": 2536.534807142, "data": "per-game (mean across passes):\n"}
+,{"stream_name": "stdout", "time": 2536.534808112, "data": "  ls20-9607627b: score=9.69, levels=2.0/7, actions=148, tokens=116043\n"}
+,{"stream_name": "stdout", "time": 2536.534808892, "data": "  tu93-0768757b: score=32.55, levels=5.0/9, actions=178, tokens=123746\n"}
+,{"stream_name": "stdout", "time": 2536.534809652, "data": "  vc33-5430563c: score=21.43, levels=3.0/7, actions=108, tokens=111388\n"}
+,{"stream_name": "stdout", "time": 2536.534810382, "data": "\n"}
+,{"stream_name": "stdout", "time": 2648.792445862, "data": "[sys] RAM 108.0/176.9 | swap none | proc 0.5 GB, 63 threads, 71 fds | GPU0 93.7/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.2/19.5\n"}
+,{"stream_name": "stdout", "time": 2768.808239292, "data": "[sys] RAM 108.0/176.9 | swap none | proc 0.5 GB, 63 threads, 71 fds | GPU0 93.7/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.2/19.5\n"}
+,{"stream_name": "stdout", "time": 2888.824526554, "data": "[sys] RAM 108.0/176.9 | swap none | proc 0.6 GB, 63 threads, 71 fds | GPU0 93.7/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.2/19.5\n"}
+,{"stream_name": "stderr", "time": 2924.816773817, "data": "tail fade phase after 36.5 minutes: 8.5 minutes remaining; fading tail B to zero over the final 9.0 minutes, retaining hazard C\n"}
+,{"stream_name": "stderr", "time": 2924.816808226, "data": "\n"}
+,{"stream_name": "stderr", "time": 2924.816810786, "data": "tail fade phase after 36.5 minutes: 8.5 minutes remaining; fading tail B to zero over the final 9.0 minutes, retaining hazard C\n"}
+,{"stream_name": "stdout", "time": 3008.840909904, "data": "[sys] RAM 107.9/176.9 | swap none | proc 0.6 GB, 63 threads, 71 fds | GPU0 93.8/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.2/19.5\n"}
+,{"stream_name": "stdout", "time": 3128.857021254, "data": "[sys] RAM 108.2/176.9 | swap none | proc 0.6 GB, 63 threads, 71 fds | GPU0 93.8/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.2/19.5\n"}
+,{"stream_name": "stdout", "time": 3137.227291648, "data": "benchmark: regenerated diagnostics in /kaggle/working in 0.59s\n"}
+,{"stream_name": "stdout", "time": 3137.227309338, "data": "benchmark: duck-harness-kaggle-k-advises-text-only\n"}
+,{"stream_name": "stdout", "time": 3137.227311138, "data": "solver:    duck-harness\n"}
+,{"stream_name": "stdout", "time": 3137.227312388, "data": "games:     3\n"}
+,{"stream_name": "stdout", "time": 3137.227313308, "data": "passes:    1\n"}
+,{"stream_name": "stdout", "time": 3137.227314228, "data": "runs:      3 (won: 0)\n"}
+,{"stream_name": "stdout", "time": 3137.227315268, "data": "started:   2026-11-02 09:23:10\n"}
+,{"stream_name": "stdout", "time": 3137.227316228, "data": "ended:     in progress\n"}
+,{"stream_name": "stdout", "time": 3137.227317258, "data": "mean score:    34.32\n"}
+,{"stream_name": "stdout", "time": 3137.227318168, "data": "median score:  21.43\n"}
+,{"stream_name": "stdout", "time": 3137.227319088, "data": "total actions: 577\n"}
+,{"stream_name": "stdout", "time": 3137.227320008, "data": "total tokens:  504152\n"}
+,{"stream_name": "stdout", "time": 3137.227320978, "data": "generated tokens/sec: 209.70 (job wallclock)\n"}
+,{"stream_name": "stdout", "time": 3137.227321988, "data": "total wallclock: 6736.0s\n"}
+,{"stream_name": "stdout", "time": 3137.227322948, "data": "\n"}
+,{"stream_name": "stdout", "time": 3137.227323908, "data": "per-game (mean across passes):\n"}
+,{"stream_name": "stdout", "time": 3137.227324928, "data": "  ls20-9607627b: score=19.32, levels=3.0/7, actions=225, tokens=165810\n"}
+,{"stream_name": "stdout", "time": 3137.227325928, "data": "  tu93-0768757b: score=62.22, levels=7.0/9, actions=232, tokens=176683\n"}
+,{"stream_name": "stdout", "time": 3137.227326908, "data": "  vc33-5430563c: score=21.43, levels=3.0/7, actions=120, tokens=161659\n"}
+,{"stream_name": "stdout", "time": 3137.227327888, "data": "\n"}
+,{"stream_name": "stdout", "time": 3248.873648129, "data": "[sys] RAM 107.9/176.9 | swap none | proc 0.6 GB, 63 threads, 71 fds | GPU0 93.8/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.2/19.5\n"}
+,{"stream_name": "stdout", "time": 3368.891168595, "data": "[sys] RAM 108.2/176.9 | swap none | proc 0.6 GB, 63 threads, 71 fds | GPU0 93.8/95.6 | disk / 7123.6/8156.9, /kaggle/working 0.2/19.5\n"}
+,{"stream_name": "stderr", "time": 3434.929979629, "data": "analyzer request timed out at action 237; yielding with 0 tool call(s) preserved: HTTPConnectionPool(host='127.0.0.1', port=8001): Read timed out. (read timeout=45.62177374800012)\n"}
+,{"stream_name": "stderr", "time": 3434.930001409, "data": "\n"}
+,{"stream_name": "stderr", "time": 3434.930003379, "data": "analyzer request timed out at action 237; yielding with 0 tool call(s) preserved: HTTPConnectionPool(host='127.0.0.1', port=8001): Read timed out. (read timeout=45.62177374800012)\n"}
+,{"stream_name": "stdout", "time": 3435.123627996, "data": "[finished] tu93-0768757b state=gave_up level=7/9 score=62.22 actions=236 tokens=214121 per-level=50/19,27/16,24/34,34/42,34/123,49/80,14/14,4/23,0/111 note=\"tokens=214121\"\n"}
+,{"stream_name": "stdout", "time": 3437.809568579, "data": "[finished] ls20-9607627b state=gave_up level=4/7 score=35.71 actions=284 tokens=206657 per-level=29/22,119/123,77/73,59/84,0/96,0/192,0/186 note=\"tokens=209752\"\n"}
+,{"stream_name": "stderr", "time": 3443.433920692, "data": "analyzer request timed out at action 143; yielding with 1 tool call(s) preserved: HTTPConnectionPool(host='127.0.0.1', port=8001): Read timed out. (read timeout=39.385070523000195)\n"}
+,{"stream_name": "stderr", "time": 3443.433938362, "data": "\n"}
+,{"stream_name": "stderr", "time": 3443.433940352, "data": "analyzer request timed out at action 143; yielding with 1 tool call(s) preserved: HTTPConnectionPool(host='127.0.0.1', port=8001): Read timed out. (read timeout=39.385070523000195)\n"}
+,{"stream_name": "stdout", "time": 3443.638541869, "data": "[finished] vc33-5430563c state=gave_up level=4/7 score=28.35 actions=142 tokens=210074 per-level=9/7,11/18,25/44,97/61,0/131,0/34,0/152 note=\"tokens=210923\"\n"}
+,{"stream_name": "stdout", "time": 3444.911000172, "data": "benchmark: regenerated diagnostics in /kaggle/working in 1.15s\n"}
+,{"stream_name": "stdout", "time": 3444.911018152, "data": "benchmark: duck-harness-kaggle-k-advises-text-only\n"}
+,{"stream_name": "stdout", "time": 3444.911020012, "data": "solver:    duck-harness\n"}
+,{"stream_name": "stdout", "time": 3444.911021172, "data": "games:     3\n"}
+,{"stream_name": "stdout", "time": 3444.911022342, "data": "passes:    1\n"}
+,{"stream_name": "stdout", "time": 3444.911023242, "data": "runs:      3 (won: 0)\n"}
+,{"stream_name": "stdout", "time": 3444.911024182, "data": "started:   2026-11-02 09:23:10\n"}
+,{"stream_name": "stdout", "time": 3444.911025102, "data": "ended:     2026-11-02 10:08:21\n"}
+,{"stream_name": "stdout", "time": 3444.911026022, "data": "duration:  45m 10s\n"}
+,{"stream_name": "stdout", "time": 3444.911026932, "data": "mean score:    42.09\n"}
+,{"stream_name": "stdout", "time": 3444.911027852, "data": "median score:  35.71\n"}
+,{"stream_name": "stdout", "time": 3444.911028732, "data": "total actions: 662\n"}
+,{"stream_name": "stdout", "time": 3444.911029632, "data": "total tokens:  630852\n"}
+,{"stream_name": "stdout", "time": 3444.911030572, "data": "generated tokens/sec: 232.74 (job wallclock)\n"}
+,{"stream_name": "stdout", "time": 3444.911031532, "data": "total wallclock: 8112.4s\n"}
+,{"stream_name": "stdout", "time": 3444.911032462, "data": "\n"}
+,{"stream_name": "stdout", "time": 3444.911033452, "data": "per-game (mean across passes):\n"}
+,{"stream_name": "stdout", "time": 3444.911034422, "data": "  ls20-9607627b: score=35.71, levels=4.0/7, actions=284, tokens=206657\n"}
+,{"stream_name": "stdout", "time": 3444.911035392, "data": "  tu93-0768757b: score=62.22, levels=7.0/9, actions=236, tokens=214121\n"}
+,{"stream_name": "stdout", "time": 3444.911042322, "data": "  vc33-5430563c: score=28.35, levels=4.0/7, actions=142, tokens=210074\n"}
+,{"stream_name": "stdout", "time": 3444.911043252, "data": "\n"}
+,{"stream_name": "stdout", "time": 3444.911043942, "data": "diagnostics: /kaggle/working/diagnostics.html\n"}
+,{"stream_name": "stdout", "time": 3445.672890551, "data": "game   levels actions    tokens  tok/level actions/level   score\n"}
+,{"stream_name": "stdout", "time": 3445.672907401, "data": "ls20        4    284    209752      52438        71.0  35.714\n"}
+,{"stream_name": "stdout", "time": 3445.672908941, "data": "tu93        7    236    214121      30589        33.7  62.222\n"}
+,{"stream_name": "stdout", "time": 3445.672909941, "data": "vc33        4    142    210923      52731        35.5  28.346\n"}
+,{"stream_name": "stdout", "time": 3445.672910811, "data": "TOTAL levels=15 actions=662 tokens=634796 tokens/level=42320 actions/level=44.1 mean score=42.0941\n"}
+,{"stream_name": "stdout", "time": 3445.672912321, "data": "game   model_act_ model_act_ cert_emitt cert_falsi cert_revok cert_revok h8_masked_ h8_refused  k_failure    k_stall   k_repeat     k_time    k_yield model_batc model_deat  layer_exc      k_exc  model_exc fallback_a cert_hidde  turns(model/K)  hidden  hint_max\n"}
+,{"stream_name": "stdout", "time": 3445.672914141, "data": "ls20          281          0          5          0          0          0          0          0          0          0          0          0          0          2          0          0          0          0          0          0  67/0  []  263\n"}
+,{"stream_name": "stdout", "time": 3445.672915101, "data": "tu93          223         28          3          0          0          0          0          0          0          0          0          0          0          2          7          0          0          0          0          0  62/0  []  261\n"}
+,{"stream_name": "stdout", "time": 3445.672915961, "data": "vc33          128          1         10          0          4          0          0          0          0          0          0          0          0          4          1          0          0          0          0          0  73/0  []  506\n"}
+,{"stream_name": "stderr", "time": 3445.72367476, "data": "/usr/local/lib/python3.12/dist-packages/IPython/core/display.py:724: UserWarning: Consider using IPython.display.IFrame instead\n"}
+,{"stream_name": "stderr", "time": 3445.72369161, "data": "  warnings.warn(\"Consider using IPython.display.IFrame instead\")\n"}
+,{"stream_name": "stderr", "time": 3445.72369361, "data": "\n"}
+,{"stream_name": "stderr", "time": 3445.72369518, "data": "/usr/local/lib/python3.12/dist-packages/IPython/core/display.py:724: UserWarning: Consider using IPython.display.IFrame instead\n"}
+,{"stream_name": "stderr", "time": 3445.72369666, "data": "  warnings.warn(\"Consider using IPython.display.IFrame instead\")\n"}
+,{"stream_name": "stderr", "time": 3447.692011283, "data": "/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name": "stderr", "time": 3447.692029173, "data": "  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name": "stderr", "time": 3447.860432381, "data": "/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name": "stderr", "time": 3447.860444041, "data": "  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name": "stderr", "time": 3448.760553019, "data": "[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name": "stderr", "time": 3448.919286417, "data": "[NbConvertApp] Writing 1549354 bytes to __notebook__.ipynb\n"}
+,{"stream_name": "stderr", "time": 3450.09368168, "data": "[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name": "stderr", "time": 3451.249400315, "data": "[NbConvertApp] Writing 3623663 bytes to __results__.html\n"}]

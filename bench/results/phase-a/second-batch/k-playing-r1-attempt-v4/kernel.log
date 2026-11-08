@@ -1,0 +1,163 @@
+[{"stream_name": "stderr", "time": 4.18686863, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name": "stderr", "time": 4.18689333, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name": "stderr", "time": 4.18689537, "data": "0.00s - to python to disable frozen modules.\n"}
+,{"stream_name": "stderr", "time": 4.18689648, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name": "stderr", "time": 4.480761934, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name": "stderr", "time": 4.480782604, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name": "stderr", "time": 4.480784244, "data": "0.00s - to python to disable frozen modules.\n"}
+,{"stream_name": "stderr", "time": 4.480785484, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name": "stdout", "time": 5.250479151, "data": "Writing /kaggle/harness-changes.patch\n"}
+,{"stream_name": "stdout", "time": 6.008684117, "data": "[explorer] source bundle not at /kaggle/input/datasets/dfranzen/taaf-kaggle-source-bundle-copy ; inputs: ['arc-prize-2026-arc-agi-3', 'models', 'pennyroyal-v253', 'taaf-kaggle-source-bundle-copy'] ; candidates: ['/kaggle/input/taaf-kaggle-source-bundle-copy']\n"}
+,{"stream_name": "stderr", "time": 6.70103311, "data": "Checking patch ARC3-Inference/inference/agent/action_names.py...\n"}
+,{"stream_name": "stderr", "time": 6.70109946, "data": "Checking patch ARC3-Inference/inference/agent/noop_repeat_guard.py...\n"}
+,{"stream_name": "stderr", "time": 6.70110541, "data": "Checking patch ARC3-Inference/inference/agent/priority_pace_reference.json...\n"}
+,{"stream_name": "stderr", "time": 6.701107, "data": "Checking patch ARC3-Inference/inference/agent/priority_scheduler.py...\n"}
+,{"stream_name": "stderr", "time": 6.70110802, "data": "Checking patch ARC3-Inference/inference/agent/prompts.py...\n"}
+,{"stream_name": "stderr", "time": 6.7011089, "data": "Checking patch ARC3-Inference/inference/agent/python_tool_sandbox.py...\n"}
+,{"stream_name": "stderr", "time": 6.70117875, "data": "Checking patch ARC3-Inference/inference/agent/runtime_state.py...\n"}
+,{"stream_name": "stderr", "time": 6.70118149, "data": "Checking patch ARC3-Inference/inference/agent/tool_agent.py...\n"}
+,{"stream_name": "stderr", "time": 6.70384732, "data": "Checking patch ARC3-Inference/inference/agent/vision_context.py...\n"}
+,{"stream_name": "stderr", "time": 6.70385271, "data": "Checking patch ARC3-Inference/inference/framework/run.py...\n"}
+,{"stream_name": "stderr", "time": 6.7039731, "data": "Hunk #1 succeeded at 467 (offset 48 lines).\n"}
+,{"stream_name": "stderr", "time": 6.70397409, "data": "Hunk #2 succeeded at 1271 (offset 48 lines).\n"}
+,{"stream_name": "stderr", "time": 6.70397501, "data": "Checking patch ARC3-Inference/inference/framework/solver.py...\n"}
+,{"stream_name": "stderr", "time": 6.70420531, "data": "Checking patch ARC3-Inference/inference/utils/animation.py...\n"}
+,{"stream_name": "stderr", "time": 6.704233, "data": "Checking patch ARC3-Inference/inference/utils/frame_diff.py...\n"}
+,{"stream_name": "stderr", "time": 6.70427186, "data": "Checking patch ARC3-Inference/inference/utils/openai_compat.py...\n"}
+,{"stream_name": "stderr", "time": 6.70430239, "data": "Checking patch ARC3-Inference/inference/utils/retained_functions.py...\n"}
+,{"stream_name": "stderr", "time": 6.70433649, "data": "Checking patch ARC3-Inference/inference/utils/segmentation.py...\n"}
+,{"stream_name": "stderr", "time": 6.70446348, "data": "Applied patch ARC3-Inference/inference/agent/action_names.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70447606, "data": "Applied patch ARC3-Inference/inference/agent/noop_repeat_guard.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70448177, "data": "Applied patch ARC3-Inference/inference/agent/priority_pace_reference.json cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70448953, "data": "Applied patch ARC3-Inference/inference/agent/priority_scheduler.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70450219, "data": "Applied patch ARC3-Inference/inference/agent/prompts.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70451476, "data": "Applied patch ARC3-Inference/inference/agent/python_tool_sandbox.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70452361, "data": "Applied patch ARC3-Inference/inference/agent/runtime_state.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70456097, "data": "Applied patch ARC3-Inference/inference/agent/tool_agent.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70457034, "data": "Applied patch ARC3-Inference/inference/agent/vision_context.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70458496, "data": "Applied patch ARC3-Inference/inference/framework/run.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70460193, "data": "Applied patch ARC3-Inference/inference/framework/solver.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70461053, "data": "Applied patch ARC3-Inference/inference/utils/animation.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70462161, "data": "Applied patch ARC3-Inference/inference/utils/frame_diff.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.7046313, "data": "Applied patch ARC3-Inference/inference/utils/openai_compat.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70464328, "data": "Applied patch ARC3-Inference/inference/utils/retained_functions.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70466481, "data": "Applied patch ARC3-Inference/inference/utils/segmentation.py cleanly.\n"}
+,{"stream_name": "stdout", "time": 6.70629844, "data": "harness patch applied successfully\n"}
+,{"stream_name": "stdout", "time": 6.70629967, "data": "taaf.kaggle: TRUE_SUBMISSION=False\n"}
+,{"stream_name": "stderr", "time": 6.70671244, "data": "Checking patch ARC3-Inference/inference/agent/action_names.py...\n"}
+,{"stream_name": "stderr", "time": 6.70672137, "data": "Checking patch ARC3-Inference/inference/agent/noop_repeat_guard.py...\n"}
+,{"stream_name": "stderr", "time": 6.70672304, "data": "Checking patch ARC3-Inference/inference/agent/priority_pace_reference.json...\n"}
+,{"stream_name": "stderr", "time": 6.70672395, "data": "Checking patch ARC3-Inference/inference/agent/priority_scheduler.py...\n"}
+,{"stream_name": "stderr", "time": 6.70672486, "data": "Checking patch ARC3-Inference/inference/agent/prompts.py...\n"}
+,{"stream_name": "stderr", "time": 6.70672566, "data": "Checking patch ARC3-Inference/inference/agent/python_tool_sandbox.py...\n"}
+,{"stream_name": "stderr", "time": 6.70672643, "data": "Checking patch ARC3-Inference/inference/agent/runtime_state.py...\n"}
+,{"stream_name": "stderr", "time": 6.70672716, "data": "Checking patch ARC3-Inference/inference/agent/tool_agent.py...\n"}
+,{"stream_name": "stderr", "time": 6.70672794, "data": "Checking patch ARC3-Inference/inference/agent/vision_context.py...\n"}
+,{"stream_name": "stderr", "time": 6.70672869, "data": "Checking patch ARC3-Inference/inference/framework/run.py...\n"}
+,{"stream_name": "stderr", "time": 6.70672948, "data": "Hunk #1 succeeded at 467 (offset 48 lines).\n"}
+,{"stream_name": "stderr", "time": 6.70673021, "data": "Hunk #2 succeeded at 1271 (offset 48 lines).\n"}
+,{"stream_name": "stderr", "time": 6.70673093, "data": "Checking patch ARC3-Inference/inference/framework/solver.py...\n"}
+,{"stream_name": "stderr", "time": 6.70673534, "data": "Checking patch ARC3-Inference/inference/utils/animation.py...\n"}
+,{"stream_name": "stderr", "time": 6.70673631, "data": "Checking patch ARC3-Inference/inference/utils/frame_diff.py...\n"}
+,{"stream_name": "stderr", "time": 6.70673705, "data": "Checking patch ARC3-Inference/inference/utils/openai_compat.py...\n"}
+,{"stream_name": "stderr", "time": 6.70673781, "data": "Checking patch ARC3-Inference/inference/utils/retained_functions.py...\n"}
+,{"stream_name": "stderr", "time": 6.70673858, "data": "Checking patch ARC3-Inference/inference/utils/segmentation.py...\n"}
+,{"stream_name": "stderr", "time": 6.7067393299999996, "data": "Applied patch ARC3-Inference/inference/agent/action_names.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70674008, "data": "Applied patch ARC3-Inference/inference/agent/noop_repeat_guard.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70674084, "data": "Applied patch ARC3-Inference/inference/agent/priority_pace_reference.json cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70674159, "data": "Applied patch ARC3-Inference/inference/agent/priority_scheduler.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70674235, "data": "Applied patch ARC3-Inference/inference/agent/prompts.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70674309, "data": "Applied patch ARC3-Inference/inference/agent/python_tool_sandbox.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70674383, "data": "Applied patch ARC3-Inference/inference/agent/runtime_state.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70674457, "data": "Applied patch ARC3-Inference/inference/agent/tool_agent.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.7067454600000005, "data": "Applied patch ARC3-Inference/inference/agent/vision_context.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.7067461999999995, "data": "Applied patch ARC3-Inference/inference/framework/run.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.7067469299999996, "data": "Applied patch ARC3-Inference/inference/framework/solver.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70674765, "data": "Applied patch ARC3-Inference/inference/utils/animation.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70674872, "data": "Applied patch ARC3-Inference/inference/utils/frame_diff.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70674948, "data": "Applied patch ARC3-Inference/inference/utils/openai_compat.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70675022, "data": "Applied patch ARC3-Inference/inference/utils/retained_functions.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70675097, "data": "Applied patch ARC3-Inference/inference/utils/segmentation.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70675182, "data": "\n"}
+,{"stream_name": "stderr", "time": 6.70675257, "data": "Checking patch ARC3-Inference/inference/agent/action_names.py...\n"}
+,{"stream_name": "stderr", "time": 6.7067534, "data": "Checking patch ARC3-Inference/inference/agent/noop_repeat_guard.py...\n"}
+,{"stream_name": "stderr", "time": 6.7067543, "data": "Checking patch ARC3-Inference/inference/agent/priority_pace_reference.json...\n"}
+,{"stream_name": "stderr", "time": 6.7067552, "data": "Checking patch ARC3-Inference/inference/agent/priority_scheduler.py...\n"}
+,{"stream_name": "stderr", "time": 6.70675599, "data": "Checking patch ARC3-Inference/inference/agent/prompts.py...\n"}
+,{"stream_name": "stderr", "time": 6.70675735, "data": "Checking patch ARC3-Inference/inference/agent/python_tool_sandbox.py...\n"}
+,{"stream_name": "stderr", "time": 6.70675809, "data": "Checking patch ARC3-Inference/inference/agent/runtime_state.py...\n"}
+,{"stream_name": "stderr", "time": 6.70675883, "data": "Checking patch ARC3-Inference/inference/agent/tool_agent.py...\n"}
+,{"stream_name": "stderr", "time": 6.70676068, "data": "Checking patch ARC3-Inference/inference/agent/vision_context.py...\n"}
+,{"stream_name": "stderr", "time": 6.70676148, "data": "Checking patch ARC3-Inference/inference/framework/run.py...\n"}
+,{"stream_name": "stderr", "time": 6.70676225, "data": "Hunk #1 succeeded at 467 (offset 48 lines).\n"}
+,{"stream_name": "stderr", "time": 6.70676298, "data": "Hunk #2 succeeded at 1271 (offset 48 lines).\n"}
+,{"stream_name": "stderr", "time": 6.70676371, "data": "Checking patch ARC3-Inference/inference/framework/solver.py...\n"}
+,{"stream_name": "stderr", "time": 6.70676444, "data": "Checking patch ARC3-Inference/inference/utils/animation.py...\n"}
+,{"stream_name": "stderr", "time": 6.70676517, "data": "Checking patch ARC3-Inference/inference/utils/frame_diff.py...\n"}
+,{"stream_name": "stderr", "time": 6.70676591, "data": "Checking patch ARC3-Inference/inference/utils/openai_compat.py...\n"}
+,{"stream_name": "stderr", "time": 6.7067666599999995, "data": "Checking patch ARC3-Inference/inference/utils/retained_functions.py...\n"}
+,{"stream_name": "stderr", "time": 6.70676742, "data": "Checking patch ARC3-Inference/inference/utils/segmentation.py...\n"}
+,{"stream_name": "stderr", "time": 6.70676815, "data": "Applied patch ARC3-Inference/inference/agent/action_names.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70676889, "data": "Applied patch ARC3-Inference/inference/agent/noop_repeat_guard.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70676964, "data": "Applied patch ARC3-Inference/inference/agent/priority_pace_reference.json cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70677038, "data": "Applied patch ARC3-Inference/inference/agent/priority_scheduler.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70677113, "data": "Applied patch ARC3-Inference/inference/agent/prompts.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70677185, "data": "Applied patch ARC3-Inference/inference/agent/python_tool_sandbox.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70677261, "data": "Applied patch ARC3-Inference/inference/agent/runtime_state.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70677334, "data": "Applied patch ARC3-Inference/inference/agent/tool_agent.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.7067742500000005, "data": "Applied patch ARC3-Inference/inference/agent/vision_context.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.706775, "data": "Applied patch ARC3-Inference/inference/framework/run.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.7067757199999996, "data": "Applied patch ARC3-Inference/inference/framework/solver.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70677646, "data": "Applied patch ARC3-Inference/inference/utils/animation.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70677719, "data": "Applied patch ARC3-Inference/inference/utils/frame_diff.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70677793, "data": "Applied patch ARC3-Inference/inference/utils/openai_compat.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70677867, "data": "Applied patch ARC3-Inference/inference/utils/retained_functions.py cleanly.\n"}
+,{"stream_name": "stderr", "time": 6.70677942, "data": "Applied patch ARC3-Inference/inference/utils/segmentation.py cleanly.\n"}
+,{"stream_name": "stdout", "time": 6.742645062, "data": "Precaching: Started...\n"}
+,{"stream_name": "stdout", "time": 6.742654712, "data": "Precaching: loaded 0 files (0.00 GB) in 0.00 seconds.\n"}
+,{"stream_name": "stdout", "time": 6.742655622, "data": "\n"}
+,{"stream_name": "stderr", "time": 7.910598547, "data": "WARNING: Location '/kaggle/input/competitions/arc-prize-2026-arc-agi-3/arc_agi_3_wheels' is ignored: it is either a non-existing path or lacks a specific scheme.\n"}
+,{"stream_name": "stderr", "time": 7.913411768, "data": "ERROR: Could not find a version that satisfies the requirement arc-agi (from versions: none)\n"}
+,{"stream_name": "stderr", "time": 7.913519228, "data": "ERROR: No matching distribution found for arc-agi\n"}
+,{"stream_name": "stderr", "time": 7.95554846, "data": "WARNING: Location '/kaggle/input/competitions/arc-prize-2026-arc-agi-3/arc_agi_3_wheels' is ignored: it is either a non-existing path or lacks a specific scheme.\n"}
+,{"stream_name": "stderr", "time": 7.9555618500000005, "data": "ERROR: Could not find a version that satisfies the requirement arc-agi (from versions: none)\n"}
+,{"stream_name": "stderr", "time": 7.95556343, "data": "ERROR: No matching distribution found for arc-agi\n"}
+,{"stream_name": "stderr", "time": 7.95556444, "data": "\n"}
+,{"stream_name": "stderr", "time": 7.95556536, "data": "WARNING: Location '/kaggle/input/competitions/arc-prize-2026-arc-agi-3/arc_agi_3_wheels' is ignored: it is either a non-existing path or lacks a specific scheme.\n"}
+,{"stream_name": "stderr", "time": 7.95556618, "data": "ERROR: Could not find a version that satisfies the requirement arc-agi (from versions: none)\n"}
+,{"stream_name": "stderr", "time": 7.95556699, "data": "ERROR: No matching distribution found for arc-agi\n"}
+,{"stream_name": "stderr", "time": 8.193577121, "data": "Traceback (most recent call last):\n"}
+,{"stream_name": "stderr", "time": 8.193581771, "data": "  File \"<string>\", line 1, in <module>\n"}
+,{"stream_name": "stderr", "time": 8.193583341, "data": "  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name": "stderr", "time": 8.193627441, "data": "    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name": "stderr", "time": 8.193641351, "data": "  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name": "stderr", "time": 8.193696951, "data": "    raise error\n"}
+,{"stream_name": "stderr", "time": 8.193721171, "data": "papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name": "stderr", "time": 8.193722211, "data": "---------------------------------------------------------------------------\n"}
+,{"stream_name": "stderr", "time": 8.193723291, "data": "Exception encountered at \"In [4]\":\n"}
+,{"stream_name": "stderr", "time": 8.193724251, "data": "---------------------------------------------------------------------------\n"}
+,{"stream_name": "stderr", "time": 8.193725071, "data": "CalledProcessError                        Traceback (most recent call last)\n"}
+,{"stream_name": "stderr", "time": 8.193725911, "data": "/tmp/ipykernel_65/2445002563.py in <cell line: 0>()\n"}
+,{"stream_name": "stderr", "time": 8.193726771, "data": "      1 # Install the ARC runtime from the bundled competition wheels.\n"}
+,{"stream_name": "stderr", "time": 8.193727531, "data": "      2 # Quiet: stdout is discarded; stderr (and a non-zero exit) still surface real failures.\n"}
+,{"stream_name": "stderr", "time": 8.193728321, "data": "----> 3 subprocess.check_call(\n"}
+,{"stream_name": "stderr", "time": 8.193729211, "data": "      4     [\n"}
+,{"stream_name": "stderr", "time": 8.193729941, "data": "      5         sys.executable,\n"}
+,{"stream_name": "stderr", "time": 8.193731211, "data": "\n"}
+,{"stream_name": "stderr", "time": 8.193732251, "data": "/usr/lib/python3.12/subprocess.py in check_call(*popenargs, **kwargs)\n"}
+,{"stream_name": "stderr", "time": 8.193733111, "data": "    411         if cmd is None:\n"}
+,{"stream_name": "stderr", "time": 8.193733841, "data": "    412             cmd = popenargs[0]\n"}
+,{"stream_name": "stderr", "time": 8.193734601, "data": "--> 413         raise CalledProcessError(retcode, cmd)\n"}
+,{"stream_name": "stderr", "time": 8.193738701000001, "data": "    414     return 0\n"}
+,{"stream_name": "stderr", "time": 8.193739591, "data": "    415 \n"}
+,{"stream_name": "stderr", "time": 8.193740310999999, "data": "\n"}
+,{"stream_name": "stderr", "time": 8.193741181, "data": "CalledProcessError: Command '['/usr/bin/python3', '-m', 'pip', 'install', '--quiet', '--no-index', '--no-warn-conflicts', '--disable-pip-version-check', '--find-links', '/kaggle/input/competitions/arc-prize-2026-arc-agi-3/arc_agi_3_wheels', 'arc-agi']' returned non-zero exit status 1.\n"}
+,{"stream_name": "stderr", "time": 8.193742591, "data": "\n"}
+,{"stream_name": "stderr", "time": 9.296237753, "data": "/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name": "stderr", "time": 9.296255783, "data": "  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name": "stderr", "time": 9.373476057, "data": "/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name": "stderr", "time": 9.373487447, "data": "  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name": "stderr", "time": 9.700673223, "data": "[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name": "stderr", "time": 9.84900399, "data": "[NbConvertApp] Writing 805602 bytes to __notebook__.ipynb\n"}
+,{"stream_name": "stderr", "time": 10.990149714, "data": "[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name": "stderr", "time": 11.935830819, "data": "[NbConvertApp] Writing 2880104 bytes to __results__.html\n"}]

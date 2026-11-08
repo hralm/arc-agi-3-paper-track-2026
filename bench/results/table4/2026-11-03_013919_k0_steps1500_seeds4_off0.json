@@ -53,7 +53,7 @@
       "mover_moves": 55,
       "guided": 32,
       "timer": 68,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "guided_frontier": 4,
       "reset_life_budget_exhausted": 7
      },
@@ -83,7 +83,7 @@
       "plan_diverged": 18,
       "reset_game_over": 12,
       "timer": 24,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 51
      },
      "score": 0.0,
@@ -112,7 +112,7 @@
       "plan": 39,
       "reset_game_over": 3,
       "timer": 100,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 11,
       "h2_ref_level_1": 1
      },
@@ -138,7 +138,7 @@
       "reset_game_over": 3,
       "mover_moves": 6,
       "timer": 75,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 16,
       "plan_new": 80,
       "plan": 108
@@ -168,7 +168,7 @@
       "plan_new": 75,
       "plan": 144,
       "reset_game_over": 14,
-      "morte_oculta": 2
+      "hidden_death": 2
      },
      "score": 0.0,
      "level_actions": [
@@ -220,7 +220,7 @@
       "guided_frontier": 21,
       "guided": 54,
       "plan_diverged": 70,
-      "morte_oculta": 3,
+      "hidden_death": 3,
       "reset_game_over": 3,
       "exhausted": 7,
       "guidance_disabled": 1,
@@ -257,7 +257,7 @@
       "reset_game_over": 3,
       "h2_falsified": 1,
       "timer": 100,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 11
      },
      "score": 0.0,
@@ -340,7 +340,7 @@
       "guided": 6,
       "plan_diverged": 9,
       "timer": 133,
-      "morte_oculta": 3,
+      "hidden_death": 3,
       "reset_life_budget_exhausted": 1
      },
      "score": 0.0029459799790226755,
@@ -369,7 +369,7 @@
       "mover_moves": 262,
       "reset_game_over": 7,
       "timer": 151,
-      "morte_oculta": 5,
+      "hidden_death": 5,
       "reset_life_budget_exhausted": 2,
       "h2_ref_level_1": 1,
       "guided": 34
@@ -421,7 +421,7 @@
       "guided": 146,
       "reset_game_over": 3,
       "timer": 100,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "plan_new": 19,
       "plan": 20,
       "reset_life_budget_exhausted": 11
@@ -448,7 +448,7 @@
       "reindex": 1,
       "reset_game_over": 3,
       "timer": 50,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "plan_new": 119,
       "plan": 204,
       "reset_life_budget_exhausted": 26
@@ -511,7 +511,7 @@
       "exhausted": 1,
       "guidance_disabled": 1,
       "reopened": 2,
-      "morte_oculta": 1
+      "hidden_death": 1
      },
      "score": 0.0,
      "level_actions": [
@@ -533,7 +533,7 @@
       "h2_ref_level_0": 1,
       "reset_game_over": 3,
       "timer": 196,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "plan_new": 8,
       "plan": 11,
       "reset_life_budget_exhausted": 4,
@@ -567,7 +567,7 @@
       "plan_new": 121,
       "plan": 379,
       "timer": 30,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "h2_ref_level_1": 1,
       "reset_life_budget_exhausted": 33,
       "reset_plan_over_budget": 1
@@ -624,7 +624,7 @@
       "h2_ref_level_1": 1,
       "reset_game_over": 3,
       "timer": 61,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 21
      },
      "score": 3.571428571428571,
@@ -648,7 +648,7 @@
       "reindex": 1,
       "reset_game_over": 3,
       "timer": 128,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 8,
       "plan_new": 18,
       "plan": 24
@@ -675,7 +675,7 @@
       "plan": 375,
       "reset_game_over": 24,
       "timer": 50,
-      "morte_oculta": 4,
+      "hidden_death": 4,
       "reset_life_budget_exhausted": 3,
       "exhausted": 240,
       "guidance_disabled": 1,
@@ -706,7 +706,7 @@
       "reindex": 1,
       "plan_new": 30,
       "plan": 32,
-      "morte_oculta": 2,
+      "hidden_death": 2,
       "reset_game_over": 5,
       "h2_ref_level_2": 1,
       "guided_h2": 10,
@@ -738,7 +738,7 @@
       "plan_new": 56,
       "plan": 68,
       "timer": 200,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 4,
       "guided_frontier": 2
      },
@@ -778,7 +778,7 @@
       "plan_new": 97,
       "plan": 149,
       "timer": 64,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 19,
       "guided_frontier": 3
      },
@@ -808,7 +808,7 @@
       "plan": 151,
       "plan_diverged": 19,
       "timer": 24,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 55
      },
      "score": 0.0,
@@ -836,7 +836,7 @@
       "plan": 32,
       "reset_game_over": 3,
       "timer": 100,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 11,
       "h2_ref_level_1": 1
      },
@@ -861,7 +861,7 @@
       "reindex": 5,
       "reset_game_over": 3,
       "timer": 75,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "plan_new": 41,
       "plan": 48,
       "reset_life_budget_exhausted": 16,
@@ -947,7 +947,7 @@
       "plan_diverged": 64,
       "target_switched": 1,
       "reset_game_over": 5,
-      "morte_oculta": 4,
+      "hidden_death": 4,
       "exhausted": 7,
       "guidance_disabled": 1,
       "reopened": 8,
@@ -980,7 +980,7 @@
       "guided_frontier": 25,
       "plan_new": 94,
       "plan": 148,
-      "morte_oculta": 2,
+      "hidden_death": 2,
       "reset_game_over": 3,
       "timer": 100,
       "reset_life_budget_exhausted": 11
@@ -1065,7 +1065,7 @@
       "mover_moves": 42,
       "plan_diverged": 5,
       "guided_frontier": 1,
-      "morte_oculta": 4,
+      "hidden_death": 4,
       "guided": 2
      },
      "score": 0.005652454403145194,
@@ -1094,7 +1094,7 @@
       "reset_game_over": 6,
       "h2_ref_level_1": 1,
       "timer": 151,
-      "morte_oculta": 4,
+      "hidden_death": 4,
       "guided": 44,
       "reset_life_budget_exhausted": 3,
       "guided_frontier": 8
@@ -1121,7 +1121,7 @@
       "guided_h2": 11,
       "reset_game_over": 39,
       "timer": 60,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 6,
       "plan_new": 9,
       "plan": 9
@@ -1150,7 +1150,7 @@
       "plan_new": 18,
       "plan": 21,
       "timer": 100,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 11,
       "guided_frontier": 1
      },
@@ -1180,7 +1180,7 @@
       "plan_new": 75,
       "plan": 100,
       "timer": 50,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 26,
       "h2_ref_level_1": 1,
       "h2_falsified": 1
@@ -1240,7 +1240,7 @@
       "reset_game_over": 23,
       "guided": 70,
       "timer": 57,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "plan_diverged": 13,
       "reset_life_budget_exhausted": 4,
       "exhausted": 1,
@@ -1269,7 +1269,7 @@
       "plan_new": 8,
       "plan": 8,
       "timer": 196,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "plan_diverged": 2,
       "reset_life_budget_exhausted": 4
      },
@@ -1302,7 +1302,7 @@
       "plan": 318,
       "h2_ref_level_1": 1,
       "timer": 45,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 8
      },
      "score": 2.7846432690723346,
@@ -1358,7 +1358,7 @@
       "h2_ref_level_1": 1,
       "reset_game_over": 3,
       "timer": 61,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 21
      },
      "score": 3.571428571428571,
@@ -1384,7 +1384,7 @@
       "plan_new": 22,
       "plan": 27,
       "timer": 128,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 8
      },
      "score": 0.0,
@@ -1409,7 +1409,7 @@
       "plan": 676,
       "reset_game_over": 38,
       "timer": 50,
-      "morte_oculta": 11,
+      "hidden_death": 11,
       "reset_life_budget_exhausted": 3,
       "exhausted": 1,
       "guidance_disabled": 1,
@@ -1439,7 +1439,7 @@
       "reset_game_over": 3,
       "plan_new": 53,
       "plan": 53,
-      "morte_oculta": 2,
+      "hidden_death": 2,
       "timer": 50,
       "reset_life_budget_exhausted": 25,
       "h2_ref_level_2": 1,
@@ -1470,7 +1470,7 @@
       "plan_new": 32,
       "plan": 32,
       "timer": 200,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 4
      },
      "score": 0.0,
@@ -1509,7 +1509,7 @@
       "plan_new": 95,
       "plan": 152,
       "guided_frontier": 3,
-      "morte_oculta": 1
+      "hidden_death": 1
      },
      "score": 0.002247462277091907,
      "level_actions": [
@@ -1537,7 +1537,7 @@
       "plan": 129,
       "plan_diverged": 17,
       "timer": 24,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 52
      },
      "score": 0.0,
@@ -1567,7 +1567,7 @@
       "reset_game_over": 3,
       "h2_ref_level_1": 1,
       "timer": 100,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 11
      },
      "score": 0.5488782923625173,
@@ -1591,7 +1591,7 @@
       "reindex": 12,
       "reset_game_over": 3,
       "timer": 75,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "plan_new": 72,
       "plan": 97,
       "reset_life_budget_exhausted": 16,
@@ -1678,7 +1678,7 @@
       "guidance_disabled": 1,
       "reopened": 8,
       "timer": 130,
-      "morte_oculta": 3,
+      "hidden_death": 3,
       "reset_life_budget_exhausted": 4,
       "reset_exhausted": 3
      },
@@ -1709,7 +1709,7 @@
       "plan": 118,
       "guided_frontier": 11,
       "timer": 100,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 11
      },
      "score": 0.0,
@@ -1794,7 +1794,7 @@
       "exhausted": 1,
       "guidance_disabled": 1,
       "reopened": 2,
-      "morte_oculta": 4
+      "hidden_death": 4
      },
      "score": 0.006619810082572556,
      "level_actions": [
@@ -1822,7 +1822,7 @@
       "guided_frontier": 4,
       "reset_game_over": 5,
       "timer": 151,
-      "morte_oculta": 3,
+      "hidden_death": 3,
       "reset_life_budget_exhausted": 4,
       "h2_ref_level_1": 1,
       "guided": 38
@@ -1849,7 +1849,7 @@
       "guided_h2": 10,
       "reset_game_over": 42,
       "timer": 60,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 5,
       "plan_new": 11,
       "plan": 11
@@ -1876,7 +1876,7 @@
       "guided": 55,
       "reset_game_over": 3,
       "timer": 100,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "plan_new": 18,
       "plan": 18,
       "reset_life_budget_exhausted": 11
@@ -1905,7 +1905,7 @@
       "guided_h2": 4,
       "reset_game_over": 3,
       "timer": 50,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "plan_new": 99,
       "plan": 171,
       "reset_life_budget_exhausted": 26
@@ -1967,7 +1967,7 @@
       "exhausted": 1,
       "guidance_disabled": 1,
       "reopened": 2,
-      "morte_oculta": 1
+      "hidden_death": 1
      },
      "score": 0.0,
      "level_actions": [
@@ -1990,7 +1990,7 @@
       "reset_game_over": 3,
       "h2_ref_level_1": 1,
       "timer": 196,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 4,
       "plan_new": 7,
       "plan": 7
@@ -2024,7 +2024,7 @@
       "plan_new": 111,
       "plan": 331,
       "timer": 45,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 9
      },
      "score": 3.016600226096269,
@@ -2080,7 +2080,7 @@
       "h2_ref_level_1": 1,
       "reset_game_over": 3,
       "timer": 61,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 21
      },
      "score": 3.571428571428571,
@@ -2106,7 +2106,7 @@
       "plan_new": 18,
       "plan": 25,
       "timer": 128,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 8
      },
      "score": 0.0,
@@ -2130,7 +2130,7 @@
       "plan_new": 216,
       "plan": 670,
       "reset_game_over": 44,
-      "morte_oculta": 12,
+      "hidden_death": 12,
       "timer": 50,
       "reset_life_budget_exhausted": 3
      },
@@ -2161,7 +2161,7 @@
       "plan_new": 63,
       "plan": 71,
       "timer": 50,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 25,
       "h2_ref_level_2": 1
      },
@@ -2190,7 +2190,7 @@
       "plan": 13,
       "guided": 13,
       "timer": 200,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 4
      },
      "score": 0.0,
@@ -2229,7 +2229,7 @@
       "mover_moves": 51,
       "guided": 14,
       "guided_frontier": 3,
-      "morte_oculta": 3
+      "hidden_death": 3
      },
      "score": 0.0,
      "level_actions": [
@@ -2257,7 +2257,7 @@
       "plan": 127,
       "plan_diverged": 14,
       "timer": 24,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 53
      },
      "score": 0.0,
@@ -2286,7 +2286,7 @@
       "plan": 46,
       "reset_game_over": 3,
       "timer": 100,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 11,
       "h2_ref_level_1": 1
      },
@@ -2313,7 +2313,7 @@
       "plan_new": 40,
       "plan": 49,
       "timer": 75,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 16,
       "mover_moves": 4,
       "h2_ref_level_1": 1
@@ -2396,7 +2396,7 @@
       "plan_diverged": 57,
       "reset_game_over": 4,
       "target_switched": 1,
-      "morte_oculta": 3,
+      "hidden_death": 3,
       "exhausted": 9,
       "guidance_disabled": 1,
       "reopened": 10,
@@ -2431,7 +2431,7 @@
       "plan": 138,
       "reset_game_over": 3,
       "timer": 100,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 11
      },
      "score": 0.0,
@@ -2513,7 +2513,7 @@
       "mover_moves": 59,
       "reset_game_over": 12,
       "timer": 133,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 1,
       "plan_diverged": 4,
       "exhausted": 1,
@@ -2546,7 +2546,7 @@
       "mover_moves": 304,
       "reset_game_over": 3,
       "timer": 151,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 5,
       "h2_ref_level_1": 1,
       "reset_plan_over_budget": 1,
@@ -2572,7 +2572,7 @@
       "reindex": 1,
       "reset_game_over": 55,
       "timer": 60,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "plan_new": 19,
       "plan": 19
      },
@@ -2598,7 +2598,7 @@
       "guided": 294,
       "reset_game_over": 3,
       "timer": 100,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 11,
       "plan_new": 23,
       "plan": 26
@@ -2629,7 +2629,7 @@
       "plan_new": 90,
       "plan": 137,
       "timer": 50,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 26
      },
      "score": 0.0,
@@ -2687,7 +2687,7 @@
       "guided_h2": 2,
       "guided": 128,
       "timer": 57,
-      "morte_oculta": 3,
+      "hidden_death": 3,
       "plan_diverged": 13,
       "reset_life_budget_exhausted": 4,
       "exhausted": 1,
@@ -2716,7 +2716,7 @@
       "plan_new": 12,
       "plan": 12,
       "timer": 196,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "plan_diverged": 6,
       "reset_life_budget_exhausted": 4
      },
@@ -2749,7 +2749,7 @@
       "h2_ref_level_1": 1,
       "guided_frontier": 118,
       "timer": 45,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 10
      },
      "score": 2.229257353911094,
@@ -2804,7 +2804,7 @@
       "h2_ref_level_1": 1,
       "reset_game_over": 3,
       "timer": 61,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 21
      },
      "score": 3.571428571428571,
@@ -2830,7 +2830,7 @@
       "plan_new": 17,
       "plan": 23,
       "timer": 128,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 8
      },
      "score": 0.0,
@@ -2855,7 +2855,7 @@
       "plan_new": 195,
       "plan": 666,
       "timer": 50,
-      "morte_oculta": 9,
+      "hidden_death": 9,
       "reset_life_budget_exhausted": 4,
       "exhausted": 2,
       "guidance_disabled": 1,
@@ -2887,7 +2887,7 @@
       "plan_new": 68,
       "plan": 78,
       "timer": 50,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 25,
       "h2_ref_level_2": 1,
       "guided_h2": 29
@@ -2918,7 +2918,7 @@
       "reset_game_over": 3,
       "guided_frontier": 4,
       "timer": 200,
-      "morte_oculta": 1,
+      "hidden_death": 1,
       "reset_life_budget_exhausted": 4
      },
      "score": 0.0,

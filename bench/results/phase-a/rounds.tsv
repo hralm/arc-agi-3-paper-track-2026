@@ -1,0 +1,38 @@
+batch	arm	round	kernel	kaggle_version	read	note
+second-batch	control	r1	what-exploration-can-ignore-dfranzen-control	1	yes	
+second-batch	control	r2	what-exploration-can-ignore-dfranzen-control	2	yes	
+second-batch	control	r3	what-exploration-can-ignore-dfranzen-control	3	yes	
+second-batch	control	r4	what-exploration-can-ignore-dfranzen-control	4	yes	text-only re-push; read (declared before the result)
+second-batch	k-playing	r1-attempt-v2	what-exploration-can-ignore-dfranzen-k-playing	2	no	did not start: old input layout, wheels not found
+second-batch	k-playing	r1-attempt-v3	what-exploration-can-ignore-dfranzen-k-playing	3	no	did not start: old input layout
+second-batch	k-playing	r1-attempt-v4	what-exploration-can-ignore-dfranzen-k-playing	4	no	did not start: old input layout
+second-batch	k-playing	r1	what-exploration-can-ignore-dfranzen-k-playing	5	yes	layout resolver active (old layout)
+second-batch	k-playing	r2	what-exploration-can-ignore-dfranzen-k-playing	6	yes	
+second-batch	k-playing	r3	what-exploration-can-ignore-dfranzen-k-playing	7	yes	
+second-batch	k-playing	r4	what-exploration-can-ignore-dfranzen-k-playing	8	no	text-only re-push after the batch closed; not read
+second-batch	k-advising	r1	what-exploration-can-ignore-dfranzen-k-advising	1	yes	
+second-batch	k-advising	r2	what-exploration-can-ignore-dfranzen-k-advising	2	yes	
+second-batch	k-advising	r3	what-exploration-can-ignore-dfranzen-k-advising	3	yes	
+second-batch	last-resort	r1	what-exploration-can-ignore-dfranzen-last-resort	1	yes	
+second-batch	last-resort	r2	what-exploration-can-ignore-dfranzen-last-resort	2	no	invalid: nine exceptions from our layer in vc33; rerun as r4
+second-batch	last-resort	r3	what-exploration-can-ignore-dfranzen-last-resort	3	yes	
+second-batch	last-resort	r4	what-exploration-can-ignore-dfranzen-last-resort	4	yes	rerun of r2
+second-batch	duck-fork-k-playing	r1	what-exploration-can-ignore-duck-fork-k-playing	1	descriptive	not an arm of Table 3: different base
+second-batch	duck-fork-k-playing	r2	what-exploration-can-ignore-duck-fork-k-playing	2	descriptive	not an arm of Table 3: different base
+second-batch	duck-fork-k-playing	r3	what-exploration-can-ignore-duck-fork-k-playing	3	no	text-only re-push after the batch closed; not read
+first-batch	base	r1	development kernel (not public)		yes	pilot round (the reading rule was fixed after it)
+first-batch	base	r2	development kernel (not public)		yes	
+first-batch	base	r3-failed	development kernel (not public)		no	invalid: the model server never became ready; rerun
+first-batch	base	r3	development kernel (not public)		yes	rerun of the failed round
+first-batch	advisor	r1	development kernel (not public)		yes	pilot round (the reading rule was fixed after it)
+first-batch	advisor	r2	development kernel (not public)		yes	
+first-batch	advisor	r3	development kernel (not public)		yes	
+first-batch	advice-text-only	r1	development kernel (not public)		yes	
+first-batch	advice-text-only	r2	development kernel (not public)		no	invalid: one exception from our layer in vc33
+first-batch	advice-text-only	r3	development kernel (not public)		yes	
+first-batch	advice-text-only	r4	development kernel (not public)		yes	replaces r2
+first-batch	k-playing	r1	development kernel (not public)		descriptive	two rounds only: descriptive under the three-round rule
+first-batch	k-playing	r2	development kernel (not public)		descriptive	two rounds only: descriptive under the three-round rule
+duck-line	duck-v4	phase-a	development kernel (not public)		descriptive	Table 1, v4 (7,920 s cap per game)
+duck-line	duck-v5	phase-a	development kernel (not public)		descriptive	Table 1, v5: phase A of the scored entry (ref. 57852519)
+v14-1	last-resort-cross-game	phase-a	development kernel (not public)		descriptive	600 s window; not comparable with the base (Section 5)

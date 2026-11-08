@@ -41,7 +41,7 @@ def test_shared_store_and_records_win():
     del h1.progress
     fams, schemas = h2.cross.snapshot()
     assert cross.records == before + 1 and fams.get("O3", 0) >= 1, (cross.records, fams)
-    assert h1.ag.stats["h5_cross_registro"] >= 1 and h1.ag.stats["h5_cross_exc"] == 0
+    assert h1.ag.stats["h5_cross_records"] >= 1 and h1.ag.stats["h5_cross_exc"] == 0
     return f"single store across games; win of game 1 visible in game 2: families={fams}"
 
 
@@ -98,7 +98,7 @@ def test_v12_no_store():
     return "v12 (cross_game=False): H5 without a store"
 
 
-def test_k_cross_decisao_counts_only_k_turns():
+def test_k_cross_decisions_counts_only_k_turns():
     """Review caveat: the guide's mark only counts when K plays (k_endgame); the discarded proposal of a model
     turn (absorb -> propose -> guide) does not count."""
     _new_cross()
@@ -121,18 +121,18 @@ def test_k_cross_decisao_counts_only_k_turns():
         ka.KPolicy.propose = orig
     a = an["ls20"][0]
     assert a.model_turns > 0 and a.stats["k_endgame"] > 0, (a.model_turns, a.stats["k_endgame"])
-    assert a.stats["k_cross_decisao"] == a.stats["k_endgame"], (a.stats["k_cross_decisao"], a.stats["k_endgame"])
+    assert a.stats["k_cross_decisions"] == a.stats["k_endgame"], (a.stats["k_cross_decisions"], a.stats["k_endgame"])
     an2 = {}
     common.run_games(["ls20"], common.make_factory(ka, an2, mode="random", advisor=True, h8=None, inject_hint=False,
                                         max_runtime_s=600.0, last_resort_s=1e9, k_level_budget=10, k_game_budget=25,
                                         cross_game=True), max_actions=200, conc=1, max_runtime=600.0)
     b = an2["ls20"][0]
-    assert b.stats["k_cross_decisao"] == 0, b.stats["k_cross_decisao"]   # empty store: nothing to change
-    return (f"k_cross_decisao = k_endgame turns ({a.stats['k_endgame']}) with the mark; {a.model_turns} model turns "
+    assert b.stats["k_cross_decisions"] == 0, b.stats["k_cross_decisions"]   # empty store: nothing to change
+    return (f"k_cross_decisions = k_endgame turns ({a.stats['k_endgame']}) with the mark; {a.model_turns} model turns "
             "do not count; empty store => 0")
 
 
-def test_k_cross_decisao_clears_stale_mark():
+def test_k_cross_decisions_clears_stale_mark():
     """M84: if K's proposal does not go through the guide (no live instance, guide disabled), the mark left by a
     model turn must not become a K decision. _k_turn clears the mark before propose."""
     _new_cross()
@@ -161,11 +161,11 @@ def test_k_cross_decisao_clears_stale_mark():
         ka.KPolicy.absorb = orig_abs
     a = an["ls20"][0]
     assert a.stats["k_endgame"] > 0 and a.model_turns > 0, (a.stats["k_endgame"], a.model_turns)
-    assert a.stats["k_cross_decisao"] == 0, a.stats["k_cross_decisao"]
-    return f"stale mark from the model path cleared: k_cross_decisao=0 over {a.stats['k_endgame']} K turns"
+    assert a.stats["k_cross_decisions"] == 0, a.stats["k_cross_decisions"]
+    return f"stale mark from the model path cleared: k_cross_decisions=0 over {a.stats['k_endgame']} K turns"
 
 
-TESTS = [test_k_cross_decisao_clears_stale_mark, test_k_cross_decisao_counts_only_k_turns, test_tiebreak_never_beats_evidence, test_role_without_color, test_ambiguous_not_recorded_and_failure_does_not_crash,
+TESTS = [test_k_cross_decisions_clears_stale_mark, test_k_cross_decisions_counts_only_k_turns, test_tiebreak_never_beats_evidence, test_role_without_color, test_ambiguous_not_recorded_and_failure_does_not_crash,
          test_v12_no_store, test_shared_store_and_records_win]
 if __name__ == "__main__":
     raise SystemExit(common.main(TESTS))
