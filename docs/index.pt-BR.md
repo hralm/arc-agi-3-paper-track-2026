@@ -129,7 +129,7 @@ a bloco, primeiro a fidelidade às fontes, depois o estilo.
 
 - **Decidir antes do número é o que torna um resultado negativo digno de publicação.** O que conta como rodada, como um
   efeito é lido, qual braço é descritivo: tudo isso foi escrito antes de os dados chegarem, e é por isso que posso relatar
-  0,75 e 50 de 66 sem pestanejar.
+  0,75 e 50 de 66 sem problemas.
 - **Três jogos públicos e três rodadas detectam só efeitos grandes.** No mesmo dia, com o mesmo notebook sem nenhuma
   modificação, um jogo pontuou de 21 a 100. Com DPs amostrais acima de 15, a barra ficou em cerca de 45 pontos, e nenhum
   braço chegou perto dela.
