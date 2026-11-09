@@ -187,12 +187,12 @@ def canvas(w, h, xmax, ymax, x0=-0.1, y0=-0.1):
     return fig, ax
 
 
-def save_png(fig, name, tight):
+def save_png(fig, name, tight, dpi=200):
     assert not OVER, OVER
     if tight:
         fig.savefig(name, dpi=300, bbox_inches="tight", pad_inches=0.08, metadata={"Software": None})
     else:
-        fig.savefig(name, dpi=200, metadata={"Software": None})
+        fig.savefig(name, dpi=dpi, metadata={"Software": None})
     plt.close(fig)
 
 
@@ -270,26 +270,46 @@ def gallery_modes():
     save_png(fig, "gallery-diagram-2b-modes.png", tight=False)
 
 
+PAGE_W = 7.9   # data units (IN inches each): one canvas width for the three page images, so the column shows them at one scale
+
+
 def page_classification():
-    cols = [(0.0, 1.95), (2.0, 2.3), (4.35, 2.3)]
-    fig, ax = canvas(IN * 6.8, IN * 7.9, 6.8, 7.9)
-    y = classification_table(ax, cols, [0.86, 1.1, 0.95, 0.75], 7.0, NOTES_WIDE, below=(0.0, 6.65, [1.45, 1.1]))
+    cols = [(0.0, 2.2), (2.25, 2.7), (5.0, 2.7)]
+    fig, ax = canvas(IN * PAGE_W, IN * 7.9, PAGE_W, 7.9)
+    y = classification_table(ax, cols, [0.86, 1.1, 0.95, 0.75], 7.0, NOTES_WIDE, below=(0.0, 7.7, [1.45, 1.1]))
     ax.text(0, y - 0.35, SOURCE, fontsize=6.6, color=MUTED)
-    save_png(fig, "diagram-behavioral-classification.png", tight=True)
+    save_png(fig, "diagram-behavioral-classification.png", tight=False, dpi=300)
 
 
 def page_certificate():
-    fig, ax = canvas(IN * 7.7, IN * 7.3, 7.7, 7.3, y0=-0.1)
-    ax.text(0, 6.9, "A. No-effect certificate (Section 3.2)", fontsize=8.4, color=INK, va="center")
+    fig, ax = canvas(IN * PAGE_W, IN * 6.95, PAGE_W, 6.95, y0=0.55)
+    ax.text(0, 7.2, "A. No-effect certificate (Section 3.2)", fontsize=8.4, color=INK, va="center")
     panel_certificate(ax)
-    save_png(fig, "diagram-certificate.png", tight=True)
+    save_png(fig, "diagram-certificate.png", tight=False, dpi=300)
 
 
 def page_modes():
-    fig, ax = canvas(IN * 4.9, IN * 7.7, 4.9, 7.7, y0=-0.4)
-    ax.text(0, 7.15, "B. Where K acts (Sections 3.1 and 5)", fontsize=8.4, color=INK, va="center")
-    panel_modes(ax, x=0.0)
-    save_png(fig, "diagram-modes.png", tight=True)
+    """The three modes as rows: title and note on the left, the agent, K, and the game on the right."""
+    fig, ax = canvas(IN * PAGE_W, IN * 6.0, PAGE_W, 6.0)
+    ax.text(0, 5.65, "B. Where K acts (Sections 3.1 and 5)", fontsize=8.4, color=INK, va="center")
+    BX, GX = 3.75, 6.45
+    for y, (title, note, kind) in zip((4.05, 2.25, 0.45), MODES):
+        ax.text(0, y + 1.0, title, fontsize=7.4, color=INK, weight="bold", va="center")
+        ax.text(0, y + 0.45, note, fontsize=6.6, color=INK2, va="center", linespacing=1.2)
+        box(ax, BX, y + 0.7, 1.5, 0.45, "LLM agent", fc=BLUE_BG, ec=BLUE)
+        box(ax, BX, y + 0.0, 1.5, 0.45, "K", fc=ORANGE_BG, ec=ORANGE)
+        box(ax, GX, y + 0.0, 1.25, 1.15, "game")
+        arrow(ax, (BX + 1.5, y + 0.92), (GX, y + 0.92), color=BLUE)
+        if kind == "solid":
+            arrow(ax, (BX + 1.5, y + 0.22), (GX, y + 0.22), color=ORANGE)
+        elif kind == "dashed":
+            arrow(ax, (BX + 1.5, y + 0.22), (GX, y + 0.22), color=ORANGE, ls="--")
+        else:
+            arrow(ax, (GX, y + 0.22), (BX + 1.5, y + 0.22), color=MUTED, lw=0.8)
+            ax.text((BX + 1.5 + GX) / 2, y + 0.12, "observes", fontsize=6.2, color=MUTED, ha="center", va="top")
+            arrow(ax, (BX + 0.75, y + 0.45), (BX + 0.75, y + 0.7), color=ORANGE, ls=":", lw=1.2)
+    ax.text(0, 0.0, CONTROL, fontsize=6.4, color=MUTED)
+    save_png(fig, "diagram-modes.png", tight=False, dpi=300)
 
 
 if __name__ == "__main__":
