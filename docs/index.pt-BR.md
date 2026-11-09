@@ -51,8 +51,9 @@ nomeasse o objetivo, e nenhum modo produziu ganho mensurável de pontuação.
 
 ## Tempo, máquina e orçamento
 
-Seis semanas, de 29 de setembro a 8 de novembro de 2026. Um autor, com agentes de modelos de linguagem fazendo o trabalho
-executivo (código, testes, bancadas, rascunhos) sob regras que fixei e revisei, como declara a Declaração do artigo.
+Seis semanas, de 29 de setembro a 8 de novembro de 2026. O autor supervisiona a execução do trabalho executivo realizado
+por agentes de modelos de linguagem (código, testes, bancadas e rascunhos), sob regras que defini e revisei, conforme a
+Declaração do artigo.
 
 Minha máquina é um mini PC doméstico, sem GPU dedicada: um AMD Ryzen 5 5500U de seis núcleos, 32 GB de RAM e os gráficos
 integrados ao processador. Esse fato, sozinho, moldou o projeto. Tudo o que precisava de GPU rodou dentro da cota semanal
