@@ -111,7 +111,8 @@ achado que mostrou o que as regras anteriores não cobriam. A seção seguinte s
   antes.
 - **Dois lotes da mesma base, com 23 pontos de diferença, fecharam toda comparação dentro do seu lote.** A base pontuou
   74,91 no primeiro lote e 52,30 no segundo, cinco dias depois, com a mesma base, os mesmos jogos e os mesmos tetos. Desde
-  então nenhum número atravessa lotes, e no segundo lote o controle rodou no mesmo dia que os braços.
+  então nenhum número atravessa lotes, e no segundo lote o controle rodou no mesmo dia que os braços. [Outra equipe](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3/writeups/15th-public-tokens-are-progress-serving-enginee)
+  viu depois o seu código idêntico pontuar entre 43,18 e 53,27 em rodadas distintas, uma dispersão de 10,1 pontos.
 
 Duas regras atravessaram tudo isso: uma fonte era lida por inteiro antes de ser citada, e o texto final foi revisto bloco
 a bloco, primeiro a fidelidade às fontes, depois o estilo.
@@ -153,7 +154,9 @@ a bloco, primeiro a fidelidade às fontes, depois o estilo.
 - **O explorador vence por busca, e o identificador na maioria das vezes erra.** Se a definição de objetivos deve ser
   pontuada como componente da inteligência, o benchmark teria de pedir ao agente que enunciasse a condição de vitória que
   persegue, e pontuar esse enunciado separadamente da eficiência das ações. Escolher objetivos, em vez de identificar o que
-  um jogo fixou, está ainda mais longe, e eu não o testei.
+  um jogo fixou, está ainda mais longe, e eu não o testei. Uma [equipe sétima colocada](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3/writeups/public-lb-7-short-overview) mediu a mesma lacuna pelo
+  outro lado: com as regras escritas de cada jogo público e uma dica por nível, o seu modelo pontuou 85,7 em vez de 64,4, e a
+  maior parte da lacuna estava em descobrir as regras.
 
 ## Declaração
 

@@ -105,7 +105,8 @@ showed what the earlier rules did not cover. The next section follows that order
   exceptions from my layer was excluded and replaced, by the rule written days earlier.
 - **Two batches of the same base, 23 points apart, closed every comparison inside its batch.** The base scored 74.91 in the
   first batch and 52.30 in the second, five days later, on the same base, games, and caps. Since then no number crosses
-  batches, and in the second batch the control ran on the same day as the arms.
+  batches, and in the second batch the control ran on the same day as the arms. [Another team](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3/writeups/15th-public-tokens-are-progress-serving-enginee) later saw its identical
+  code score between 43.18 and 53.27 across runs, a spread of 10.1 points.
 
 Two rules ran through all of it: a source was read in full before being cited, and the final text was revised block by
 block, fidelity to the sources first, style second.
@@ -144,7 +145,8 @@ block, fidelity to the sources first, style second.
 - **The explorer wins by search, and the identifier mostly misses.** If goal-setting is to be scored as a component of
   intelligence, the benchmark would have to ask the agent to state the win condition it pursues and score that statement
   apart from action efficiency. Choosing goals, rather than identifying the one a game has set, lies further still, and I
-  did not test it.
+  did not test it. A [seventh-placed team](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3/writeups/public-lb-7-short-overview) measured the same gap from the other side: given the written rules of each
+  public game and a hint per level, its model scored 85.7 instead of 64.4, and most of the gap was in working the rules out.
 
 ## Disclosure
 
