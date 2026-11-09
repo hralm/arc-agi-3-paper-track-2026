@@ -54,8 +54,9 @@ nomeasse o objetivo, e nenhum modo produziu ganho mensurável de pontuação.
 Seis semanas, de 29 de setembro a 8 de novembro de 2026. Um autor, com agentes de modelos de linguagem fazendo o trabalho
 executivo (código, testes, bancadas, rascunhos) sob regras que fixei e revisei, como declara a Declaração do artigo.
 
-Minha máquina é um pequeno PC doméstico, sem GPU dedicada. Esse fato, sozinho, moldou o projeto. Tudo o que precisava de
-GPU rodou dentro da cota semanal do Kaggle, de modo que cada rodada da fase A disputou com todas as outras as mesmas
+Minha máquina é um mini PC doméstico, sem GPU dedicada: um AMD Ryzen 5 5500U de seis núcleos, 32 GB de RAM e os gráficos
+integrados ao processador. Esse fato, sozinho, moldou o projeto. Tudo o que precisava de GPU rodou dentro da cota semanal
+do Kaggle, de modo que cada rodada da fase A disputou com todas as outras as mesmas
 30 horas, e a bancada local tinha de ser algo que uma CPU terminasse de um dia para o outro: 25 jogos públicos,
 4 sementes (partidas aleatórias), 1.500 passos, cerca de 35 minutos por braço. Conjecturo que a maioria das entradas de ponta adaptou o
 próprio modelo, com hardware além do que o Kaggle concede. Não pude testar isso, e não tentei. A pergunta que eu podia
