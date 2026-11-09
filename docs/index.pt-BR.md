@@ -133,7 +133,7 @@ a bloco, primeiro a fidelidade às fontes, depois o estilo.
 - **Três jogos públicos e três rodadas detectam só efeitos grandes.** No mesmo dia, com o mesmo notebook sem nenhuma
   modificação, um jogo pontuou de 21 a 100. Com DPs amostrais acima de 15, a barra ficou em cerca de 45 pontos, e nenhum
   braço chegou perto dela.
-- **Uma submissão completa é uma rodada terminada, não um registro.** As regras fixam o prazo e o teto de nove horas, e
+- **Uma submissão completa é uma rodada terminada, não um registro.** [As regras](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3/overview) fixam o prazo e o teto de nove horas, e
   não que a reexecução tenha de ter terminado. O que conta como entregue no prazo não é o registro do envio, que estava no
   prazo, mas o fim da sua rodada, com o seu resultado. A aritmética vem daí: uma última submissão precisa do tempo inteiro
   de reexecução, mais a margem da fila, antes do prazo.

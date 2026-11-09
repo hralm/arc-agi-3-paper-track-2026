@@ -126,7 +126,7 @@ block, fidelity to the sources first, style second.
   50 of 66 without flinching.
 - **Three public games and three rounds detect only large effects.** On the same day, with the same unmodified notebook,
   one game scored from 21 to 100. With sample SDs above 15 the bar was about 45 points, and no arm came near it.
-- **A complete submission is a finished run, not a record.** The rules fix the deadline and the nine-hour cap, and not
+- **A complete submission is a finished run, not a record.** [The rules](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3/overview) fix the deadline and the nine-hour cap, and not
   that the rerun must have finished. What counts as delivered in time is not the record of the submission, which was in
   time, but the end of its run, with its result. The arithmetic follows: a last submission needs the full rerun time plus
   queue margin before the deadline.
