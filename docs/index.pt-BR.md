@@ -22,17 +22,22 @@ ação que você toma. Então, o que um agente pode fazer aqui? Pode identificar
 um. Eu queria saber se esse passo, *identificar a condição de vitória*, pode ser dado sem gastar as ações que a pontuação
 conta, e se ele chega sequer a alcançar a pontuação.
 
-A pergunta veio de leituras fora da linhagem do benchmark. Para a fundação, a definição de objetivos é identificar
+A pergunta veio de duas leituras fora da linhagem do benchmark. Para a fundação, a definição de objetivos é identificar
 estados futuros desejáveis sem instruções, e a inteligência é eficiência nos seus quatro componentes (exploração,
-modelagem, definição de objetivos, e planejamento e execução). Ackoff e Emery ordenam os sistemas por quem escolhe o
-objetivo, e Maturana e Guiloff põem o objetivo na descrição de um observador, não na dinâmica do próprio sistema. Lidas juntas, as duas me fizeram olhar para onde o objetivo está no
-ARC-AGI-3: nas regras ocultas de cada jogo, que fixam a condição de vitória de cada nível. A pontuação, a eficiência
-relativa de ações humanas (RHAE), não é uma dessas regras. Ela é calculada de fora, comparando as ações do agente por
-nível com as de jogadores humanos, e mede com que economia cada condição de vitória é alcançada, não qual objetivo foi
-escolhido. Esse passou a ser o eixo da pesquisa: dentro de um jogo, definir um objetivo é identificar o que as regras já
-determinam, e a pontuação não vê esse passo em separado. Logo começou a ficar evidente a dificuldade de pontuar
-competitivamente por esse caminho, porque cada ação gasta em identificar é cobrada. Mesmo assim, cada envio e cada teste
-foram desenhados para responder à hipótese, e não para subir no *leaderboard*.
+modelagem, definição de objetivos, e planejamento e execução). No pensamento sistêmico, Ackoff e Emery (*On Purposeful
+Systems*, 1972) ordenam os sistemas por quem escolhe o objetivo. Vindos da biologia, na mesma tradição sistêmica, Maturana
+e Guiloff («The quest for the intelligence of intelligence», 1980) põem o objetivo na descrição de um observador, não na
+dinâmica do próprio sistema.
+
+Lidas juntas, as duas me fizeram olhar para onde o objetivo está no ARC-AGI-3: nas regras ocultas de cada jogo, que fixam
+a condição de vitória de cada nível. A pontuação, a eficiência relativa de ações humanas (RHAE), não é uma dessas regras.
+Ela é calculada de fora, comparando as ações do agente por nível com as de jogadores humanos, e mede com que economia cada
+condição de vitória é alcançada, não qual objetivo foi escolhido.
+
+Esse passou a ser o eixo da pesquisa: dentro de um jogo, definir um objetivo é identificar o que as regras já determinam, e
+a pontuação não vê esse passo em separado. Logo começou a ficar evidente a dificuldade de pontuar competitivamente por esse
+caminho, porque cada ação gasta em identificar é cobrada. Mesmo assim, cada envio e cada teste foram desenhados para
+responder à hipótese, e não para subir no *leaderboard*.
 
 Para medi-lo, construí um explorador de grafo (K). Ele emite certificados revogáveis de ausência de efeito para ações que
 não mudam nada, sinaliza estado oculto quando um certificado falha ou uma ação segura mata, e ordena hipóteses de objetivo

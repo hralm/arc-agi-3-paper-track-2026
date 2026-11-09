@@ -21,17 +21,21 @@ action you take. So what can an agent do here? It can identify the goal the game
 to know whether that step, *identifying the win condition*, can be done without spending the actions the score counts,
 and whether it reaches the score at all.
 
-The question came from readings outside the benchmark's lineage. For the foundation, goal-setting is identifying
+The question came from two readings outside the benchmark's lineage. For the foundation, goal-setting is identifying
 desirable future states without instructions, and intelligence is efficiency across its four components (exploration,
-modeling, goal-setting, and planning and execution). Ackoff and Emery order systems by who chooses the goal, and Maturana
-and Guiloff place the goal in an observer's description, not in the system's own dynamics. Read together, the two made me look at where the goal sits in ARC-AGI-3: in each
-game's hidden rules, which fix the win condition of every level. The score, Relative Human Action Efficiency (RHAE), is
-not one of those rules. It is computed from outside, comparing the agent's actions per level with those of human
-players, and it measures how economically each win condition is reached, not which goal was chosen. That became the
-axis of the research: inside a game, setting a goal is identifying what the rules already determine, and the score does
-not see that step on its own. It soon became evident how hard it would be to score competitively down that path, since
-every action spent on identifying is charged. Even so, every submission and every test was designed to answer the
-hypothesis, not to climb the leaderboard.
+modeling, goal-setting, and planning and execution). In systems thinking, Ackoff and Emery (*On Purposeful Systems*, 1972)
+order systems by who chooses the goal. From biology, in the same systems tradition, Maturana and Guiloff (“The quest for
+the intelligence of intelligence,” 1980) place the goal in an observer's description, not in the system's own dynamics.
+
+Read together, the two made me look at where the goal sits in ARC-AGI-3: in each game's hidden rules, which fix the win
+condition of every level. The score, Relative Human Action Efficiency (RHAE), is not one of those rules. It is computed
+from outside, comparing the agent's actions per level with those of human players, and it measures how economically each
+win condition is reached, not which goal was chosen.
+
+That became the axis of the research: inside a game, setting a goal is identifying what the rules already determine, and
+the score does not see that step on its own. It soon became evident how hard it would be to score competitively down that
+path, since every action spent on identifying is charged. Even so, every submission and every test was designed to answer
+the hypothesis, not to climb the leaderboard.
 
 To measure it I built a graph explorer (K). It issues revocable no-effect certificates for actions that change nothing,
 flags hidden state when a certificate fails or a safe action kills, and ranks goal hypotheses that only order the
