@@ -51,7 +51,7 @@ the score comparisons can and cannot establish. Most of what they establish is n
 Six weeks, from 29 September to 8 November 2026. One author, with language model agents doing the executive work (code,
 tests, benches, drafts) under rules I set and reviewed, as the paper's Disclosure states.
 
-My machine is a small consumer mini PC without a discrete GPU: an AMD Ryzen 5 5500U with six cores, 32 GB of RAM, and
+My machine is a consumer mini PC without a discrete GPU: an AMD Ryzen 5 5500U with six cores, 32 GB of RAM, and
 the processor's own graphics. That one fact shaped the project. Everything that needed a GPU ran inside Kaggle's weekly
 quota, so every phase-A round competed with every other for the same 30 hours, and the local
 bench had to be something a CPU could finish overnight: 25 public games, 4 seeds (random starts), 1,500 steps, about 35 minutes per arm.
