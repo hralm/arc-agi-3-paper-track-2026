@@ -17,7 +17,7 @@ lang: pt-BR
 
 ## A pergunta da qual parti
 
-O ARC-AGI-3 diz avaliar a definição de objetivos. Mas todo jogo já tem uma condição de vitória, e a pontuação cobra cada
+O [ARC-AGI-3](https://doi.org/10.48550/arXiv.2603.24621) diz avaliar a definição de objetivos. Mas todo jogo já tem uma condição de vitória, e a pontuação cobra cada
 ação que você toma. Então, o que um agente pode fazer aqui? Pode identificar o objetivo que o jogo fixou, e não escolher
 um. Eu queria saber se esse passo, *identificar a condição de vitória*, pode ser dado sem gastar as ações que a pontuação
 conta, e se ele chega sequer a alcançar a pontuação.
@@ -25,12 +25,12 @@ conta, e se ele chega sequer a alcançar a pontuação.
 A pergunta veio de duas leituras fora da linhagem do benchmark. Para a fundação, a definição de objetivos é identificar
 estados futuros desejáveis sem instruções, e a inteligência é eficiência nos seus quatro componentes (exploração,
 planejamento e execução, definição de objetivos e modelagem). Dois pensadores sistêmicos, Ackoff e Emery (*On Purposeful
-Systems*, 1972), ordenam os sistemas por quem escolhe o objetivo. O biólogo Humberto Maturana, com Guiloff («The quest
-for the intelligence of intelligence», 1980), põe o objetivo na descrição que um observador faz de um sistema, não no
+Systems*, 1972), ordenam os sistemas por quem escolhe o objetivo. O biólogo Humberto Maturana, com Guiloff ([«The quest
+for the intelligence of intelligence»](https://doi.org/10.1016/0140-1750(80)90006-8), 1980), põe o objetivo na descrição que um observador faz de um sistema, não no
 funcionamento do próprio sistema.
 
 Lidas juntas, as duas me fizeram olhar para onde o objetivo está no ARC-AGI-3: nas regras ocultas de cada jogo, que fixam
-a condição de vitória de cada nível. A pontuação, a eficiência relativa de ações humanas (RHAE), não é uma dessas regras.
+a condição de vitória de cada nível. A pontuação, a [eficiência relativa de ações humanas (RHAE)](https://docs.arcprize.org/methodology), não é uma dessas regras.
 Ela é calculada de fora, comparando as ações do agente por nível com as de jogadores humanos, e mede com que economia cada
 condição de vitória é alcançada, não qual objetivo foi escolhido.
 
@@ -57,7 +57,7 @@ artigo.
 
 Minha máquina é um mini PC doméstico, sem GPU dedicada: um AMD Ryzen 5 5500U de seis núcleos, 32 GB de RAM e os gráficos
 integrados ao processador. Esse fato, sozinho, moldou o projeto. Tudo o que precisava de GPU rodou dentro da cota semanal
-do Kaggle, de modo que cada rodada da fase A disputou com todas as outras as mesmas
+do [Kaggle](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3), de modo que cada rodada da fase A disputou com todas as outras as mesmas
 30 horas, e a bancada local tinha de ser algo que uma CPU terminasse de um dia para o outro: 25 jogos públicos,
 4 sementes (partidas aleatórias), 1.500 passos, cerca de 35 minutos por braço. Presumo que a maioria das entradas de ponta adaptou o
 próprio modelo, com hardware além do que o Kaggle concede. Não pude testar isso, e não tentei. A pergunta que eu podia
@@ -65,8 +65,8 @@ testar era mais estreita: uma camada que *sabe coisas sobre o jogo* ajuda o mode
 
 ## Como o trabalho foi organizado
 
-O agente acoplado passou por duas linhas. A linha Duck (v1 a v7) roda sobre o *harness* da Tufa Labs, e a sua v5 é a
-entrada elegível. A linha dfranzen (v8 a v14.1) roda sobre o notebook aberto do Milestone 2. A sua última versão terminou
+O agente acoplado passou por duas linhas. A linha Duck (v1 a v7) roda sobre o [*harness* da Tufa Labs](https://www.kaggle.com/code/jeroencottaar/tufa-labs-duck-harness-june-30-milestone-winner), e a sua v5 é a
+entrada elegível. A linha dfranzen (v8 a v14.1) roda sobre o [notebook aberto do Milestone 2](https://www.kaggle.com/code/dfranzen/arc-agi-3-milestone-2-solution). A sua última versão terminou
 a reexecução no conjunto oculto depois do prazo e é relatada apenas como medida.
 
 O protocolo que o artigo descreve não existia no primeiro dia. As suas regras vieram uma a uma, cada qual depois de um
@@ -81,7 +81,7 @@ achado que mostrou o que as regras anteriores não cobriam. A seção seguinte s
   mudanças no *harness* para que ele conversasse melhor com o explorador; sem tempo para refazê-lo, ficaram os ajustes
   pontuais de gatilhos e tetos. A evidência apontava que o conjunto inteiro, modelo, *harness* e explorador, precisaria
   ser reajustado para render o ganho de eficiência. Essa foi a direção que os primeiros colocados tinham tomado, adaptando
-  o modelo e a sua execução. Eu já tinha notado isso antes do prazo, e o tópico pós-competição e os writeups deles
+  o modelo e a sua execução. Eu já tinha notado isso antes do prazo, e o [tópico pós-competição](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3/discussion/755202) e os [writeups](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3/writeups/more-tokens-from-public-nb-to-lb-161th-missed-4) deles
   corroboraram a impressão.
 - **A primeira versão acoplada veio com um pré-registro.** Antes da primeira versão da linha Duck, em 27 de outubro,
   escrevi os invariantes, as afirmações e as condições que as falseariam. Dali em diante, um modelo construía cada versão
@@ -117,8 +117,8 @@ a bloco, primeiro a fidelidade às fontes, depois o estilo.
   reexecutada.
 - **A última submissão não teve o orçamento da sua reexecução.** A v14.1 entrou em 2 de novembro, às 22:30 UTC, dentro do
   prazo. A sua reexecução de nove horas, a rodada que o organizador faz do notebook em jogos
-  que eu nunca vejo, terminou depois dele, e só uma submissão pontuada pode ser selecionada. Outra
-  equipe sobre a mesma base relata a mesma perda.
+  que eu nunca vejo, terminou depois dele, e só uma submissão pontuada pode ser selecionada. [Outra
+  equipe sobre a mesma base](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3/writeups/more-tokens-from-public-nb-to-lb-161th-missed-4) relata a mesma perda.
 - **O Kaggle montou as entradas dos notebooks em dois leiautes diferentes.** Três envios de um notebook morreram antes de
   qualquer jogo rodar. Os notebooks públicos agora resolvem os dois leiautes e registram qual deles encontraram.
 - **No único jogo que diagnostiquei, o modelo nunca mencionou as notas do conselheiro** no seu raciocínio visível. As

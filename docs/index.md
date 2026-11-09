@@ -16,7 +16,7 @@ English · [Português (Brasil)](./index.pt-BR.html)
 
 ## The question I started from
 
-ARC-AGI-3 says it evaluates goal-setting. But every game already has a win condition, and the score charges every
+[ARC-AGI-3](https://doi.org/10.48550/arXiv.2603.24621) says it evaluates goal-setting. But every game already has a win condition, and the score charges every
 action you take. So what can an agent do here? It can identify the goal the game has set, and not choose one. I wanted
 to know whether that step, *identifying the win condition*, can be done without spending the actions the score counts,
 and whether it reaches the score at all.
@@ -28,7 +28,7 @@ order systems by who chooses the goal. The biologist Humberto Maturana, with Gui
 intelligence,” 1980), places the goal in the description an observer makes of a system, not in the system's own workings.
 
 Read together, the two made me look at where the goal sits in ARC-AGI-3: in each game's hidden rules, which fix the win
-condition of every level. The score, Relative Human Action Efficiency (RHAE), is not one of those rules. It is computed
+condition of every level. The score, [Relative Human Action Efficiency (RHAE)](https://docs.arcprize.org/methodology), is not one of those rules. It is computed
 from outside, comparing the agent's actions per level with those of human players, and it measures how economically each
 win condition is reached, not which goal was chosen.
 
@@ -52,7 +52,7 @@ Six weeks, from 29 September to 8 November 2026. One author, with language model
 tests, benches, drafts) under rules I set and reviewed, as the paper's Disclosure states.
 
 My machine is a consumer mini PC without a discrete GPU: an AMD Ryzen 5 5500U with six cores, 32 GB of RAM, and
-the processor's own graphics. That one fact shaped the project. Everything that needed a GPU ran inside Kaggle's weekly
+the processor's own graphics. That one fact shaped the project. Everything that needed a GPU ran inside [Kaggle](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3)'s weekly
 quota, so every phase-A round competed with every other for the same 30 hours, and the local
 bench had to be something a CPU could finish overnight: 25 public games, 4 seeds (random starts), 1,500 steps, about 35 minutes per arm.
 I conjecture that most leading entries adapted the model itself, with hardware beyond the Kaggle allotment. I could not
@@ -61,8 +61,8 @@ help the model that plays it?
 
 ## How the work was organized
 
-The coupled agent went through two lines. The Duck line (v1 to v7) sits on Tufa Labs' harness, and its v5 is the eligible
-entry. The dfranzen line (v8 to v14.1) sits on the open Milestone 2 notebook. Its last version finished the hidden-set
+The coupled agent went through two lines. The Duck line (v1 to v7) sits on [Tufa Labs' harness](https://www.kaggle.com/code/jeroencottaar/tufa-labs-duck-harness-june-30-milestone-winner), and its v5 is the eligible
+entry. The dfranzen line (v8 to v14.1) sits on the open [Milestone 2 notebook](https://www.kaggle.com/code/dfranzen/arc-agi-3-milestone-2-solution). Its last version finished the hidden-set
 rerun after the deadline and is reported as a measurement only.
 
 The protocol the paper describes was not there on the first day. Its rules came one at a time, each after a finding that
@@ -111,7 +111,7 @@ block, fidelity to the sources first, style second.
   still loading. One control round was lost because the server never came up. It was rerun.
 - **The last submission did not have its rerun budget.** v14.1 went in on 2 November at 22:30 UTC, before the deadline.
   Its nine-hour rerun, the organizer's own run of the notebook on games I never
-  see, ended after it, and only a scored submission can be selected. Another team on the same base reports
+  see, ended after it, and only a scored submission can be selected. [Another team on the same base](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3/writeups/more-tokens-from-public-nb-to-lb-161th-missed-4) reports
   the same miss.
 - **Kaggle mounted the notebooks' inputs under two different layouts.** Three pushes of one notebook died before any game
   ran. The public notebooks now resolve both layouts and record which one they found.
