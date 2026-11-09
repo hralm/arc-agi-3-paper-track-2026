@@ -58,7 +58,7 @@ Minha máquina é um mini PC doméstico, sem GPU dedicada: um AMD Ryzen 5 5500U 
 integrados ao processador. Esse fato, sozinho, moldou o projeto. Tudo o que precisava de GPU rodou dentro da cota semanal
 do Kaggle, de modo que cada rodada da fase A disputou com todas as outras as mesmas
 30 horas, e a bancada local tinha de ser algo que uma CPU terminasse de um dia para o outro: 25 jogos públicos,
-4 sementes (partidas aleatórias), 1.500 passos, cerca de 35 minutos por braço. Conjecturo que a maioria das entradas de ponta adaptou o
+4 sementes (partidas aleatórias), 1.500 passos, cerca de 35 minutos por braço. Presumo que a maioria das entradas de ponta adaptou o
 próprio modelo, com hardware além do que o Kaggle concede. Não pude testar isso, e não tentei. A pergunta que eu podia
 testar era mais estreita: uma camada que *sabe coisas sobre o jogo* ajuda o modelo que o joga?
 

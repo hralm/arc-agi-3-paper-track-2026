@@ -45,7 +45,8 @@ score gain in two phase-A batches, and the paper reports each comparison with wh
 
 ## Reproducing the results
 
-Everything here runs on a CPU, offline, with no language model. We tested it on Linux with Python 3.14.7. Run the
+Everything here runs on a CPU, offline, with no language model. We tested it on Linux with Python 3.14.7. The local
+timings below come from a small mini PC with an AMD Ryzen 5 5500U (six cores), 32 GB of RAM, and no discrete GPU. Run the
 commands from the root of this repository.
 
 ### 1. Environment

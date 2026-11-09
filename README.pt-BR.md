@@ -48,8 +48,9 @@ não pode estabelecer.
 
 ## Reproduzindo os resultados
 
-Tudo aqui roda numa CPU, offline, sem modelo de linguagem. Testamos no Linux com Python 3.14.7. Execute os comandos a
-partir da raiz deste repositório.
+Tudo aqui roda numa CPU, offline, sem modelo de linguagem. Testamos no Linux com Python 3.14.7. Os tempos locais abaixo
+vêm de um mini PC com um AMD Ryzen 5 5500U (seis núcleos), 32 GB de RAM e sem GPU dedicada. Execute os comandos a partir
+da raiz deste repositório.
 
 ### 1. Ambiente
 
