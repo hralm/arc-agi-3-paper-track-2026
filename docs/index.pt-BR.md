@@ -145,7 +145,7 @@ a bloco, primeiro a fidelidade às fontes, depois o estilo.
   legalidade nas revisitas, morte como falseamento, fronteiras de lote, procedência dos estados fundidos e honestidade do
   texto consultivo.
 - **O explorador vence por busca, e o identificador na maioria das vezes erra.** Se a definição de objetivos deve ser
-  pontuada como componente da inteligência, o benchmark teria de pedir ao agente que enuncie a condição de vitória que
+  pontuada como componente da inteligência, o benchmark teria de pedir ao agente que enunciasse a condição de vitória que
   persegue, e pontuar esse enunciado separadamente da eficiência das ações. Escolher objetivos, em vez de identificar o que
   um jogo fixou, está ainda mais longe, e eu não o testei.
 
