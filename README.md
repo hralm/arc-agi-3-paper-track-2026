@@ -40,7 +40,7 @@ score gain in two phase-A batches, and the paper reports each comparison with wh
 | `bench/` | the offline local bench (25 public games, 4 seeds, 1,500 steps) with the flags of the eight attribution arms, and the eight runs of Table 4; `results/phase-a/` holds the files behind every phase-A round (kernel log, summary, benchmark record) and `phase_a.py` recomputes the validity checks and Tables 1 and 3 from them, or from a new Kaggle run | §5, Tables 1, 3 and 4, Figures 1 and 2 |
 | `tests/` | the test suite and the mutants of the adversarial verification protocol | §4 |
 | `manifests/` | SHA-256 manifests of the frozen artifacts cited in the paper | §§5, 10 |
-| `figures/` | the script that generates Figures 1 and 2 (Figure 1 in two panels, one per phase-A batch), and the figures | §5 |
+| `figures/` | the scripts that generate the four figures (Figures 1 and 2 are diagrams; Figure 3 has two panels, one per phase-A batch), and the figures | §§1, 3.2, 5 |
 | `docs/` | a project page (GitHub Pages) with an account of how the work was done | — |
 
 ## Reproducing the results
@@ -69,7 +69,7 @@ Download the 25 public games once into `ARC-AGI-3-Kaggle-Starter/environment_fil
 listed by `get_environments()`. A free [ARC API key](https://arcprize.org/) gives the full public set. Our runs used the
 versions downloaded on 30 September 2026 (for example `ls20-9607627b` and `vc33-5430563c`).
 
-### 3. Table 4 and Figure 2
+### 3. Table 4 and Figure 4
 
 Recompute them from the shipped runs. It takes seconds:
 

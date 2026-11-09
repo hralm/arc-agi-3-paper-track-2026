@@ -34,6 +34,11 @@ condition of every level. The score, [Relative Human Action Efficiency (RHAE)](h
 from outside, comparing the agent's actions per level with those of human players, and it measures how economically each
 win condition is reached, not which goal was chosen.
 
+![The behavioral classification of systems in Gharajedaghi, after Ackoff, beside the reading of the question](./diagram-behavioral-classification.png)
+
+**Figure 1 of the paper.** In the classification that Gharajedaghi draws from Ackoff (*Systems Thinking*, 2011, p. 36), a
+goal-seeking system chooses its means and not its ends, and a purposeful one chooses both. The score charges the means.
+
 That became the axis of the research: inside a game, setting a goal is identifying what the rules already determine, and
 the score does not see that step on its own. It soon became evident how hard it would be to score competitively down that
 path, since every action spent on identifying is charged. Even so, every submission and every test was designed to answer
@@ -47,6 +52,14 @@ inside the harness of an open-weight language model agent, the program that runs
 ways: playing, advising, and as a last resort. The paper is the account of what that layer claimed, what use I could observe, and what
 the score comparisons can and cannot establish. Most of what they establish is negative, and that is the result: in 50 of
 66 local wins the explorer won without the identifier naming the goal, and no mode produced a measurable score gain.
+
+![The no-effect certificate and the hidden-state mark](./diagram-certificate.png)
+
+![Where K acts in each of the three modes](./diagram-modes.png)
+
+**Figure 2 of the paper.** Above, the life of a certificate: a contradiction or an unexpected death marks the level as
+hidden state, and no certificate is issued there afterwards. Below, the three modes: K controls part of the play when
+playing and as a last resort, and only influences the model when advising, in Gharajedaghi's sense of control and influence.
 
 ## Time, machine, and budget
 

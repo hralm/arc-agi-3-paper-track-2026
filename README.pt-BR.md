@@ -43,7 +43,7 @@ não pode estabelecer.
 | `bench/` | a bancada local offline (25 jogos públicos, 4 sementes, 1.500 passos) com as flags dos oito braços de atribuição, e as oito execuções da Tabela 4; `results/phase-a/` guarda os arquivos por trás de cada rodada da fase A (log do kernel, resumo, registro do benchmark) e `phase_a.py` recompõe a partir deles, ou de uma nova rodada no Kaggle, as conferências de validade e as Tabelas 1 e 3 | §5, Tabelas 1, 3 e 4, Figuras 1 e 2 |
 | `tests/` | a suíte de testes e os mutantes do protocolo de verificação adversarial | §4 |
 | `manifests/` | manifestos SHA-256 dos artefatos congelados citados no artigo | §§5, 10 |
-| `figures/` | o script que gera as Figuras 1 e 2 (a Figura 1 em dois painéis, um por lote da fase A), e as figuras | §5 |
+| `figures/` | os scripts que geram as quatro figuras (as Figuras 1 e 2 são diagramas; a Figura 3 tem dois painéis, um por lote da fase A), e as figuras | §§1, 3.2, 5 |
 | `docs/` | uma página do projeto (GitHub Pages) com um relato de como o trabalho foi feito | — |
 
 ## Reproduzindo os resultados
@@ -73,7 +73,7 @@ listado por `get_environments()`. Uma [chave da API do ARC](https://arcprize.org
 completo. As nossas execuções usaram as versões baixadas em 30 de setembro de 2026 (por exemplo, `ls20-9607627b` e
 `vc33-5430563c`).
 
-### 3. Tabela 4 e Figura 2
+### 3. Tabela 4 e Figura 4
 
 Recalcule-as a partir das execuções incluídas. Leva segundos:
 

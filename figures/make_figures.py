@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Figures 1 and 2 of the paper, as vector PDFs.
+"""Figures 3 and 4 of the paper, as vector PDFs (Figures 1 and 2 are diagrams: make_diagrams.py).
 
-No new numbers: all come from Section 5, Table 3, and Table 4 of the paper. Figure 1 uses the raw phase-A score of
+No new numbers: all come from Section 5, Table 3, and Table 4 of the paper. Figure 3 uses the raw phase-A score of
 each run (mean of final_score in the kernel's benchmark.json) and rounds only for display (the mean of rounded
 values would differ).
-  Figure 1 · phase-A runs per arm, in two panels: A, the first batch (2 November; Section 5, "Three modes of
+  Figure 3 · phase-A runs per arm, in two panels: A, the first batch (2 November; Section 5, "Three modes of
   presence"); B, the second batch (7 November; Table 3), on the same dfranzen base, games, and caps.
-  Figure 2 · H5 bench wins with and without a true instance in the winning frame (Table 4; see bench/table4.py).
+  Figure 4 · H5 bench wins with and without a true instance in the winning frame (Table 4; see bench/table4.py).
 Palette: two categorical colors checked for color-vision deficiency (Delta E 24.7) and contrast (>= 3:1); ink and axes muted.
 Run: python3 figures/make_figures.py (writes the PDFs to the current folder)
 """

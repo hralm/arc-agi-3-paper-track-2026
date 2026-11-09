@@ -36,6 +36,11 @@ a condição de vitória de cada nível. A pontuação, a [eficiência relativa 
 Ela é calculada de fora, comparando as ações do agente por nível com as de jogadores humanos, e mede com que economia cada
 condição de vitória é alcançada, não qual objetivo foi escolhido.
 
+![A classificação comportamental de sistemas em Gharajedaghi, a partir de Ackoff, ao lado da leitura da pergunta](./diagram-behavioral-classification.png)
+
+**Figura 1 do artigo.** Na classificação que Gharajedaghi extrai de Ackoff (*Systems Thinking*, 2011, p. 36), um sistema
+buscador de objetivo escolhe os seus meios e não os seus fins, e um sistema com propósito escolhe os dois. A pontuação cobra os meios.
+
 Esse passou a ser o eixo da pesquisa: dentro de um jogo, definir um objetivo é identificar o que as regras já determinam, e
 a pontuação não vê esse passo em separado. Logo começou a ficar evidente a dificuldade de pontuar competitivamente por esse
 caminho, porque cada ação gasta em identificar é cobrada. Mesmo assim, cada envio e cada teste foram desenhados para
@@ -50,6 +55,14 @@ modelo e executa as jogadas dele, de três maneiras: jogando, aconselhando e com
 uso que pude observar e do que as comparações de pontuação podem e não podem estabelecer. A maior parte do que elas
 estabelecem é negativa, e esse é o resultado: em 50 de 66 vitórias locais o explorador venceu sem que o identificador
 nomeasse o objetivo, e nenhum modo produziu ganho mensurável de pontuação.
+
+![O certificado de ausência de efeito e a marca de estado oculto](./diagram-certificate.png)
+
+![Onde K age em cada um dos três modos](./diagram-modes.png)
+
+**Figura 2 do artigo.** Acima, a vida de um certificado: uma contradição ou uma morte inesperada marca o nível como de
+estado oculto, e nenhum certificado é emitido ali depois disso. Abaixo, os três modos: K controla parte do jogo quando
+joga e como último recurso, e apenas influencia o modelo quando aconselha, no sentido de controle e influência de Gharajedaghi.
 
 ## Tempo, máquina e orçamento
 
