@@ -15,7 +15,7 @@ lang: pt-BR
 - Código, bancada, testes, manifestos, os cinco notebooks e os arquivos por trás de cada rodada da fase A: [este repositório](https://github.com/hralm/arc-agi-3-paper-track-2026) (`notebooks/`, `bench/results/phase-a/`, `bench/phase_a.py`)
 - Notebooks: a [entrada elegível](https://www.kaggle.com/code/hralmjc/what-exploration-can-ignore-duck-fork-k-playing) (*fork* do Duck, K jogando) e os quatro sobre a base dfranzen: [controle](https://www.kaggle.com/code/hralmjc/what-exploration-can-ignore-dfranzen-control), [K jogando](https://www.kaggle.com/code/hralmjc/what-exploration-can-ignore-dfranzen-k-playing), [K aconselhando](https://www.kaggle.com/code/hralmjc/what-exploration-can-ignore-dfranzen-k-advising), [último recurso](https://www.kaggle.com/code/hralmjc/what-exploration-can-ignore-dfranzen-last-resort)
 
-## A pergunta de que parti
+## A pergunta da qual parti
 
 O ARC-AGI-3 diz avaliar a definição de objetivos. Mas todo jogo já tem uma condição de vitória, e a pontuação cobra cada
 ação que você toma. Então, o que um agente pode fazer aqui? Pode identificar o objetivo que o jogo fixou, e não escolher
