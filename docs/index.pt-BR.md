@@ -24,8 +24,8 @@ conta, e se ele chega sequer a alcançar a pontuação.
 
 A pergunta veio de duas leituras fora da linhagem do benchmark. Para a fundação, a definição de objetivos é identificar
 estados futuros desejáveis sem instruções, e a inteligência é eficiência nos seus quatro componentes (exploração,
-planejamento e execução, definição de objetivos e modelagem). Dois pensadores sistêmicos, Ackoff e Emery (*On Purposeful
-Systems*, 1972), ordenam os sistemas por quem escolhe o objetivo. O biólogo Humberto Maturana, com Guiloff ([«The quest
+planejamento e execução, definição de objetivos e modelagem). Dois pensadores sistêmicos, Ackoff e Emery ([*On Purposeful
+Systems*](https://doi.org/10.4324/9781315125640), 1972), ordenam os sistemas por quem escolhe o objetivo. O biólogo Humberto Maturana, com Guiloff ([«The quest
 for the intelligence of intelligence»](https://doi.org/10.1016/0140-1750(80)90006-8), 1980), põe o objetivo na descrição que um observador faz de um sistema, não no
 funcionamento do próprio sistema.
 
@@ -156,3 +156,31 @@ usados deliberadamente sob um protocolo fixo. Eu fixei as perguntas, as hipótes
 implementaram o código, rodaram os testes locais e redigiram o texto. Eu adjudiquei toda saída, executei todos os
 experimentos no Kaggle e assumo a responsabilidade pelo conteúdo. Nenhum modelo de linguagem é autor. A declaração
 completa está no artigo.
+
+## Como citar
+
+O artigo é a versão de registro. Referência pela ABNT (NBR 6023), com a data de acesso a atualizar:
+
+> SOUZA, Julio Cesar Silveira de. **Certifying no effect and identifying the win condition under per-action scoring in
+> ARC-AGI-3**. ARC Prize 2026 Paper Track, 2026. Disponível em: https://github.com/hralm/arc-agi-3-paper-track-2026.
+> Acesso em: 8 nov. 2026.
+
+Para citar esta página:
+
+> SOUZA, Julio Cesar Silveira de. **Como o trabalho foi feito**: ARC Prize 2026 Paper Track. 8 nov. 2026. Disponível em:
+> https://hralm.github.io/arc-agi-3-paper-track-2026/index.pt-BR.html. Acesso em: 8 nov. 2026.
+
+```bibtex
+@misc{deSouza2026certifying,
+  author = {de Souza, Julio Cesar Silveira},
+  title  = {Certifying No Effect and Identifying the Win Condition Under Per-Action Scoring in ARC-AGI-3},
+  year   = {2026},
+  note   = {ARC Prize 2026 Paper Track},
+  url    = {https://github.com/hralm/arc-agi-3-paper-track-2026}
+}
+```
+
+## Licença
+
+O texto desta página é publicado sob a licença [Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.pt-br).
+O código do [repositório](https://github.com/hralm/arc-agi-3-paper-track-2026) está sob a Apache License 2.0; os componentes de terceiros mantêm as suas licenças, listadas no `NOTICE` dele.

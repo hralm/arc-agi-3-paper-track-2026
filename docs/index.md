@@ -23,7 +23,7 @@ and whether it reaches the score at all.
 
 The question came from two readings outside the benchmark's lineage. For the foundation, goal-setting is identifying
 desirable future states without instructions, and intelligence is efficiency across its four components (exploration,
-modeling, goal-setting, and planning and execution). Two systems thinkers, Ackoff and Emery (*On Purposeful Systems*, 1972),
+modeling, goal-setting, and planning and execution). Two systems thinkers, Ackoff and Emery ([*On Purposeful Systems*](https://doi.org/10.4324/9781315125640), 1972),
 order systems by who chooses the goal. The biologist Humberto Maturana, with Guiloff ([“The quest for the intelligence of
 intelligence,”](https://doi.org/10.1016/0140-1750(80)90006-8) 1980), places the goal in the description an observer makes of a system, not in the system's own workings.
 
@@ -147,3 +147,29 @@ Large language model agents from different providers and of different profiles, 
 deliberately under a fixed protocol. I set the questions, the hypotheses, and the working rules. The agents implemented
 the code, ran the local tests, and drafted the text. I adjudicated every output, ran every Kaggle experiment, and take
 responsibility for the content. No language model is an author. The full statement is in the paper.
+
+## How to cite
+
+The paper is the version of record. In text:
+
+> de Souza, J. C. S. (2026). *Certifying no effect and identifying the win condition under per-action scoring in ARC-AGI-3*.
+> ARC Prize 2026 Paper Track. https://github.com/hralm/arc-agi-3-paper-track-2026
+
+To cite this page:
+
+> de Souza, J. C. S. (2026, November 8). *How the work was done* [Project page]. https://hralm.github.io/arc-agi-3-paper-track-2026/
+
+```bibtex
+@misc{deSouza2026certifying,
+  author = {de Souza, Julio Cesar Silveira},
+  title  = {Certifying No Effect and Identifying the Win Condition Under Per-Action Scoring in ARC-AGI-3},
+  year   = {2026},
+  note   = {ARC Prize 2026 Paper Track},
+  url    = {https://github.com/hralm/arc-agi-3-paper-track-2026}
+}
+```
+
+## License
+
+The text of this page is released under the [Creative Commons Attribution 4.0 International license (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+The code in the [repository](https://github.com/hralm/arc-agi-3-paper-track-2026) is under the Apache License 2.0; third-party components keep their licenses, listed in its `NOTICE`.
