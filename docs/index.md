@@ -22,9 +22,9 @@ to know whether that step, *identifying the win condition*, can be done without 
 and whether it reaches the score at all.
 
 The question came from readings outside the benchmark's lineage. For the foundation, goal-setting is identifying
-desirable future states without instructions, and intelligence is efficiency across its four components. Ackoff
-and Emery order systems by who chooses the goal, and Maturana and Guiloff place the goal in an observer's description,
-not in the system's own dynamics. Read together, the two made me look at where the goal sits in ARC-AGI-3: in each
+desirable future states without instructions, and intelligence is efficiency across its four components (exploration,
+modeling, goal-setting, and planning and execution). Ackoff and Emery order systems by who chooses the goal, and Maturana
+and Guiloff place the goal in an observer's description, not in the system's own dynamics. Read together, the two made me look at where the goal sits in ARC-AGI-3: in each
 game's hidden rules, which fix the win condition of every level. The score, Relative Human Action Efficiency (RHAE), is
 not one of those rules. It is computed from outside, comparing the agent's actions per level with those of human
 players, and it measures how economically each win condition is reached, not which goal was chosen. That became the
