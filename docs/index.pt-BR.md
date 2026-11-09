@@ -24,7 +24,7 @@ conta, e se ele chega sequer a alcançar a pontuação.
 
 A pergunta veio de duas leituras fora da linhagem do benchmark. Para a fundação, a definição de objetivos é identificar
 estados futuros desejáveis sem instruções, e a inteligência é eficiência nos seus quatro componentes (exploração,
-modelagem, definição de objetivos, e planejamento e execução). Dois pensadores sistêmicos, Ackoff e Emery (*On Purposeful
+planejamento e execução, definição de objetivos e modelagem). Dois pensadores sistêmicos, Ackoff e Emery (*On Purposeful
 Systems*, 1972), ordenam os sistemas por quem escolhe o objetivo. O biólogo Humberto Maturana, com Guiloff («The quest
 for the intelligence of intelligence», 1980), põe o objetivo na descrição que um observador faz de um sistema, não no
 funcionamento do próprio sistema.
