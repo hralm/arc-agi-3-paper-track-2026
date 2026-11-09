@@ -11,6 +11,8 @@ lang: pt-BR
 
 *ARC Prize 2026 · Paper Track · como o trabalho foi feito, pelo autor*
 
+![Capa: Identificar, não escolher, objetivos. Identificação da condição de vitória e certificados de ausência de efeito no ARC-AGI-3](./cover.pt-BR.png)
+
 - Artigo (PDF): [`paper/`](https://github.com/hralm/arc-agi-3-paper-track-2026/tree/main/paper), acrescentado na submissão, em 8 de novembro de 2026
 - Código, bancada, testes, manifestos, os cinco notebooks e os arquivos por trás de cada rodada da fase A: [este repositório](https://github.com/hralm/arc-agi-3-paper-track-2026) (`notebooks/`, `bench/results/phase-a/`, `bench/phase_a.py`)
 - Notebooks: a [entrada elegível](https://www.kaggle.com/code/hralmjc/what-exploration-can-ignore-duck-fork-k-playing) (*fork* do Duck, K jogando) e os quatro sobre a base dfranzen: [controle](https://www.kaggle.com/code/hralmjc/what-exploration-can-ignore-dfranzen-control), [K jogando](https://www.kaggle.com/code/hralmjc/what-exploration-can-ignore-dfranzen-k-playing), [K aconselhando](https://www.kaggle.com/code/hralmjc/what-exploration-can-ignore-dfranzen-k-advising), [último recurso](https://www.kaggle.com/code/hralmjc/what-exploration-can-ignore-dfranzen-last-resort)
