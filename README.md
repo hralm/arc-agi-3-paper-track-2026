@@ -30,6 +30,10 @@ actions. Because the LLM is the agent's default policy, we treat this layer as a
 vary how it is present: playing, advising, or acting only as a last resort. No mode produced a measurable
 score gain in two phase-A batches, and the paper reports each comparison with what it can and cannot establish.
 
+![Where the explorer K acts in each of the three modes: playing, advising, and last resort](docs/diagram-modes.png)
+
+*Figure 2B of the paper: K controls part of the play when playing and as a last resort, and only influences the model when advising.*
+
 ## Repository layout
 
 | folder | contents | paper |
@@ -47,7 +51,19 @@ score gain in two phase-A batches, and the paper reports each comparison with wh
 
 Everything here runs on a CPU, offline, with no language model. We tested it on Linux with Python 3.14.7. The local
 timings below come from a mini PC with an AMD Ryzen 5 5500U (six cores), 32 GB of RAM, and no discrete GPU. Run the
-commands from the root of this repository.
+commands from the root of this repository. On Windows, use WSL (Windows Subsystem for Linux), where the same commands
+apply; we did not test a native Windows setup.
+
+| script | reproduces | needs | time |
+|---|---|---|---|
+| `bench/table4.py` | Table 4 from the shipped bench runs | Python only | seconds |
+| `bench/bench.py` | one bench arm from scratch (step 3) | environment, games | 13–37 min per arm |
+| `figures/make_diagrams.py` | Figures 1 and 2 (diagrams) | matplotlib | seconds |
+| `figures/make_figures.py` | Figures 3 and 4 | matplotlib | seconds |
+| `tests/test_*.py`, `tests/mutants.py` | the protocol's tests and mutants (step 4) | environment, TAAF bundle | ~5 min, ~40 min |
+| `bench/phase_a.py` | Tables 1 and 3 from the shipped Kaggle runs, or from your own run (step 6) | Python only | seconds |
+
+Steps 3 to 6 are independent; each needs only the steps it names.
 
 ### 1. Environment
 
@@ -75,7 +91,8 @@ Recompute them from the shipped runs. It takes seconds:
 
 ```bash
 python3 bench/table4.py
-ARC-AGI-3-Kaggle-Starter/.venv/bin/python figures/make_figures.py   # writes the two PDFs here
+ARC-AGI-3-Kaggle-Starter/.venv/bin/python figures/make_figures.py   # writes the PDFs of Figures 3 and 4 here
+ARC-AGI-3-Kaggle-Starter/.venv/bin/python figures/make_diagrams.py   # and of Figures 1 and 2
 ```
 
 To rerun an arm (13 to 37 minutes each), pick one of the eight arms in [`bench/README.md`](bench/README.md):
@@ -123,8 +140,8 @@ To run a notebook yourself, copy it from [`notebooks/`](notebooks/) to Kaggle wi
 
 ## Built on
 
-- Tufa Labs' Duck harness (Bessis et al., 2026), MIT license, from the [TAAF source bundle](https://www.kaggle.com/datasets/jeroencottaar/taaf-kaggle-source-share).
-- The dfranzen ARC-AGI-3 Milestone 2 notebook (Franzen, 2026), Apache-2.0 license.
+- Tufa Labs' Duck harness (Bessis et al., 2026a), MIT license, from the [TAAF source bundle](https://www.kaggle.com/datasets/jeroencottaar/taaf-kaggle-source-share): [Kaggle notebook](https://www.kaggle.com/code/jeroencottaar/tufa-labs-duck-harness-june-30-milestone-winner), [GitHub repository](https://github.com/Tufalabs/duck-harness), [write-up](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3/discussion/717133).
+- The dfranzen ARC-AGI-3 Milestone 2 notebook (Franzen, 2026a), Apache-2.0 license: [Kaggle notebook](https://www.kaggle.com/code/dfranzen/arc-agi-3-milestone-2-solution), [GitHub repository](https://github.com/da-fr/arc-agi-3-solution), [write-up](https://www.kaggle.com/writeups/dfranzen/arc-agi-3-milestone-2).
 - The ARC-AGI-3 toolkit and competition materials (ARC Prize Foundation, 2026): the [starter](https://github.com/arcprize/ARC-AGI-3-Kaggle-Starter) and the [agents repository](https://github.com/arcprize/ARC-AGI-3-Agents).
 
 Full references are in the paper.

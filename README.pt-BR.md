@@ -33,6 +33,10 @@ de medida e variamos o modo como ela está presente: jogando, aconselhando ou ag
 produziu ganho mensurável de pontuação em dois lotes da fase A, e o artigo relata cada comparação com o que ela pode e
 não pode estabelecer.
 
+![Onde o explorador K age em cada um dos três modos: jogando, aconselhando e último recurso](docs/diagram-modes.png)
+
+*Figura 2B do artigo: K controla parte do jogo quando joga e como último recurso, e apenas influencia o modelo quando aconselha.*
+
 ## Organização do repositório
 
 | pasta | conteúdo | artigo |
@@ -50,7 +54,19 @@ não pode estabelecer.
 
 Tudo aqui roda numa CPU, offline, sem modelo de linguagem. Testamos no Linux com Python 3.14.7. Os tempos locais abaixo
 vêm de um mini PC com um AMD Ryzen 5 5500U (seis núcleos), 32 GB de RAM e sem GPU dedicada. Execute os comandos a partir
-da raiz deste repositório.
+da raiz deste repositório. No Windows, use o WSL (Windows Subsystem for Linux), onde valem os mesmos comandos; não
+testamos uma instalação nativa no Windows.
+
+| script | reproduz | precisa de | tempo |
+|---|---|---|---|
+| `bench/table4.py` | a Tabela 4, a partir das execuções incluídas | só Python | segundos |
+| `bench/bench.py` | um braço da bancada do zero (passo 3) | ambiente, jogos | 13–37 min por braço |
+| `figures/make_diagrams.py` | as Figuras 1 e 2 (diagramas) | matplotlib | segundos |
+| `figures/make_figures.py` | as Figuras 3 e 4 | matplotlib | segundos |
+| `tests/test_*.py`, `tests/mutants.py` | os testes e mutantes do protocolo (passo 4) | ambiente, pacote TAAF | ~5 min, ~40 min |
+| `bench/phase_a.py` | as Tabelas 1 e 3, a partir das execuções do Kaggle incluídas ou de uma execução sua (passo 6) | só Python | segundos |
+
+Os passos 3 a 6 são independentes; cada um precisa só dos passos que cita.
 
 ### 1. Ambiente
 
@@ -79,7 +95,8 @@ Recalcule-as a partir das execuções incluídas. Leva segundos:
 
 ```bash
 python3 bench/table4.py
-ARC-AGI-3-Kaggle-Starter/.venv/bin/python figures/make_figures.py   # escreve os dois PDFs aqui
+ARC-AGI-3-Kaggle-Starter/.venv/bin/python figures/make_figures.py   # escreve aqui os PDFs das Figuras 3 e 4
+ARC-AGI-3-Kaggle-Starter/.venv/bin/python figures/make_diagrams.py   # e os das Figuras 1 e 2
 ```
 
 Para reexecutar um braço (13 a 37 minutos cada), escolha um dos oito braços em [`bench/README.md`](bench/README.md):
@@ -129,8 +146,8 @@ execução.
 
 ## Construído sobre
 
-- O *harness* Duck da Tufa Labs (Bessis et al., 2026), licença MIT, do [pacote de fontes TAAF](https://www.kaggle.com/datasets/jeroencottaar/taaf-kaggle-source-share).
-- O notebook dfranzen do Milestone 2 do ARC-AGI-3 (Franzen, 2026), licença Apache-2.0.
+- O *harness* Duck da Tufa Labs (Bessis et al., 2026a), licença MIT, do [pacote de fontes TAAF](https://www.kaggle.com/datasets/jeroencottaar/taaf-kaggle-source-share): [notebook no Kaggle](https://www.kaggle.com/code/jeroencottaar/tufa-labs-duck-harness-june-30-milestone-winner), [repositório no GitHub](https://github.com/Tufalabs/duck-harness), [relato técnico](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3/discussion/717133).
+- O notebook dfranzen do Milestone 2 do ARC-AGI-3 (Franzen, 2026a), licença Apache-2.0: [notebook no Kaggle](https://www.kaggle.com/code/dfranzen/arc-agi-3-milestone-2-solution), [repositório no GitHub](https://github.com/da-fr/arc-agi-3-solution), [relato técnico](https://www.kaggle.com/writeups/dfranzen/arc-agi-3-milestone-2).
 - O toolkit e os materiais da competição ARC-AGI-3 (ARC Prize Foundation, 2026): o [starter](https://github.com/arcprize/ARC-AGI-3-Kaggle-Starter) e o [repositório de agentes](https://github.com/arcprize/ARC-AGI-3-Agents).
 
 As referências completas estão no artigo.

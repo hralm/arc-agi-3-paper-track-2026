@@ -1,6 +1,6 @@
 # results/phase-a
 
-The Kaggle runs behind Section 5 of the paper (Tables 1 and 3, Figure 1), one folder per round, holding only the files that
+The Kaggle runs behind Section 5 of the paper (Tables 1 and 3, Figure 3), one folder per round, holding only the files that
 `bench/phase_a.py` reads: `kernel.log` (the Kaggle kernel log, a JSON list of stdout/stderr events), `summary.txt` and
 `benchmark.json` written by the TAAF harness, and, for the runs of the public notebooks, the two modules the notebook wrote.
 Everything else that a run produces (model transcripts, request logs, intermediate states, videos, HTML diagnostics) is not
@@ -8,8 +8,8 @@ released. `rounds.tsv` lists every round with the batch, the arm, the Kaggle ver
 
 | batch | folders | in the paper |
 |---|---|---|
-| `second-batch/` | the four public notebooks run on 7 November 2026: `control-r1`…`r4`, `k-playing-r1`…`r4` (and the three attempts that did not start under the old input layout), `k-advising-r1`…`r3`, `last-resort-r1`…`r4`; and the Duck fork run the same day, `duck-fork-k-playing-r1`…`r3` | Table 3, Figure 1B, Section 10 |
-| `first-batch/` | the ablation of 1–3 November on the same base: `base`, `advisor` (notes and pruning), `advice-text-only`, `k-playing` (two rounds) | Section 5, Figure 1A |
+| `second-batch/` | the four public notebooks run on 7 November 2026: `control-r1`…`r4`, `k-playing-r1`…`r4` (and the three attempts that did not start under the old input layout), `k-advising-r1`…`r3`, `last-resort-r1`…`r4`; and the Duck fork run the same day, `duck-fork-k-playing-r1`…`r3` | Table 3, Figure 3B, Section 10 |
+| `first-batch/` | the ablation of 1–3 November on the same base: `base`, `advisor` (notes and pruning), `advice-text-only`, `k-playing` (two rounds) | Section 5, Figure 3A |
 | `duck-line/` | phase A of the Duck line, v4 and v5 (v5 is the scored entry, ref. 57852519) | Table 1 |
 | `v14-1/` | phase A of v14.1 (last resort with the 600 s window plus the cross-game memory) | Section 5 |
 

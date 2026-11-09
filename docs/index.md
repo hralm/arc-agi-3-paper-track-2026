@@ -12,7 +12,7 @@ English · [Português (Brasil)](./index.pt-BR.html)
 
 ![Cover: Identifying, not choosing, goals. Win-condition identification and no-effect certificates in ARC-AGI-3](./cover.png)
 
-- Paper (PDF): [`paper/`](https://github.com/hralm/arc-agi-3-paper-track-2026/tree/main/paper), added at submission on 8 November 2026
+- Paper (PDF): [`paper/`](https://github.com/hralm/arc-agi-3-paper-track-2026/tree/main/paper), added at submission on 8 November 2026 and revised until the deadline on 9 November
 - Code, bench, tests, manifests, the five notebooks and the files behind every phase-A round: [this repository](https://github.com/hralm/arc-agi-3-paper-track-2026) (`notebooks/`, `bench/results/phase-a/`, `bench/phase_a.py`)
 - Notebooks: the [eligible entry](https://www.kaggle.com/code/hralmjc/what-exploration-can-ignore-duck-fork-k-playing) (Duck fork, K playing) and the four on the dfranzen base: [control](https://www.kaggle.com/code/hralmjc/what-exploration-can-ignore-dfranzen-control), [K playing](https://www.kaggle.com/code/hralmjc/what-exploration-can-ignore-dfranzen-k-playing), [K advising](https://www.kaggle.com/code/hralmjc/what-exploration-can-ignore-dfranzen-k-advising), [last resort](https://www.kaggle.com/code/hralmjc/what-exploration-can-ignore-dfranzen-last-resort)
 
