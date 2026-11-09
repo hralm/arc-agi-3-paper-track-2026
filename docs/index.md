@@ -24,8 +24,8 @@ and whether it reaches the score at all.
 The question came from two readings outside the benchmark's lineage. For the foundation, goal-setting is identifying
 desirable future states without instructions, and intelligence is efficiency across its four components (exploration,
 modeling, goal-setting, and planning and execution). Two systems thinkers, Ackoff and Emery (*On Purposeful Systems*, 1972),
-order systems by who chooses the goal. The biologist Humberto Maturana, with Guiloff (“The quest for the intelligence of
-intelligence,” 1980), places the goal in the description an observer makes of a system, not in the system's own workings.
+order systems by who chooses the goal. The biologist Humberto Maturana, with Guiloff ([“The quest for the intelligence of
+intelligence,”](https://doi.org/10.1016/0140-1750(80)90006-8) 1980), places the goal in the description an observer makes of a system, not in the system's own workings.
 
 Read together, the two made me look at where the goal sits in ARC-AGI-3: in each game's hidden rules, which fix the win
 condition of every level. The score, [Relative Human Action Efficiency (RHAE)](https://docs.arcprize.org/methodology), is not one of those rules. It is computed
@@ -77,7 +77,7 @@ showed what the earlier rules did not cover. The next section follows that order
   harness so that it would talk better with the explorer; with no time to rebuild it, what remained were the point
   adjustments of triggers and caps. The evidence pointed to the whole set, model, harness, and explorer, needing to be
   readjusted to yield the efficiency gain. That was the direction the leading entries had taken, adapting the model and
-  its serving. I had noticed it before the deadline, and their post-competition thread and writeups corroborated the
+  its serving. I had noticed it before the deadline, and their [post-competition thread](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3/discussion/755202) and [writeups](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3/writeups/more-tokens-from-public-nb-to-lb-161th-missed-4) corroborated the
   impression.
 - **The first coupled version came with a pre-registration.** Before the first version of the Duck line, on 27 October, I
   wrote the invariants, the claims, and the conditions that would falsify them. From then on one model built each version
