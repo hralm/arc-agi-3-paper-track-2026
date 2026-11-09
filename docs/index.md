@@ -55,9 +55,12 @@ My machine is a consumer mini PC without a discrete GPU: an AMD Ryzen 5 5500U wi
 the processor's own graphics. That one fact shaped the project. Everything that needed a GPU ran inside [Kaggle](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3)'s weekly
 quota, so every phase-A round competed with every other for the same 30 hours, and the local
 bench had to be something a CPU could finish overnight: 25 public games, 4 seeds (random starts), 1,500 steps, about 35 minutes per arm.
-I conjecture that most leading entries adapted the model itself, with hardware beyond the Kaggle allotment. I could not
-test that, and I did not try to. The question I could test was narrower: does a layer that *knows things about the game*
-help the model that plays it?
+I presumed that most leading entries adapted the model itself, with hardware beyond the Kaggle allotment. I could not
+test that, and I did not try to. The [public first place](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3/discussion/755795) later confirmed it: compression of the model, a private
+serving stack, and reinforcement learning on eight B200 GPUs for the hard stages, which lowered action efficiency, so its
+final run kept the base model for six hours and switched for the last three. I went through the explorer, which trains
+nothing; that entry went through the model and its serving, which need that hardware. The question I could test was
+narrower: does a layer that *knows things about the game* help the model that plays it?
 
 ## How the work was organized
 

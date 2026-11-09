@@ -59,9 +59,13 @@ Minha máquina é um mini PC doméstico, sem GPU dedicada: um AMD Ryzen 5 5500U 
 integrados ao processador. Esse fato, sozinho, moldou o projeto. Tudo o que precisava de GPU rodou dentro da cota semanal
 do [Kaggle](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3), de modo que cada rodada da fase A disputou com todas as outras as mesmas
 30 horas, e a bancada local tinha de ser algo que uma CPU terminasse de um dia para o outro: 25 jogos públicos,
-4 sementes (partidas aleatórias), 1.500 passos, cerca de 35 minutos por braço. Presumo que a maioria das entradas de ponta adaptou o
-próprio modelo, com hardware além do que o Kaggle concede. Não pude testar isso, e não tentei. A pergunta que eu podia
-testar era mais estreita: uma camada que *sabe coisas sobre o jogo* ajuda o modelo que o joga?
+4 sementes (partidas aleatórias), 1.500 passos, cerca de 35 minutos por braço. Presumi que a maioria das entradas de ponta adaptou o
+próprio modelo, com hardware além do que o Kaggle concede. Não pude testar isso, e não tentei. O [primeiro lugar
+público](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3/discussion/755795) confirmou depois: compressão do modelo, uma pilha privada de *serving* e aprendizado por reforço em oito GPUs
+B200 para os estágios difíceis, o que reduziu a eficiência de ações, de modo que a rodada final manteve o modelo base por
+seis horas e trocou nas três finais. Eu segui pelo explorador, que não treina nada; aquela entrada seguiu pelo modelo e
+pelo seu *serving*, que precisam desse hardware. A pergunta que eu podia testar era mais estreita: uma camada que *sabe
+coisas sobre o jogo* ajuda o modelo que o joga?
 
 ## Como o trabalho foi organizado
 
