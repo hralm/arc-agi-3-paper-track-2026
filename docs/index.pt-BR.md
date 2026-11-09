@@ -108,11 +108,7 @@ a bloco, primeiro a fidelidade às fontes, depois o estilo.
   reexecutada.
 - **A última submissão não teve o orçamento da sua reexecução.** A v14.1 entrou em 2 de novembro, às 22:30 UTC, dentro do
   prazo. A sua reexecução de nove horas terminou depois dele, e só uma submissão pontuada pode ser selecionada. Outra
-  equipe sobre a mesma base relata a mesma perda. O que aprendi foi a ler uma ambiguidade que as regras deixaram sobre o
-  que é uma submissão completa. Elas fixam o prazo e o teto de nove horas, e não que a reexecução tenha de ter terminado:
-  o que conta como entregue no prazo não é o registro do envio, que estava no prazo, mas o fim da sua rodada, com o seu
-  resultado. A aritmética vem depois disso: uma última submissão precisa do tempo inteiro de reexecução, mais a margem da
-  fila, antes do prazo.
+  equipe sobre a mesma base relata a mesma perda.
 - **O Kaggle montou as entradas dos notebooks em dois leiautes diferentes.** Três envios de um notebook morreram antes de
   qualquer jogo rodar. Os notebooks públicos agora resolvem os dois leiautes e registram qual deles encontraram.
 - **No único jogo que diagnostiquei, o modelo nunca mencionou as notas do conselheiro** no seu raciocínio visível. As
@@ -127,6 +123,10 @@ a bloco, primeiro a fidelidade às fontes, depois o estilo.
 - **Três jogos públicos e três rodadas detectam só efeitos grandes.** No mesmo dia, com o mesmo notebook sem nenhuma
   modificação, um jogo pontuou de 21 a 100. Com DPs amostrais acima de 15, a barra ficou em cerca de 45 pontos, e nenhum
   braço chegou perto dela.
+- **Uma submissão completa é uma rodada terminada, não um registro.** As regras fixam o prazo e o teto de nove horas, e
+  não que a reexecução tenha de ter terminado. O que conta como entregue no prazo não é o registro do envio, que estava no
+  prazo, mas o fim da sua rodada, com o seu resultado. A aritmética vem daí: uma última submissão precisa do tempo inteiro
+  de reexecução, mais a margem da fila, antes do prazo.
 - **Os *red teams* executados por outros modelos encontraram uma mesma classe de defeito, repetidas vezes.** Não eram
   falhas da busca, que simplesmente não achasse o caminho. Eram lugares em que o agente afirmava uma coisa, no texto do
   prompt ou no seu plano, e o jogo permitia outra: uma ação fora da lista legal num estado revisitado, um certificado que

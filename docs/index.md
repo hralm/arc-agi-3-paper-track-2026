@@ -104,10 +104,7 @@ block, fidelity to the sources first, style second.
   still loading. One control round was lost because the server never came up. It was rerun.
 - **The last submission did not have its rerun budget.** v14.1 went in on 2 November at 22:30 UTC, before the deadline.
   Its nine-hour rerun ended after it, and only a scored submission can be selected. Another team on the same base reports
-  the same miss. What I learned was to read an ambiguity the rules left about what a complete submission is. They fix the
-  deadline and the nine-hour cap, and not that the rerun must have finished: what counts as delivered in time is not the
-  record of the submission, which was in time, but the end of its run, with its result. The arithmetic comes after that: a
-  last submission needs the full rerun time plus queue margin before the deadline.
+  the same miss.
 - **Kaggle mounted the notebooks' inputs under two different layouts.** Three pushes of one notebook died before any game
   ran. The public notebooks now resolve both layouts and record which one they found.
 - **In the one game I diagnosed, the model never mentioned the advisor's notes** in its visible reasoning. Its costly moves
@@ -121,6 +118,10 @@ block, fidelity to the sources first, style second.
   50 of 66 without flinching.
 - **Three public games and three rounds detect only large effects.** On the same day, with the same unmodified notebook,
   one game scored from 21 to 100. With sample SDs above 15 the bar was about 45 points, and no arm came near it.
+- **A complete submission is a finished run, not a record.** The rules fix the deadline and the nine-hour cap, and not
+  that the rerun must have finished. What counts as delivered in time is not the record of the submission, which was in
+  time, but the end of its run, with its result. The arithmetic follows: a last submission needs the full rerun time plus
+  queue margin before the deadline.
 - **Red teams run by other models found one class of defect again and again.** They were not failures of the search, which
   simply did not find the way. They were places where the agent asserted one thing, in its prompt text or in its plan, and
   the game permitted another: an action outside the legal list on a revisited state, a certificate that survived the
