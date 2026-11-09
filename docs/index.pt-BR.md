@@ -24,10 +24,10 @@ conta, e se ele chega sequer a alcançar a pontuação.
 
 A pergunta veio de duas leituras fora da linhagem do benchmark. Para a fundação, a definição de objetivos é identificar
 estados futuros desejáveis sem instruções, e a inteligência é eficiência nos seus quatro componentes (exploração,
-modelagem, definição de objetivos, e planejamento e execução). No pensamento sistêmico, Ackoff e Emery (*On Purposeful
-Systems*, 1972) ordenam os sistemas por quem escolhe o objetivo. Vindos da biologia, na mesma tradição sistêmica, Maturana
-e Guiloff («The quest for the intelligence of intelligence», 1980) põem o objetivo na descrição de um observador, não na
-dinâmica do próprio sistema.
+modelagem, definição de objetivos, e planejamento e execução). Dois pensadores sistêmicos, Ackoff e Emery (*On Purposeful
+Systems*, 1972), ordenam os sistemas por quem escolhe o objetivo. O biólogo Humberto Maturana, com Guiloff («The quest
+for the intelligence of intelligence», 1980), põe o objetivo na descrição que um observador faz de um sistema, não no
+funcionamento do próprio sistema.
 
 Lidas juntas, as duas me fizeram olhar para onde o objetivo está no ARC-AGI-3: nas regras ocultas de cada jogo, que fixam
 a condição de vitória de cada nível. A pontuação, a eficiência relativa de ações humanas (RHAE), não é uma dessas regras.
@@ -39,10 +39,12 @@ a pontuação não vê esse passo em separado. Logo começou a ficar evidente a 
 caminho, porque cada ação gasta em identificar é cobrada. Mesmo assim, cada envio e cada teste foram desenhados para
 responder à hipótese, e não para subir no *leaderboard*.
 
-Para medi-lo, construí um explorador de grafo (K). Ele emite certificados revogáveis de ausência de efeito para ações que
-não mudam nada, sinaliza estado oculto quando um certificado falha ou uma ação segura mata, e ordena hipóteses de objetivo
-que apenas ordenam as ações candidatas. Depois o pus dentro do *harness* de um agente de modelo de linguagem de pesos
-abertos, de três maneiras: jogando, aconselhando e como último recurso. O artigo é o relato do que essa camada afirmou, do
+Para medi-lo, construí um explorador de grafo (K), um programa que mapeia um jogo tentando ações e lembrando o que cada
+uma mudou. Ele emite certificados de ausência de efeito, anotações escritas e revogáveis de que uma ação não mudou nada
+num dado estado; sinaliza estado oculto, o jogo ter mudado algo que a tela não mostrou, quando um certificado falha ou
+uma ação segura mata; e ordena hipóteses de objetivo, palpites sobre o que vence, que apenas ordenam as ações
+candidatas. Depois o pus dentro do *harness* de um agente de modelo de linguagem de pesos abertos, o programa que roda o
+modelo e executa as jogadas dele, de três maneiras: jogando, aconselhando e como último recurso. O artigo é o relato do que essa camada afirmou, do
 uso que pude observar e do que as comparações de pontuação podem e não podem estabelecer. A maior parte do que elas
 estabelecem é negativa, e esse é o resultado: em 50 de 66 vitórias locais o explorador venceu sem que o identificador
 nomeasse o objetivo, e nenhum modo produziu ganho mensurável de pontuação.
@@ -55,7 +57,7 @@ executivo (código, testes, bancadas, rascunhos) sob regras que fixei e revisei,
 Minha máquina é um pequeno PC doméstico, sem GPU dedicada. Esse fato, sozinho, moldou o projeto. Tudo o que precisava de
 GPU rodou dentro da cota semanal do Kaggle, de modo que cada rodada da fase A disputou com todas as outras as mesmas
 30 horas, e a bancada local tinha de ser algo que uma CPU terminasse de um dia para o outro: 25 jogos públicos,
-4 sementes, 1.500 passos, cerca de 35 minutos por braço. Conjecturo que a maioria das entradas de ponta adaptou o
+4 sementes (partidas aleatórias), 1.500 passos, cerca de 35 minutos por braço. Conjecturo que a maioria das entradas de ponta adaptou o
 próprio modelo, com hardware além do que o Kaggle concede. Não pude testar isso, e não tentei. A pergunta que eu podia
 testar era mais estreita: uma camada que *sabe coisas sobre o jogo* ajuda o modelo que o joga?
 
@@ -95,7 +97,7 @@ achado que mostrou o que as regras anteriores não cobriam. A seção seguinte s
   modificação até os 600 segundos finais de um jogo. O teto limita a intervenção, e não a perda.
 - **Uma rodada piloto fixou a regra de leitura.** Depois de uma primeira rodada da base e do conselheiro, e antes das
   demais, ficou escrito que um braço mostra efeito só se a sua média difere da média da base por mais de duas vezes o
-  maior DP amostral do par, e que se uma rodada é lida se decide antes do seu resultado, nos dois sentidos. Uma rodada de
+  maior DP amostral do par (a dispersão das suas pontuações), e que se uma rodada é lida se decide antes do seu resultado, nos dois sentidos. Uma rodada de
   controle que teve de ser reexecutada porque o texto dos notebooks mudou foi lida, pois o lote ainda estava aberto. Uma
   rodada de último recurso com nove exceções vindas da minha camada foi excluída e substituída, pela regra escrita dias
   antes.
@@ -112,7 +114,8 @@ a bloco, primeiro a fidelidade às fontes, depois o estilo.
   liberados enquanto ele ainda carregava. Uma rodada de controle foi perdida porque o servidor nunca ficou pronto. Foi
   reexecutada.
 - **A última submissão não teve o orçamento da sua reexecução.** A v14.1 entrou em 2 de novembro, às 22:30 UTC, dentro do
-  prazo. A sua reexecução de nove horas terminou depois dele, e só uma submissão pontuada pode ser selecionada. Outra
+  prazo. A sua reexecução de nove horas, a rodada que o organizador faz do notebook em jogos
+  que eu nunca vejo, terminou depois dele, e só uma submissão pontuada pode ser selecionada. Outra
   equipe sobre a mesma base relata a mesma perda.
 - **O Kaggle montou as entradas dos notebooks em dois leiautes diferentes.** Três envios de um notebook morreram antes de
   qualquer jogo rodar. Os notebooks públicos agora resolvem os dois leiautes e registram qual deles encontraram.
@@ -132,7 +135,7 @@ a bloco, primeiro a fidelidade às fontes, depois o estilo.
   não que a reexecução tenha de ter terminado. O que conta como entregue no prazo não é o registro do envio, que estava no
   prazo, mas o fim da sua rodada, com o seu resultado. A aritmética vem daí: uma última submissão precisa do tempo inteiro
   de reexecução, mais a margem da fila, antes do prazo.
-- **Os *red teams* executados por outros modelos encontraram uma mesma classe de defeito, repetidas vezes.** Não eram
+- **Os *red teams*, outros modelos postos a atacar o código, encontraram uma mesma classe de defeito, repetidas vezes.** Não eram
   falhas da busca, que simplesmente não achasse o caminho. Eram lugares em que o agente afirmava uma coisa, no texto do
   prompt ou no seu plano, e o jogo permitia outra: uma ação fora da lista legal num estado revisitado, um certificado que
   sobrevivia à morte do agente, um plano que cruzava a fronteira de um nível dentro de um só lote, um contador de vidas

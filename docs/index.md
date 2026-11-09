@@ -23,9 +23,9 @@ and whether it reaches the score at all.
 
 The question came from two readings outside the benchmark's lineage. For the foundation, goal-setting is identifying
 desirable future states without instructions, and intelligence is efficiency across its four components (exploration,
-modeling, goal-setting, and planning and execution). In systems thinking, Ackoff and Emery (*On Purposeful Systems*, 1972)
-order systems by who chooses the goal. From biology, in the same systems tradition, Maturana and Guiloff (“The quest for
-the intelligence of intelligence,” 1980) place the goal in an observer's description, not in the system's own dynamics.
+modeling, goal-setting, and planning and execution). Two systems thinkers, Ackoff and Emery (*On Purposeful Systems*, 1972),
+order systems by who chooses the goal. The biologist Humberto Maturana, with Guiloff (“The quest for the intelligence of
+intelligence,” 1980), places the goal in the description an observer makes of a system, not in the system's own workings.
 
 Read together, the two made me look at where the goal sits in ARC-AGI-3: in each game's hidden rules, which fix the win
 condition of every level. The score, Relative Human Action Efficiency (RHAE), is not one of those rules. It is computed
@@ -37,10 +37,12 @@ the score does not see that step on its own. It soon became evident how hard it 
 path, since every action spent on identifying is charged. Even so, every submission and every test was designed to answer
 the hypothesis, not to climb the leaderboard.
 
-To measure it I built a graph explorer (K). It issues revocable no-effect certificates for actions that change nothing,
-flags hidden state when a certificate fails or a safe action kills, and ranks goal hypotheses that only order the
-candidate actions. Then I put it inside the harness of an open-weight language model agent in three ways: playing,
-advising, and as a last resort. The paper is the account of what that layer claimed, what use I could observe, and what
+To measure it I built a graph explorer (K), a program that maps a game by trying actions and remembering what each one
+changed. It issues no-effect certificates, written and revocable notes that an action changed nothing in a given state;
+it flags hidden state, the game changing something the screen did not show, when a certificate fails or a safe action
+kills; and it ranks goal hypotheses, guesses about what wins, which only order the candidate actions. Then I put it
+inside the harness of an open-weight language model agent, the program that runs the model and plays its moves, in three
+ways: playing, advising, and as a last resort. The paper is the account of what that layer claimed, what use I could observe, and what
 the score comparisons can and cannot establish. Most of what they establish is negative, and that is the result: in 50 of
 66 local wins the explorer won without the identifier naming the goal, and no mode produced a measurable score gain.
 
@@ -51,7 +53,7 @@ tests, benches, drafts) under rules I set and reviewed, as the paper's Disclosur
 
 My machine is a small consumer PC without a discrete GPU. That one fact shaped the project. Everything that needed a GPU
 ran inside Kaggle's weekly quota, so every phase-A round competed with every other for the same 30 hours, and the local
-bench had to be something a CPU could finish overnight: 25 public games, 4 seeds, 1,500 steps, about 35 minutes per arm.
+bench had to be something a CPU could finish overnight: 25 public games, 4 seeds (random starts), 1,500 steps, about 35 minutes per arm.
 I conjecture that most leading entries adapted the model itself, with hardware beyond the Kaggle allotment. I could not
 test that, and I did not try to. The question I could test was narrower: does a layer that *knows things about the game*
 help the model that plays it?
@@ -92,7 +94,7 @@ showed what the earlier rules did not cover. The next section follows that order
   seconds of a game. The cap limits the intervention, and not the loss.
 - **One pilot round fixed the reading rule.** After a first round of the base and of the advisor, and before the rest, it
   was written that an arm shows an effect only if its mean differs from the base's by more than twice the larger sample SD
-  of the pair, and that whether a round is read is decided before its result, in both directions. A control round that had
+  of the pair (the spread of its scores), and that whether a round is read is decided before its result, in both directions. A control round that had
   to rerun because the notebooks' text changed was read, since the batch was still open. A last-resort round with nine
   exceptions from my layer was excluded and replaced, by the rule written days earlier.
 - **Two batches of the same base, 23 points apart, closed every comparison inside its batch.** The base scored 74.91 in the
@@ -107,7 +109,8 @@ block, fidelity to the sources first, style second.
 - **The model server took 305 to 1,494 seconds to load,** and in four of eight runs the games were released while it was
   still loading. One control round was lost because the server never came up. It was rerun.
 - **The last submission did not have its rerun budget.** v14.1 went in on 2 November at 22:30 UTC, before the deadline.
-  Its nine-hour rerun ended after it, and only a scored submission can be selected. Another team on the same base reports
+  Its nine-hour rerun, the organizer's own run of the notebook on games I never
+  see, ended after it, and only a scored submission can be selected. Another team on the same base reports
   the same miss.
 - **Kaggle mounted the notebooks' inputs under two different layouts.** Three pushes of one notebook died before any game
   ran. The public notebooks now resolve both layouts and record which one they found.
@@ -126,7 +129,7 @@ block, fidelity to the sources first, style second.
   that the rerun must have finished. What counts as delivered in time is not the record of the submission, which was in
   time, but the end of its run, with its result. The arithmetic follows: a last submission needs the full rerun time plus
   queue margin before the deadline.
-- **Red teams run by other models found one class of defect again and again.** They were not failures of the search, which
+- **Red teams, other models set to attack the code, found one class of defect again and again.** They were not failures of the search, which
   simply did not find the way. They were places where the agent asserted one thing, in its prompt text or in its plan, and
   the game permitted another: an action outside the legal list on a revisited state, a certificate that survived the
   agent's death, a plan that crossed a level boundary inside one batch, a life counter inherited from one level into the
