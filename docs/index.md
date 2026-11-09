@@ -21,8 +21,8 @@ action you take. So what can an agent do here? It can identify the goal the game
 to know whether that step, *identifying the win condition*, can be done without spending the actions the score counts,
 and whether it reaches the score at all.
 
-The question came from readings outside the benchmark's lineage. The foundation defines goal-setting as identifying
-desirable future states without instructions, and reads intelligence as efficiency across its four components. Ackoff
+The question came from readings outside the benchmark's lineage. For the foundation, goal-setting is identifying
+desirable future states without instructions, and intelligence is efficiency across its four components. Ackoff
 and Emery order systems by who chooses the goal, and Maturana and Guiloff place the goal in an observer's description,
 not in the system's own dynamics. Read together, the two made me look at where the goal sits in ARC-AGI-3: in each
 game's hidden rules, which fix the win condition of every level. The score, Relative Human Action Efficiency (RHAE), is
