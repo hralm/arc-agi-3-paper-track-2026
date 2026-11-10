@@ -7,7 +7,7 @@ Código e materiais da nossa submissão ao [ARC Prize 2026 Paper Track](https://
 | | |
 |---|---|
 | Artigo (PDF) | [`paper/`](paper/) (inglês, versão de registro; tradução para o português do Brasil ao lado) |
-| Writeup do Kaggle | público quando o Paper Track fechar (9 de novembro de 2026) |
+| Writeup do Kaggle (submissão) | [Certifying No Effect and Identifying the Win Condition Under Per-Action Scoring in ARC-AGI-3](https://www.kaggle.com/competitions/arc-prize-2026-paper-track/writeups/certifying-no-effect-identifying-win-condition) |
 | Notebook público (entrada elegível, ref. 57852519) | [What Exploration Can Ignore: Duck fork, K playing](https://www.kaggle.com/code/hralmjc/what-exploration-can-ignore-duck-fork-k-playing) |
 | Os três modos sobre a base dfranzen | [controle](https://www.kaggle.com/code/hralmjc/what-exploration-can-ignore-dfranzen-control), [K jogando](https://www.kaggle.com/code/hralmjc/what-exploration-can-ignore-dfranzen-k-playing), [K aconselhando](https://www.kaggle.com/code/hralmjc/what-exploration-can-ignore-dfranzen-k-advising), [último recurso](https://www.kaggle.com/code/hralmjc/what-exploration-can-ignore-dfranzen-last-resort) |
 | Página do projeto (como o trabalho foi feito) | [docs/](docs/index.pt-BR.md) |
